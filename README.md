@@ -1,0 +1,2 @@
+# KnowledgeDistillation2026
+古橋研究室の今までのアウトプットを知識蒸留(Knowledge Distillation) してAIカスタム用学習データを作る
