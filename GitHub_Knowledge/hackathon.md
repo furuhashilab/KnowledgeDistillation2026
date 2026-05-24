@@ -512,3 +512,118 @@ confidence: "high"
 - リポジトリ: https://github.com/furuhashilab/hackathon2021-11_drone
 - Issues: https://github.com/furuhashilab/hackathon2021-11_drone/issues
 
+---
+repo_name: "tokyoOSShakathon2021"
+repo_url: "https://github.com/furuhashilab/tokyoOSShakathon2021"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2021-11-20"
+repo_updated_at: "2022-09-15"
+distilled_at: "2026-05-25"
+language: null
+homepage: "https://furuhashilab.github.io/tokyoOSShakathon2021/"
+tags:
+  - "unvt-portable"
+  - "vector-tile"
+  - "openstreetmap"
+confidence: "high"
+---
+
+# tokyoOSShakathon2021
+
+## 概要
+古橋研究室（furuhashilab）が2021年11月〜12月に実施した「UNVT Portable」開発ハッカソンのリポジトリ。東京都のオープンデータ（ハザードマップ・消火栓位置・OSMデータ）をベクトルタイル化し、RaspberryPi上でオフライン動作するウェブ地図システムの構築を目標とした。GitHub Pagesでポータルサイトをホスティングし、成果発表まで行った。
+
+## 主な活動・成果
+- ハッカソンゴールの設定：八王子市ハザードマップ・東京消防庁消火栓データ・東京都全域OSMデータの3種をベクトルタイル化
+- RaspberryPiにWebサーバを構築し、Mapbox GL JSでドローン空撮画像を含む重ね合わせウェブ地図を実装
+- Mapbox GL JS → MapLibre GL JSへの置き換えによる完全オフライン化（Ethernet/Wi-FiAPいずれかで接続）を計画・着手
+- M1 Pro MacへのHomebrew・tippecanoe・unvt/charitesのインストール手順をIssueでメンバー間共有
+- GeoJSONからPBF（ベクトルタイル）を生成するtippecanoeコマンドのノウハウを整備
+- ベクトルタイルレンダリング用style.jsonの作成方法・Maputnikの使い方をメンバー間で共有
+- GitHub Pagesでハッカソンポータルサイトをホスティングしてdocsフォルダで管理
+- ハッカソン終了後に反省Issueを作成し、次回改善を検討（未クローズ）
+
+## 使用技術・ツール
+- **ベクトルタイル生成**: tippecanoe、unvt/charites
+- **スタイル編集**: Maputnik（style.json GUI editor）
+- **地図レンダリング**: Mapbox GL JS → MapLibre GL JS
+- **ホスティング**: RaspberryPi（オンライン/オフライン両対応）、GitHub Pages
+- **データ形式**: GeoJSON、PBF（Protobuf Binary Format）、ベクトルタイル（MVT）
+- **パッケージ管理**: Homebrew、npm（Node.js）
+- **コラボレーション**: Mural、Google Spreadsheet
+- **ライセンス**: CC0-1.0
+
+## 得られた知見
+- M1 ProチップのMacではHomebrewのインストールパスが `/opt/homebrew/` に変わるため、シェルのPATH設定を手動で追記する必要がある（`~/.zprofile`への`eval "$(brew shellenv)"`追記が必須）
+- `npm install -g` はsudoなしでEACCESエラーになりやすく、グローバルインストール時はsudo付与か npmのprefix設定変更が必要
+- tippecanoeでは `-z`（最大ズーム）と `-Z`（最小ズーム）の大文字小文字を混同しないよう注意が必要
+- RaspberryPiを完全オフライン地図サーバとして運用する際は、Mapbox GL JSからMapLibre GL JSへの差し替えが必要（ライセンス・通信要件の違い）
+- ハッカソンのタスク管理をGitHub Issuesで行うことで、作業ログ・ノウハウ共有・担当者管理を一元化できる
+
+## 未解決事項・課題
+- MapLibre GL JS への完全置き換えとRaspberryPiの完全オフライン化（Issue #7）が未クローズ
+- 東京都全域OSMデータのベクトルタイル化（Issue #5）・消火栓データのベクトルタイル化（Issue #4）が未クローズ
+- ハッカソンの反省点まとめ（Issue #17）が未クローズ（内容は未記載）
+- style.jsonの作成ノウハウ共有（Issue #15）・Maputnik活用（Issue #14）が未クローズ
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/tokyoOSShakathon2021
+- Issues: https://github.com/furuhashilab/tokyoOSShakathon2021/issues
+- 関連サイト: https://furuhashilab.github.io/tokyoOSShakathon2021/
+
+---
+repo_name: "UNVT-Hackathon-Meetup-2022_YouthMappers_AGU"
+repo_url: "https://github.com/furuhashilab/UNVT-Hackathon-Meetup-2022_YouthMappers_AGU"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2021-12-15"
+repo_updated_at: "2022-01-25"
+distilled_at: "2026-05-25"
+language: "HTML"
+homepage: null
+tags:
+  - "UNVT"
+  - "YouthMappers"
+  - "vector-tile"
+confidence: "high"
+---
+
+# UNVT-Hackathon-Meetup-2022_YouthMappers_AGU
+
+## 概要
+古橋研究室（furuhashilab）が2021年12月に開催した、UN Vector Tile Toolkit（UNVT）をテーマとするハッカソン・ミートアップの成果管理リポジトリである。YouthMappersおよびAGU（American Geophysical Union）と連携した国際的な文脈のもとで実施され、学生チームがベクタータイルの生成・デザイン・配信の一連のワークフローを実践的に習得することを目的としている。発表用スライド、作業キャプチャ、マニュアル作成など、ハッカソン成果物の共同制作もIssueで管理された。
+
+## 主な活動・成果
+- ソースデータの取得（OpenAerialMap からの空撮 GeoTIFF ダウンロードを含む）
+- QGIS を用いたラスタのベクタ化処理（TIF → GeoJSON）
+- tippecanoe による GeoJSON → MBTiles 変換の実施・検証
+- tileserver-gl-light を用いたベクタータイルの表示確認
+- デザインプロパティの付与（Add design properties）の実践
+- 発表用スライドおよびマニュアルの共同作成
+- 作業画面キャプチャの収集・共有
+- Windows 環境でのトラブル事例の記録（Issue #9）
+
+## 使用技術・ツール
+- HTML（リポジトリ主要言語）
+- QGIS（ラスタのベクタ化）
+- tippecanoe（GeoJSON → MBTiles 変換）
+- tileserver-gl-light（ベクタータイル配信・表示）
+- OpenAerialMap（空撮 GeoTIFF の取得元）
+- UN Vector Tile Toolkit（UNVT）
+- OSGeo JP ワークショップ資料（SpeakerDeck スライド参照）
+
+## 得られた知見
+- Windows 環境では tippecanoe 等の地理空間ツールが動作しないケースが多く、Linux（Ubuntu）環境の利用が実質的に必須となる。ハッカソンのような時間制約の大きい場面では、事前に参加者の OS 環境を確認し、非 Linux ユーザー向けの代替手段（WSL、VM、クラウドシェル等）を準備しておくことが重要である。
+- OpenAerialMap から取得した空撮 TIF をベクタ化して MBTiles に変換するパイプラインは、UNVT ワークフローの典型的な応用例として他プロジェクトでも再利用できる。
+- GitHub Issues をハッカソンのタスク管理・トラブルシューティング記録として活用することで、後続学習者への知識継承が容易になる。
+
+## 未解決事項・課題
+- 全9件の Issue がオープンのまま残っており、マニュアル作成・発表スライド・作業キャプチャなど複数のタスクが未クローズ。
+- Windows 環境での作業課題（Issue #9）は「今後 Ubuntu 等で対策を試みる」とされたまま解決策が確定していない。
+- TIF から MBTiles に変換した際の表示上の問題点（Issue #8）についてフィードバックが求められているが、解決の記録が残っていない。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/UNVT-Hackathon-Meetup-2022_YouthMappers_AGU
+- Issues: https://github.com/furuhashilab/UNVT-Hackathon-Meetup-2022_YouthMappers_AGU/issues
+
