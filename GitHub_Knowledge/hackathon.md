@@ -425,3 +425,90 @@ confidence: "high"
 - リポジトリ: https://github.com/furuhashilab/OSM-GSI
 - Issues: https://github.com/furuhashilab/OSM-GSI/issues
 
+---
+repo_name: "V-F_OnlineHackathon_Nov"
+repo_url: "https://github.com/furuhashilab/V-F_OnlineHackathon_Nov"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2021-10-26"
+repo_updated_at: "2021-11-10"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "hackathon"
+  - "V&F"
+  - "online-event"
+confidence: "high"
+---
+
+# V-F_OnlineHackathon_Nov
+
+## 概要
+古橋研究室が主催・運営した11月のV&F（映像・フィールド）オンラインハッカソン用のリポジトリ。オンライン形式で実施されたハッカソンイベントの成果物や議論を管理することを目的として作成された。リポジトリ名の「V-F」は研究室内のV&F（Video & Field）活動を指すと考えられる。
+
+## 主な活動・成果
+- 2021年10月下旬から11月上旬にかけてオンラインハッカソンを実施
+- Issues・コメントともに記録がなく、成果物の詳細は別途ドキュメントまたは外部サービスで管理されたと推定される
+- リポジトリサイズが小さく（63KB）、主に告知・連絡・管理用途で活用されたと考えられる
+
+## 使用技術・ツール
+- GitHub（イベント管理・Issues運用）
+- オンライン会議・コラボレーションツール（推定）
+
+## 得られた知見
+- ハッカソンの管理リポジトリとして GitHub を活用することで、参加者への情報共有や成果物のバージョン管理を一元化できる。ただし活動記録をIssuesに残さないと、後から活動内容を追跡・参照することが困難になるため、イベント記録のIssue活用が重要。
+
+## 未解決事項・課題
+特になし（Issueは0件、活動は完結している）
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/V-F_OnlineHackathon_Nov
+- Issues: https://github.com/furuhashilab/V-F_OnlineHackathon_Nov/issues
+
+---
+repo_name: "hackathon2021-11_drone"
+repo_url: "https://github.com/furuhashilab/hackathon2021-11_drone"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2021-11-01"
+repo_updated_at: "2021-11-09"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "drone"
+  - "hackathon"
+  - "graphicrecording"
+confidence: "high"
+---
+
+# hackathon2021-11_drone
+
+## 概要
+古橋研究室のドローン部が2021年11月に開催したハッカソンの成果物・タスク管理用リポジトリ。ドローンに関連するテーマでアイデアを出し合い、発表資料や記録物を制作することを目的としたイベントとして実施された。複数の学生メンバーがIssuesで役割分担しながら共同作業を進めた。
+
+## 主な活動・成果
+- Issue #1「グラレコ」：グラフィックレコーディングの作成（担当：MatsuyamaRan）
+- Issue #2「発表用プレゼン」：ハッカソン発表スライドの作成（担当：yunapanpan12）
+- Issue #3「Medium作成」：成果報告記事のMediumへの投稿（担当：naoki2123）
+- Issue #4「イラスト作成」：ビジュアル素材の制作（複数名担当）
+- Issue #5「案だし」：アイデア出しセッション（複数名担当）
+- 全Issueがオープンのまま残っており、クローズ処理は行われなかった
+
+## 使用技術・ツール
+- GitHub Issues（タスク管理・役割分担）
+- Medium（成果報告記事の公開）
+- グラフィックレコーディング（視覚的議事録）
+- プレゼンテーションツール（推定）
+
+## 得られた知見
+- ハッカソンのタスクをGitHub Issuesで担当者付きで管理することで、短期集中イベントでも役割分担を明確化できる。グラレコ・Medium記事・イラストといった多様なアウトプット形式を組み合わせることで、ドローン関連の成果を多角的に発信できる体制を構築できる。
+
+## 未解決事項・課題
+5件のIssueがすべてオープンのまま残っており、ハッカソン終了後にクローズ処理が行われなかった。成果物の最終状態はリポジトリ外（Medium等）で管理されたと推定される。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/hackathon2021-11_drone
+- Issues: https://github.com/furuhashilab/hackathon2021-11_drone/issues
+
