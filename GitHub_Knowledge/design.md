@@ -44,3 +44,93 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/fc_SpatialDesign
 - Issues: https://github.com/furuhashilab/fc_SpatialDesign/issues
+
+---
+repo_name: "shikuchoson-hazardmap-template"
+repo_url: "https://github.com/furuhashilab/shikuchoson-hazardmap-template"
+genre: "design"
+genre_label: "デザイン"
+repo_created_at: "2021-12-04"
+repo_updated_at: "2021-12-04"
+distilled_at: "2026-05-25"
+language: null
+homepage: "https://sankichi.net/shikuchoson-hazardmap-template/"
+tags:
+  - "civic-tech"
+  - "leaflet-map"
+  - "hazardmap"
+confidence: "medium"
+---
+
+# shikuchoson-hazardmap-template
+
+## 概要
+市区町村が独自の Web ハザードマップを作成・公開するためのテンプレートリポジトリ。Tokyo OSS Party!! 2021 の成果物として開発され、地方自治体がオープンソースツールを活用して防災情報をウェブ上で提供できることを目的としている。本リポジトリは sankichi92/shikuchoson-hazardmap-template をフォークしたもので、古橋研究室による参照・活用を意図している。
+
+## 主な活動・成果
+- Tokyo OSS Party!! 2021 において成果物として開発・公開
+- Leaflet を用いたインタラクティブな地図表示機能の実装
+- GitHub Template Repository として設定され、他自治体・組織が即座に利用できる形で公開
+- フォーク元（sankichi92）では継続的なメンテナンスが行われており、2026年5月時点でも更新が続いている（Star 24件、Fork 15件）
+
+## 使用技術・ツール
+- TypeScript（フォーク元の主要言語）
+- Leaflet（インタラクティブマップライブラリ）
+- GitHub Pages（静的ホスティング）
+- MIT License
+
+## 得られた知見
+- GitHub Template Repository の仕組みを活用することで、自治体や組織がコードベースをそのまま流用しやすい形で配布できる。防災・地図系のシビックテックプロジェクトにおいて、低コストで横展開可能なテンプレート設計は普及促進に有効。
+- Leaflet と TypeScript を組み合わせることで、専門的なGISツールを使わずともブラウザ上でリッチな地図表示が実現できる。
+
+## 未解決事項・課題
+フォーク先（furuhashilab）のリポジトリ自体にはIssuesが無効化されており、独自の議論・活動記録はない。フォーク元では11件のオープンIssueが残存しており、機能追加・改善に関する議論が継続中と考えられる。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/shikuchoson-hazardmap-template
+- Issues: https://github.com/furuhashilab/shikuchoson-hazardmap-template/issues
+- 関連サイト: https://sankichi.net/shikuchoson-hazardmap-template/
+
+---
+repo_name: "style-template4unvtcharites"
+repo_url: "https://github.com/furuhashilab/style-template4unvtcharites"
+genre: "design"
+genre_label: "デザイン"
+repo_created_at: "2021-11-21"
+repo_updated_at: "2021-11-30"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "unvt"
+  - "charites"
+  - "map-style"
+confidence: "high"
+---
+
+# style-template4unvtcharites
+
+## 概要
+unvt/charites（ユニバーサルベクタータイル向けの地図スタイル管理CLIツール）用のスタイルテンプレートリポジトリ。古橋研究室が charites を活用して地図スタイルを開発・管理するための出発点として整備された。miya0001/style-template をベーステンプレートとして生成されており、Geolonia Map との連携を前提とした構成となっている。
+
+## 主な活動・成果
+- miya0001/style-template（geolonia-map トピックを持つテンプレート）を元に研究室向けにリポジトリを作成
+- unvt/charites ワークフローに対応したスタイルファイル構成を整備
+- GitHub Pages による公開設定が有効化されており、スタイルのプレビュー・配信を想定した構成
+
+## 使用技術・ツール
+- unvt/charites（ベクタータイルスタイル管理CLI）
+- Geolonia Map（地図スタイルプラットフォーム）
+- MapLibre GL / Mapbox GL 互換スタイル仕様（JSON）
+- GitHub Pages（スタイルホスティング）
+
+## 得られた知見
+- charites を用いることで、Mapbox GL Style Specification 準拠のスタイルをYAML分割管理・ビルドできるため、大規模スタイルの保守性が向上する。テンプレートリポジトリを研究室単位で用意しておくことで、学生・メンバーが即座に統一フォーマットでスタイル開発を始められる環境が整えられる。
+
+## 未解決事項・課題
+特になし（Issueは0件、活動期間も短期間で完結している）
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/style-template4unvtcharites
+- Issues: https://github.com/furuhashilab/style-template4unvtcharites/issues
+
