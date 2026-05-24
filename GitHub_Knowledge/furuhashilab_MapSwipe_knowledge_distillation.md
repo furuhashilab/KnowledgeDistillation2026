@@ -2,7 +2,7 @@
 id: furuhashilab-mapswipe-001
 title: ガチャムクとMapSwipeのコラボ動画作成
 repository_name: -MapSwipe
-date: null
+date: 2020-10-05
 group: 古橋研究室（青山学院大学 地球社会共生学部 古橋ゼミ）
 participants: null
 content_type: 動画制作・啓発コンテンツ
