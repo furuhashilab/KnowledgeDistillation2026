@@ -836,3 +836,136 @@ confidence: "high"
 - Issues: https://github.com/furuhashilab/www4gsc/issues
 - 関連サイト: http://www.gsc.aoyama.ac.jp/
 
+---
+repo_name: "jageocoder"
+repo_url: "https://github.com/furuhashilab/jageocoder"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2022-02-16"
+repo_updated_at: "2022-02-16"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "address"
+  - "geocoding"
+  - "python"
+confidence: "high"
+---
+
+# jageocoder
+
+## 概要
+本リポジトリは、Pure Python 製の日本語住所ジオコーダー「jageocoder」（オリジナル: t-sagara/jageocoder）を古橋研究室（furuhashilab）がフォークしたものである。オリジナルはオフライン・オンライン双方で動作する日本語住所のジオコーディングライブラリとして開発されており、Python のみで実装されている点が特徴である。研究室での地理空間データ処理や住所解析への応用を目的として取り込まれたと考えられる。
+
+## 主な活動・成果
+- t-sagara/jageocoder からのフォーク取得（2022年2月）
+- Issues・コメントは本フォークリポジトリ上では作成されておらず、独自の開発活動は記録されていない
+- オリジナルリポジトリ（t-sagara/jageocoder）は2026年4月時点でも継続的にメンテナンスされており、Star数96を獲得するアクティブな OSS として機能している
+
+## 使用技術・ツール
+- Python（オリジナルリポジトリの主要言語）
+- jageocoder ライブラリ（日本語住所ジオコーディング）
+- オフライン・オンライン両対応のジオコーディングアーキテクチャ
+
+## 得られた知見
+- jageocoder は Pure Python 実装のため、外部バイナリ依存なしに日本語住所のジオコーディングを導入できる。地理空間プロジェクトで住所文字列を座標に変換する必要がある場合、pip 一発で組み込める軽量な選択肢として有効である。
+- オリジナルリポジトリがアクティブにメンテナンスされているため、フォークを長期維持するよりもオリジナルを直接依存として使用するほうが運用コストが低い。
+
+## 未解決事項・課題
+- フォーク後の独自変更・Issue・活動が一切記録されておらず、研究室内でどのような目的・文脈で利用されたかは本リポジトリからは読み取れない。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/jageocoder
+- Issues: https://github.com/furuhashilab/jageocoder/issues
+- オリジナル: https://github.com/t-sagara/jageocoder
+
+---
+repo_name: "s2geometry"
+repo_url: "https://github.com/furuhashilab/s2geometry"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2022-01-07"
+repo_updated_at: "2022-01-07"
+distilled_at: "2026-05-25"
+language: null
+homepage: "http://s2geometry.io/"
+tags:
+  - "geometry"
+  - "s2"
+  - "spatial-indexing"
+confidence: "high"
+---
+
+# s2geometry
+
+## 概要
+本リポジトリは、Google が開発・公開している球面幾何学ライブラリ「s2geometry」（google/s2geometry）を古橋研究室（furuhashilab）がフォークしたものである。S2 は球面上の計算幾何学と空間インデックスを扱うライブラリで、地球を球体として正確にモデル化し、領域の包含判定や近傍検索などを高速に実行できる。研究室での地理空間解析・空間インデックス処理の調査・参照目的で取り込まれたと考えられる。
+
+## 主な活動・成果
+- google/s2geometry からのフォーク取得（2022年1月）
+- フォーク後、本リポジトリ上での独自 Issue・コメント・変更は記録されていない
+- オリジナル（google/s2geometry）は2026年5月時点でも活発にメンテナンスされており、Star数2,664・Fork数355を持つ大規模 OSS として継続している
+
+## 使用技術・ツール
+- C++（オリジナルリポジトリの主要言語）
+- S2 Geometry ライブラリ（球面上の空間インデックス・幾何演算）
+- Apache License 2.0
+
+## 得られた知見
+- S2 ライブラリは緯度経度を球面上のセル（S2Cell）で階層的に分割するため、地理的な近傍検索・範囲クエリを平面投影誤差なしに実行できる。ドローン測量や地図データの空間インデックス構築など、精度が重要な地理空間処理において有力な選択肢となる。
+- フォークのみで独自変更がない場合、OSS を「手元に確保する」目的のミラーとして機能しており、バージョン固定や参照用として活用するパターンが研究室リポジトリに多く見られる。
+
+## 未解決事項・課題
+- フォーク後の独自活動・Issue が皆無であり、研究室内での具体的な活用内容は本リポジトリからは確認できない。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/s2geometry
+- Issues: https://github.com/furuhashilab/s2geometry/issues
+- 関連サイト: http://s2geometry.io/
+- オリジナル: https://github.com/google/s2geometry
+
+---
+repo_name: "pm"
+repo_url: "https://github.com/furuhashilab/pm"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2021-12-30"
+repo_updated_at: "2021-12-30"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "UNVT"
+  - "project-management"
+  - "vector-tile"
+confidence: "high"
+---
+
+# pm
+
+## 概要
+本リポジトリは、UN Vector Tile Toolkit（UNVT）のプロジェクト管理リポジトリ「pm」（オリジナル: unvt/pm）を古橋研究室（furuhashilab）がフォークしたものである。UNVT は国連が推進するベクタータイル標準化プロジェクトであり、本リポジトリはその開発・運営上のタスクや課題をIssueで一元管理することを目的としている。古橋研究室は UNVT プロジェクトに深く関与しており、上流の活動を追跡・参照するためにフォークしたと考えられる。
+
+## 主な活動・成果
+- unvt/pm からのフォーク取得（2021年12月）
+- フォーク後、本リポジトリ上での独自 Issue・コメント・変更は記録されていない
+- オリジナル（unvt/pm）はフォーク時点で28件のオープン Issue を持ち、CC0-1.0 ライセンスのもとで UNVT の課題管理が行われている
+
+## 使用技術・ツール
+- GitHub Issues（プロジェクト管理）
+- CC0-1.0（パブリックドメイン相当ライセンス）
+- UN Vector Tile Toolkit（UNVT）エコシステム
+
+## 得られた知見
+- OSS プロジェクトのプロジェクト管理を GitHub Issues 単体で行う軽量な手法は、コード不要でタスク・議論・決定事項を追跡でき、研究室や小規模チームの活動記録にも転用しやすい。
+- UNVT のような国際的な OSS プロジェクトの pm リポジトリをフォークして手元に置くことで、上流のロードマップや意思決定プロセスをウォッチする仕組みを作れる。
+
+## 未解決事項・課題
+- フォーク後の独自活動が皆無であり、研究室内での具体的な活用内容は本リポジトリからは確認できない。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/pm
+- Issues: https://github.com/furuhashilab/pm/issues
+- オリジナル: https://github.com/unvt/pm
+
