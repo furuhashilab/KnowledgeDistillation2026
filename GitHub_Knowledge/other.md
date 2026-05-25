@@ -1429,3 +1429,521 @@ Missing Maps プロジェクトの公式ウェブサイト（MissingMaps/missing
 - リポジトリ: https://github.com/furuhashilab/missingmaps.github.io
 - 関連サイト: http://www.missingmaps.org
 
+---
+repo_name: "digitaljournalism101geoversion"
+repo_url: "https://github.com/furuhashilab/digitaljournalism101geoversion"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-12-14"
+repo_updated_at: "2020-12-14"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "digital-journalism"
+  - "media-literacy"
+  - "geo"
+confidence: "medium"
+---
+
+# digitaljournalism101geoversion
+
+## 概要
+メディアリテラシーにも役立つ「デジタル報道101」を地理・地理空間情報（ジオ）分野向けにカスタマイズしたリポジトリ。デジタルジャーナリズムの基礎知識をジオ系の文脈に合わせて再編集することを目的としている。CC BY 4.0ライセンスで公開されており、教育・研究目的での二次利用が想定されている。
+
+## 主な活動・成果
+- 「デジタル報道101」コンテンツの地理情報分野向けカスタマイズ版の作成
+- CC BY 4.0ライセンスによるオープンな教育コンテンツとしての公開
+- （Issuesなし：具体的な議論・作業記録は残されていない）
+
+## 使用技術・ツール
+- GitHub（コンテンツ管理・公開）
+- Creative Commons Attribution 4.0 International（ライセンス）
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+既存のデジタルジャーナリズム教育コンテンツを特定分野（地理・ジオ）向けにカスタマイズして公開するアプローチは、専門分野におけるメディアリテラシー教育の効率的な展開手法として転用できる。CC BY 4.0での公開により、他機関・研究者による改変・再配布が容易になる点も教育リソースの普及戦略として有効。
+
+## 未解決事項・課題
+Issuesが存在しないため、具体的な作業進捗や課題は不明。コンテンツの更新・充実が継続されているかどうか確認できない。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/digitaljournalism101geoversion
+- Issues: https://github.com/furuhashilab/digitaljournalism101geoversion/issues
+
+---
+repo_name: "history-of-Geocaching"
+repo_url: "https://github.com/furuhashilab/history-of-Geocaching"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-11-10"
+repo_updated_at: "2020-11-12"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "geocaching"
+  - "location-based-game"
+  - "gps"
+confidence: "medium"
+---
+
+# history-of-Geocaching
+
+## 概要
+古橋研究室（furuhashilab）によるジオキャッシング（Geocaching）の歴史をまとめた調査・記録リポジトリ。GPSを活用した宝探しゲームであるジオキャッシングの成り立ちや発展について整理することを目的としていると推察される。descriptionは設定されていないが、リポジトリ名とサイズ（161KB）からある程度のコンテンツが存在することが確認できる。
+
+## 主な活動・成果
+- ジオキャッシングの歴史に関するコンテンツの作成・整理（Issuesなし：詳細な作業記録は残されていない）
+- 2020年11月に作成・更新されており、短期間での初期コンテンツ整備が行われた
+
+## 使用技術・ツール
+- GitHub（コンテンツ管理・公開）
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+ジオキャッシングはGPS技術の民間開放（2000年）を契機に普及した位置情報ゲームであり、その歴史を整理することで、GPSや位置情報技術が一般社会へ浸透してきた経緯を地理情報の教育文脈で活用できる。研究室の授業・ゼミ向けの調査レポートとして、位置情報サービスの歴史的背景を学ぶ教材として転用可能。
+
+## 未解決事項・課題
+Issuesが存在せず、コンテンツの完成度・公開状況・その後の更新有無が不明。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/history-of-Geocaching
+- Issues: https://github.com/furuhashilab/history-of-Geocaching/issues
+
+---
+repo_name: "startbootstrap-clean-blog-jekyll"
+repo_url: "https://github.com/furuhashilab/startbootstrap-clean-blog-jekyll"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-09-28"
+repo_updated_at: "2020-10-05"
+distilled_at: "2026-05-25"
+language: "HTML"
+homepage: "https://furuhashilab.github.io/startbootstrap-clean-blog-jekyll/"
+tags:
+  - "graphic-recording"
+  - "jekyll"
+  - "portfolio"
+confidence: "medium"
+---
+
+# startbootstrap-clean-blog-jekyll
+
+## 概要
+StartBootstrapのClean Blog Jekyllテーマをフォークし、古橋研究室の「グラレコ部」のポートフォリオサイトとして構築したリポジトリ。GitHub Pagesで公開されており、グラフィックレコーディング作品の展示・発信を目的としている。MITライセンスのOSSテーマをカスタマイズして研究室活動の成果発信に活用した事例。
+
+## 主な活動・成果
+- グラレコ部のポートフォリオサイトをJekyll＋GitHub Pagesで構築・公開
+- Issue #1「画像 2020/09/28」（コメント6件）・Issue #2「画像 2020/08/22」（コメント4件）にてグラレコ画像の投稿・レビューをIssue上で実施
+- 画像素材の収集・掲載作業をShogoHirasawaが主導し、Issueをギャラリー的に活用
+
+## 使用技術・ツール
+- Jekyll：静的サイトジェネレータ
+- StartBootstrap Clean Blog テーマ（MITライセンス）
+- GitHub Pages：サイト公開・ホスティング
+- HTML（主要言語）
+- GitHub Issues：画像レビュー・素材管理の場として活用
+
+## 得られた知見
+OSSのJekyllテーマをフォークしてGitHub Pagesで公開することで、研究室のグラレコ部ポートフォリオサイトを短期間かつ低コストで構築できる。また、GitHub IssueをグラレコPNG画像の投稿・フィードバック場として活用するワークフローは、コードを書かないメンバーも参加しやすい成果物管理の手法として転用可能。
+
+## 未解決事項・課題
+Issue #1・#2がいずれもオープンのままで、掲載画像の最終確定・サイトへの反映状況が不明。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/startbootstrap-clean-blog-jekyll
+- Issues: https://github.com/furuhashilab/startbootstrap-clean-blog-jekyll/issues
+- 関連サイト: https://furuhashilab.github.io/startbootstrap-clean-blog-jekyll/
+
+---
+repo_name: "fieldart4gachamuku"
+repo_url: "https://github.com/furuhashilab/fieldart4gachamuku"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-09-28"
+repo_updated_at: "2020-09-28"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "ingress"
+  - "field-art"
+  - "location-based-game"
+confidence: "high"
+---
+
+# fieldart4gachamuku
+
+## 概要
+古橋研究室の映像制作ユニット「ガチャムク」を題材にした、位置情報ゲーム「Ingress」のフィールドアート作品を制作するプロジェクト。Ingressのポータルを結んで地図上に巨大なイラストを描くフィールドアートの手法で、ガチャムクのキャラクター（ガチャピン・ムック）を表現することを目的としていた。マイルストーン「2020/10/5」が設定されており、短期集中型のプロジェクトとして運営された。
+
+## 主な活動・成果
+- マイルストーン（2020/10/5）を設定し、5つのタスクIssueをラベル・アサインで管理
+- プレゼン作り（sy7676担当、ラベル：プレゼン）のタスクを設定
+- ミーティングIssue（ラベル：meeting）で全メンバー（ShogoHirasawa・sy7676・plinplin22・naoki2123）を招集・調整
+- Medium記事による成果発信（naoki2123担当、ラベル：documentation）を計画
+- ガチャピンの作成（sy7676・plinplin22・naoki2123担当、ラベル：work）をタスク化
+- グラレコの作成（ShogoHirasawa担当、ラベル：documentation）を並行タスクとして設定
+
+## 使用技術・ツール
+- Ingress：Nianticの位置情報AR型ゲーム（フィールドアートのプラットフォーム）
+- GitHub Issues（ラベル・マイルストーン・アサインによるタスク管理）
+- Medium（成果発信ブログ）
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+Ingressフィールドアートは、GPS座標上にあるポータルを計画的に結ぶことで地図上に巨大なキャラクターイラストを描く表現手法であり、地理情報技術を創作活動に応用する好事例。GitHubのラベル（work・documentation・meeting・プレゼン）とマイルストーンを組み合わせることで、クリエイティブな短期プロジェクトでも役割分担と締切管理を可視化できる。
+
+## 未解決事項・課題
+全5件のIssueがマイルストーン期限（2020/10/5）を過ぎてもオープンのままであり、フィールドアート作品の実施・完成状況、Medium記事の公開状況が不明。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/fieldart4gachamuku
+- Issues: https://github.com/furuhashilab/fieldart4gachamuku/issues
+
+---
+repo_name: "grareco4gachamuku"
+repo_url: "https://github.com/furuhashilab/grareco4gachamuku"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-09-28"
+repo_updated_at: "2020-09-28"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "graphic-recording"
+  - "gachamuku"
+  - "illustration"
+confidence: "high"
+---
+
+# grareco4gachamuku
+
+## 概要
+グラフィックレコーディング（グラレコ）で使えるガチャムクキャラクター素材集を作成・管理するリポジトリ。防災・Covid-19・各サークルロゴなどをガチャムクキャラクターバージョンでイラスト化し、グラレコ制作者が汎用的に使える素材として整備することを目的としている。あわせてガチャムクの「絵描き歌動画」の制作も並行タスクとして管理されていた。
+
+## 主な活動・成果
+- Issue #2「使いやすいガチャムクグラレコ素材集作成」（yukiohgishi・Ayaka0324担当、コメント4件）にて以下の素材を全て完成：
+  - 防災「おかしも」ガチャムクver.
+  - Covid-19関連素材ガチャムクver.
+  - サークルロゴ①（ドローン・ユース・位置ゲー・横瀬）ガチャムクver.
+  - サークルロゴ②（ものづくり・グラレコ・空間デザイン・TEDx）ガチャムクver.
+- Issue #1「ガチャムク絵描き歌動画作成」（yukiohgishi・Ayaka0324担当、コメント3件）として動画制作タスクを並行管理
+
+## 使用技術・ツール
+- グラフィックレコーディング（手描き・デジタルイラスト）
+- GitHub Issues（チェックリスト形式でのタスク進捗管理）
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+GitHub IssueのMarkdownチェックリスト（`- [x]`）形式は、複数のイラスト素材を一括管理・進捗確認する手法として非常に有効。グラレコ素材をGitHubリポジトリで一元管理することで、複数メンバー間での素材共有・バージョン管理が容易になる。また、防災・感染症対策・各種サークル活動など多様なテーマをキャラクターイラスト化して素材化することで、グラレコの表現の幅と制作スピードを向上させるアプローチは他コミュニティでも転用可能。
+
+## 未解決事項・課題
+Issue #2は全チェックリスト完了済みながらオープンのままクローズされておらず、Issue #1「絵描き歌動画作成」も未クローズのため完成状況が不明。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/grareco4gachamuku
+- Issues: https://github.com/furuhashilab/grareco4gachamuku/issues
+
+---
+repo_name: "www_tedxagu"
+repo_url: "https://github.com/furuhashilab/www_tedxagu"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-09-20"
+repo_updated_at: "2020-10-05"
+distilled_at: "2026-05-25"
+language: "PHP"
+homepage: null
+tags:
+  - "tedx"
+  - "website"
+  - "wordpress"
+confidence: "medium"
+---
+
+# www_tedxagu
+
+## 概要
+青山学院大学のTEDxイベント「TEDxAGU」の公式ウェブサイトをメンテナンスするためのリポジトリ。tedxaguオーガナイゼーションのリポジトリを古橋研究室がフォークし、サイト保守・更新作業を担当していたと推察される。PHPで構築されたWordPress系サイトをGitHub Pages経由で管理する構成。
+
+## 主な活動・成果
+- TEDxAGUウェブサイト（tedxagu/www_tedxagu）のフォークを取得し、furuhashilab配下で保守管理
+- GitHub Pagesによるサイト公開設定（`has_pages: true`）
+- （Issuesなし：`has_issues: false`のため、具体的な作業記録は親リポジトリ側で管理）
+
+## 使用技術・ツール
+- PHP（主要言語）：WordPressベースのウェブサイト構築
+- GitHub Pages：サイトホスティング
+- Git / GitHub：バージョン管理・フォーク運用
+
+## 得られた知見
+イベント系ウェブサイトの保守管理において、本体リポジトリ（tedxagu組織）をforkして別組織（furuhashilab）でミラー管理する手法は、権限分離とバックアップを兼ねた運用として有効。`has_issues: false`の設定により、Issueは親リポジトリ側に集約され、フォーク側はコード管理専用に役割分担される設計パターンが確認できる。
+
+## 未解決事項・課題
+特になし（Issuesは無効化されており、作業記録は親リポジトリ側で管理）。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/www_tedxagu
+- Issues: https://github.com/furuhashilab/www_tedxagu/issues
+
+---
+repo_name: "editor-layer-index"
+repo_url: "https://github.com/furuhashilab/editor-layer-index"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-09-13"
+repo_updated_at: "2020-09-13"
+distilled_at: "2026-05-25"
+language: null
+homepage: "https://osmlab.github.io/editor-layer-index/"
+tags:
+  - "openstreetmap"
+  - "imagery"
+  - "tms"
+confidence: "high"
+---
+
+# editor-layer-index
+
+## 概要
+OpenStreetMap（OSM）エディタ向けの統合レイヤーインデックス（osmlab/editor-layer-index）を古橋研究室がフォークしたリポジトリ。TMS・WMSなどの航空写真・背景地図レイヤー情報をJSONで一元管理するOSSプロジェクトへの貢献・カスタマイズを目的としていると推察される。親リポジトリは現在も活発に更新されているOSMエコシステムの重要なインフラ。
+
+## 主な活動・成果
+- osmlab/editor-layer-indexをforkし、furuhashilab配下で管理
+- （Issuesは無効化・空のため、具体的な作業記録なし）
+- フォーク後の独自変更内容は不明（サイズ差：親96KB→フォーク96KB、ほぼ同一）
+
+## 使用技術・ツール
+- JSON（親リポジトリの主要言語）：レイヤー定義ファイルの記述
+- TMS（Tile Map Service）・WMS（Web Map Service）：地図タイル配信プロトコル
+- OpenStreetMap エコシステム：iD・JOSM等のOSMエディタとの連携
+- GitHub Pages：インデックスの公開
+
+## 得られた知見
+editor-layer-indexはOSMエディタが参照する背景航空写真・地図タイルのカタログであり、新たな地域の航空写真をOSMコミュニティへ提供する際はこのインデックスへのPull Requestが標準的な手順となる。古橋研究室がフォークを保持していることから、日本国内の独自タイルソース（国土地理院等）の追加・検証をローカルで試す用途が想定される。
+
+## 未解決事項・課題
+Issuesが無効化されており、フォーク後にどのような変更・貢献が行われたか（あるいは行われなかったか）が不明。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/editor-layer-index
+- Issues: https://github.com/furuhashilab/editor-layer-index/issues
+- 関連サイト: https://osmlab.github.io/editor-layer-index/
+
+---
+repo_name: "workdata4gatsby"
+repo_url: "https://github.com/furuhashilab/workdata4gatsby"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-09-13"
+repo_updated_at: "2020-09-13"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "tedx"
+  - "gatsby"
+  - "static-site"
+confidence: "medium"
+---
+
+# workdata4gatsby
+
+## 概要
+TEDxAGUのウェブサイト構築に使用するGatsbyJS向けの作業データを管理するリポジトリ。tedxaguオーガナイゼーションの同名リポジトリ（tedxagu/workdata4gatsby）を古橋研究室がフォークしたもので、TEDxAGUサイトのコンテンツデータや静的サイト生成に必要なワークデータを格納していると推察される。MITライセンスで公開。
+
+## 主な活動・成果
+- tedxagu/workdata4gaussをforkし、furuhashilab配下で管理
+- Issuesは無効化（`has_issues: false`）されており、作業記録は親リポジトリ側で管理
+- フォーク後の独自変更はほぼなし（フォーク時点のサイズ92KB、親は127KB）
+
+## 使用技術・ツール
+- Gatsby.js：React ベースの静的サイトジェネレータ（リポジトリ名より推定）
+- HTML（親リポジトリの主要言語）
+- MIT License
+- GitHub（バージョン管理・フォーク運用）
+
+## 得られた知見
+TEDxAGUのウェブサイト関連リポジトリ（www_tedxagu・workdata4gatsby）を古橋研究室がforkして並行管理している構成から、研究室がTEDxAGUの技術サポートを担う役割を持っていたことが読み取れる。Gatsbyのようなモダン静的サイトジェネレータとGitHubを組み合わせることで、イベントサイトのコンテンツ更新をコードとして管理するアプローチは、研究室活動やイベント系サイト全般に転用できる。
+
+## 未解決事項・課題
+特になし（Issuesは無効化されており、descriptionも空のため詳細な目的は不明）。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/workdata4gatsby
+- Issues: https://github.com/furuhashilab/workdata4gatsby/issues
+
+---
+repo_name: "onlineclasses"
+repo_url: "https://github.com/furuhashilab/onlineclasses"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-08-29"
+repo_updated_at: "2020-08-31"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "online-education"
+  - "remote-learning"
+  - "covid-19"
+confidence: "medium"
+---
+
+# onlineclasses
+
+## 概要
+古橋研究室のオンライン授業用リソースを管理するリポジトリ。2020年8月末に作成されており、新型コロナウイルス感染拡大に伴うオンライン授業移行期に対応する教材・情報共有を目的として整備されたと推察される。CC0-1.0ライセンス（パブリックドメイン相当）で公開されており、誰でも自由に利用・改変できる形式をとっている。
+
+## 主な活動・成果
+- オンライン授業向けリソースの整備（Issuesなし：詳細な作業記録は残されていない）
+- CC0-1.0ライセンスによる完全オープンな教育コンテンツとして公開
+- リポジトリサイズが10KBと小規模であり、テキスト系コンテンツ（README・リンク集等）が主体と推察
+
+## 使用技術・ツール
+- GitHub（コンテンツ管理・公開）
+- Creative Commons Zero v1.0 Universal（CC0ライセンス）
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+オンライン授業リソースをCC0でGitHub公開することで、他の教員・研究者が自由に転用・改変できる教育コモンズとして機能させるアプローチは、特に緊急時の知識共有モデルとして有効。CC0（著作権放棄）はCC BY等と異なり帰属表示すら不要なため、教育現場での素材流通コストを最小化できる。
+
+## 未解決事項・課題
+特になし（Issuesなし、コンテンツの詳細は不明）。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/onlineclasses
+- Issues: https://github.com/furuhashilab/onlineclasses/issues
+
+---
+repo_name: "gatsby-starter-overflow"
+repo_url: "https://github.com/furuhashilab/gatsby-starter-overflow"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-08-25"
+repo_updated_at: "2020-09-07"
+distilled_at: "2026-05-25"
+language: null
+homepage: "https://furuhashilab.github.io/gatsby-starter-overflow/"
+tags:
+  - "gatsby"
+  - "static-site"
+  - "starter-template"
+confidence: "high"
+---
+
+# gatsby-starter-overflow
+
+## 概要
+HTML5 UPの「overflow」テーマをベースにしたGatsby.js V2スターターテンプレート（anubhavsrivastava/gatsby-starter-overflow）を古橋研究室がフォークしたリポジトリ。TEDxAGUサイト関連（workdata4gatsby・www_tedxagu）と同時期に作成されており、TEDxAGUまたは研究室サイト向けのGatsbyベースウェブサイト構築を試みた際のテンプレートとして活用されたと推察される。GitHub Pagesで公開済み。
+
+## 主な活動・成果
+- anubhavsrivastava/gatsby-starter-overflowをforkし、GitHub Pages（furuhashilab.github.io/gatsby-starter-overflow/）でデモ公開
+- Issuesは無効化（`has_issues: false`）されており、具体的な作業記録なし
+- フォーク後の独自変更はごくわずか（サイズ差：親5057KB→フォーク5097KB）
+
+## 使用技術・ツール
+- Gatsby.js V2：Reactベース静的サイトジェネレータ
+- HTML5 UP overflow テーマ：デザインベーステンプレート
+- SCSS（親リポジトリの主要言語）：スタイリング
+- GitHub Pages：サイトホスティング
+
+## 得られた知見
+Gatsby.jsのスターターテンプレートをforkしてGitHub Pagesに公開するワークフローは、研究室やイベントの紹介サイトを最小コストで立ち上げる手法として有効。スターターテンプレートの選定→fork→GitHub Pages公開という3ステップで、デザイン済みのサイトを即座に稼働させられる。TEDxAGU関連の複数リポジトリ（www_tedxagu・workdata4gatsby・本リポジトリ）を組み合わせたサイト構築の試行が読み取れる。
+
+## 未解決事項・課題
+特になし（Issuesは無効化、独自カスタマイズの内容・範囲が不明）。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/gatsby-starter-overflow
+- Issues: https://github.com/furuhashilab/gatsby-starter-overflow/issues
+- 関連サイト: https://furuhashilab.github.io/gatsby-starter-overflow/
+
+---
+repo_name: "tsuda2020gis"
+repo_url: "https://github.com/furuhashilab/tsuda2020gis"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-08-04"
+repo_updated_at: "2020-08-16"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "gis"
+  - "education"
+  - "tsuda-university"
+confidence: "high"
+---
+
+# tsuda2020gis
+
+## 概要
+津田塾大学での2020年度「地理情報システム（GIS）入門」授業を支援するリポジトリ。古橋研究室（furuhashilab）が他大学向けにGIS入門教育を提供した際の教材・リソース管理を目的として作成された。2020年8月の短期間に作成・更新されており、夏季集中講義や特別授業として実施されたと推察される。
+
+## 主な活動・成果
+- 津田塾大学2020年度GIS入門授業向けリソースの整備・公開
+- （Issuesなし：詳細な作業記録は残されていない）
+- リポジトリサイズ11KBと小規模であり、シラバス・リンク集・READMEなどテキスト系コンテンツが主体と推察
+
+## 使用技術・ツール
+- GIS（地理情報システム）：授業主題
+- GitHub（教材管理・公開）
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+GIS入門授業の教材をGitHubで管理・公開することで、受講生が授業外でもアクセスしやすい環境が整備できる。古橋研究室が自大学（青山学院大学）以外の大学（津田塾大学）向けにもGIS教育を提供していることは、地理情報教育のアウトリーチ活動として注目に値する。年度・大学名をリポジトリ名に含める命名規則（tsuda2020gis）は、複数大学・複数年度の授業管理を行う際の識別性を高める有効な手法。
+
+## 未解決事項・課題
+特になし（Issuesなし、コンテンツの詳細は不明）。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/tsuda2020gis
+- Issues: https://github.com/furuhashilab/tsuda2020gis/issues
+
+---
+repo_name: "japanese-addresses"
+repo_url: "https://github.com/furuhashilab/japanese-addresses"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-08-06"
+repo_updated_at: "2020-08-06"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "open-data"
+  - "japanese-address"
+  - "geolonia"
+confidence: "high"
+---
+
+# japanese-addresses
+
+## 概要
+全国の町丁目レベル（189,540件）の住所データをオープンデータとして提供するGeoloniaのリポジトリ（geolonia/japanese-addresses、スター数763）を古橋研究室がフォークしたもの。日本全国の住所データをCSV・JSON形式で利用可能なオープンデータセットで、地理情報システムや住所ジオコーディングの研究・開発に活用できる。MITライセンス。
+
+## 主な活動・成果
+- geolonia/japanese-addressesをforkし、furuhashilab配下で管理
+- Issuesは無効化（`has_issues: false`）されており、独自の作業記録なし
+- フォーク時点（2020年8月）のデータ件数：189,540件（現在の親リポジトリは277,191件に拡充）
+
+## 使用技術・ツール
+- JavaScript（親リポジトリの主要言語）：データ処理・変換スクリプト
+- CSV・JSON：住所データフォーマット
+- 国土交通省 位置参照情報ダウンロードサービス：データソース
+- MIT License
+
+## 得られた知見
+日本全国の町丁目レベル住所データがMITライセンスのオープンデータとして入手できることは、地理情報研究・住所ジオコーディング・マッピング教育において非常に有用。フォーク時点（189,540件）から現在（277,191件）へのデータ拡充の速度からも、このデータセットが継続的にメンテナンスされている信頼性の高いリソースであることがわかる。
+
+## 未解決事項・課題
+特になし（Issuesは無効化、独自カスタマイズなし）。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/japanese-addresses
+- Issues: https://github.com/furuhashilab/japanese-addresses/issues
+
