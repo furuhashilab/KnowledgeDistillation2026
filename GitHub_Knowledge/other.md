@@ -2439,3 +2439,41 @@ confidence: "low"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/geogacha2026
 - Issues: https://github.com/furuhashilab/geogacha2026/issues
+---
+repo_name: "-SNS-"
+repo_url: "https://github.com/furuhashilab/-SNS-"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2026-04-21"
+repo_updated_at: "2026-04-22"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "sns"
+  - "social-media"
+  - "furuhashilab"
+confidence: "low"
+---
+
+# -SNS-
+
+## 概要
+古橋研究室によるSNS関連の活動・情報を管理するためのリポジトリ。description・topicsともに未設定であり、リポジトリ名「-SNS-」からSNS運用や情報発信に関する管理を目的としていると推測される。作成から更新まで約1日と非常に短期間であり、立ち上げ直後の段階にある。
+
+## 主な活動・成果
+- リポジトリの初期構築のみ確認。Issuesは0件でコンテンツの蓄積は確認できない。
+
+## 使用技術・ツール
+- GitHub（リポジトリ管理）
+- プログラミング言語：なし
+
+## 得られた知見
+- 情報が極めて少なく、知見の抽出は困難。SNS運用ガイドラインや投稿管理をGitHubで一元管理する試みである可能性がある。
+
+## 未解決事項・課題
+- description・topics・Issuesがすべて未設定・空であり、リポジトリの目的・内容が不明瞭。今後のコンテンツ整備が必要。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/-SNS-
+- Issues: https://github.com/furuhashilab/-SNS-/issues
