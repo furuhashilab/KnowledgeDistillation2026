@@ -1151,6 +1151,10 @@ https://youtu.be/DRGZ6xrTPRs?si=-XdnhVCS6ucTtDPt
 *   **コミュニティの可視化**: 日本のデベロッパーは「離島に住んでいる」ように静かだが、実は技術力が高い。彼らを発掘するためのコンテストなどの「登竜門」が必要である。
 
 ---
+
+
+
+
 ## Maillary 3D Point Cloud Data in Duomo, Milano
 
 **URL:**
