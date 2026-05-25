@@ -2313,4 +2313,45 @@ confidence: "high"
 - Issues: https://github.com/furuhashilab/README/issues
 - 関連サイト: http://furuhashilab.com/
 
+---
+repo_name: "geoten"
+repo_url: "https://github.com/furuhashilab/geoten"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2026-05-12"
+repo_updated_at: "2026-05-12"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "geoten"
+  - "furuhashilab"
+  - "exhibition"
+confidence: "medium"
+---
 
+# geoten
+
+## 概要
+古橋研究室が主催・参加する「ジオ展」（地理・位置情報をテーマにした展示イベント）の振り返りおよび情報共有を目的とした公開リポジトリ。2026年5月に開設されたばかりの新しいリポジトリで、ジオ展2026の成果・反省・引き継ぎ事項をIssueのコメントで参加者が各自記録する運用が行われている。ライセンスはCC0-1.0（パブリックドメイン）。
+
+## 主な活動・成果
+- ジオ展2026の振り返りIssue（#1）に21件のコメントが集積されており、参加メンバーが良かった点・反省点・引き継ぎ事項を各自記録
+- ジオガチャ（位置情報をテーマにしたガチャ企画）を展示内で実施し、合計112回（11,200円分）が回された
+- 振り返りIssueは2026-05-12〜05-14の間に活発に更新され、短期集中型の記録運用が行われた
+
+## 使用技術・ツール
+- GitHub Issues（振り返り・情報共有の場として活用）
+- ジオガチャ（位置情報をテーマにした物理ガチャ企画）
+
+## 得られた知見
+- 展示イベント終了直後にGitHubのIssueを振り返り用の共有ノートとして開設し、参加者全員が1コメント以上を義務付ける運用は、短期間で多角的な振り返り情報を集約する手法として効果的。他のイベント・フィールドワーク後の情報整理にも転用できる。
+- ジオガチャのような位置情報をテーマにした体験型コンテンツは来場者エンゲージメントの指標（回数・売上）として定量化しやすく、次回改善の基準になる。
+
+## 未解決事項・課題
+- Issue #1が引き続きオープン状態であり、振り返りの総括・クローズが行われていない
+- topics（タグ）が未設定のため、リポジトリの発見性が低い
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/geoten
+- Issues: https://github.com/furuhashilab/geoten/issues
