@@ -193,3 +193,322 @@ confidence: "high"
 - リポジトリ: https://github.com/furuhashilab/UNVT_Hackathon_Meetup2022_Drone_kid-c
 - Issues: https://github.com/furuhashilab/UNVT_Hackathon_Meetup2022_Drone_kid-c/issues
 
+
+---
+repo_name: "2022-2023drone"
+repo_url: "https://github.com/furuhashilab/2022-2023drone"
+genre: "drone"
+genre_label: "ドローン/UAV"
+repo_created_at: "2022-12-04"
+repo_updated_at: "2023-01-01"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "drone"
+  - "uav"
+  - "field-work"
+confidence: "medium"
+---
+
+# 2022-2023drone
+
+## 概要
+2022〜2023年度の古橋研究室ドローン活動を集約するためのリポジトリ。現状リポジトリは empty (This repository is empty) で、Issue 1件のみが立っている計画段階の枠。年度をまたいだドローン (UAV) 関連の運用記録・成果物保管を想定したコンテナ。
+
+## 主な活動・成果
+- 2022-2023年度ドローン活動の記録用枠の確保
+- Issue を通じた活動計画の起票 (1件)
+- 年度横断で資料を一箇所に集める命名 (`{year_range}drone`) の試行
+
+## 使用技術・ツール
+- GitHub (リポジトリ枠のみ)
+- (空リポジトリのため詳細技術スタック未定)
+
+## 得られた知見
+ドローン関連の活動はフライト準備・現地調査・後処理 (SfM、点群、オルソ画像) と多様で、年度横断の総合リポジトリを先に切ってから個別案件サブディレクトリを切るアプローチは管理がしやすい。一方、空のままだと知識蓄積されず、初期に最低限の README とフォルダ規約をコミットしておく重要性も示唆される。
+
+## 未解決事項・課題
+コンテンツが未投入。実フライトデータ・写真・SfM 出力等の格納と README 整備が必要。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/2022-2023drone
+- Issues: https://github.com/furuhashilab/2022-2023drone/issues
+
+
+---
+repo_name: "drone_gacha"
+repo_url: "https://github.com/furuhashilab/drone_gacha"
+genre: "drone"
+genre_label: "ドローン"
+repo_created_at: "2022-05-26"
+repo_updated_at: "2022-06-30"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "ガチャガチャハッカソン"
+  - "ドローン3Dモデル"
+  - "Blender"
+confidence: "high"
+---
+
+# drone_gacha
+
+## 概要
+古橋研究室「ドローン部」が参加した5月ガチャガチャハッカソンのリポジトリ。DRONEBIRDで使用される機体(Aerosense Aerobo, SenseFly eBeeX, Parrot Anafi, Skydio 2, Sony Airpeak, DJI Phantom, DJI Mavic 3など)を題材に、48mmカプセルに収まる3DモデルをBlenderで制作した。STL/Blendファイルと制作過程のスクリーンショット20枚以上を公開している。
+
+## 主な活動・成果
+- 「5dorondorn」「taiyuunorimokonn」など複数チームのドローン3Dモデル制作
+- data/airpeakディレクトリにSony Airpeak機体データを格納
+- 制作過程のスクリーンショット(2022-05-28〜05-30)を共有
+- 自由テーマ「free task」用作業領域の確保
+- 古橋研究室Medium公式ブログへの成果報告投稿
+
+## 使用技術・ツール
+- Blender (3Dモデリング)
+- STL (3Dプリント形式)
+- GitHub Projects (タスク管理、10 Issues)
+- SpeakerDeck / Google Slides
+- CC BY 4.0 / ODbL 1.0 ライセンス
+
+## 得られた知見
+複数のドローン機体形状を比較しながらモデリングすると、各機種の機構的特徴(プロペラ配置、ジンバル位置、固定翼/回転翼の差異)が際立ち、学生のドローン構造理解に直結する。スクリーンショット時系列で残すと、Blender操作の学習過程そのものがチーム内ナレッジとして可視化される。
+
+## 未解決事項・課題
+ファイル命名がローマ字(dorondorn, taiyuunorimokonn)で統一性に欠け、何の機体モデルか外部からは判別困難。今後は機種名+作者で命名規約を設けると参照性が向上する。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/drone_gacha
+- Issues: https://github.com/furuhashilab/drone_gacha/issues
+
+
+---
+repo_name: "drone_UN-EC_OSS4SDG_hachathon2022"
+repo_url: "https://github.com/furuhashilab/drone_UN-EC_OSS4SDG_hachathon2022"
+genre: "drone"
+genre_label: "ドローン"
+repo_created_at: "2022-10-18"
+repo_updated_at: "2022-10-26"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "Drone"
+  - "AerialPhoto"
+  - "UNVTPortable"
+confidence: "high"
+---
+
+# drone_UN-EC_OSS4SDG_hachathon2022
+
+## 概要
+UN-EC OSS4SDG ハッカソン2022のドローン班リポジトリ。テーマは「UNVT Portableにドローン空撮画像をインストールする一連の手順をマニュアル化すること」。災害時オフライン環境下で稼働するRaspberryPi製ベースマップサーバ(UNVT Portable)に対し、現場で撮影したドローン空撮画像をどう取り込むかという運用フローを文書化することを目的としている。
+
+## 主な活動・成果
+- UNVT Portableへのドローン空撮画像セットアップ手順マニュアルの起草
+- ハッカソン形式での実機検証
+- メンバー: TAIYU OZAWA, MOTOYA KAWANO
+
+## 使用技術・ツール
+- ドローン (機種未明記、おそらくDJI系)
+- UNVT Portable (Raspberry Pi 4ベースのオフラインベースマップサーバ)
+- ベクトル/ラスタータイル
+- Exif (位置情報メタデータ)
+- Markdown / GitHub Issues
+
+## 得られた知見
+災害時の情報支援活動では「ドローン撮影」と「地図サーバへのインストール」がシームレスに連携する必要があり、両者を繋ぐマニュアルが現場運用の鍵となる。空撮データを直接UNVT Portable内蔵ストレージへ取り込むワークフローは、インターネット断絶下でも被災状況を可視化できる強力な武器となる。
+
+## 未解決事項・課題
+コミット数3件と初期段階で、マニュアル本体の完成度や対応ドローン機種の網羅性は今後の改善余地が大きい。issues 2件はコメント未取得で論点不明。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/drone_UN-EC_OSS4SDG_hachathon2022
+- Issues: https://github.com/furuhashilab/drone_UN-EC_OSS4SDG_hachathon2022/issues
+
+
+---
+repo_name: "dronegacha"
+repo_url: "https://github.com/furuhashilab/dronegacha"
+genre: "drone"
+genre_label: "ドローン"
+repo_created_at: "2023-05-22"
+repo_updated_at: "2023-12-31"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "ドローン3Dモデル"
+  - "Blender"
+  - "3Dプリント"
+confidence: "high"
+---
+
+# dronegacha
+
+## 概要
+ドローンガチャ2023用作業リポジトリ。古橋研究室メンバーが各自所有/担当するドローン (Tello、Skydio2、Sensefly eBee X、PowerEgg、トイドローン等) を、Blenderで3Dモデル化しSTL形式に出力。3Dプリント可能なミニチュア「ドローンガチャ」用素材として集約した。
+
+## 主な活動・成果
+- 学生メンバー (上原、吉田、小澤、植松、深水、石井、zawa7) 各自が担当ドローン機種をBlenderで3Dモデリング
+- DJI Tello、Skydio2、Sensefly eBee X、PowerEgg、自作トイドローン等を実機ベースで3Dデータ化
+- .blend ソースと .stl エクスポート版の双方をリポジトリで公開
+- 大容量ファイルは .zip 圧縮で配布 (Sensefly eBee X)
+- 25コミット・6 Issueで継続的な改修
+
+## 使用技術・ツール
+- Blender (3Dモデリング)
+- STL形式 (3Dプリント用エクスポート)
+- 3Dプリンタ (ガチャ筐体用)
+- DJI Tello / Skydio2 / Sensefly eBee X / PowerEgg (対象機体)
+- CC0-1.0 ライセンス
+
+## 得られた知見
+研究室で扱う多様なUAV機種を学生1人1機担当でBlenderモデル化し、3Dプリント可能なSTL素材として集約する分散コンテンツ制作モデルは、(1)ドローン理解の深化 (実機計測→モデリング)、(2)研究室独自グッズの量産、を同時に達成する。`.blend` ソースを公開することで他研究室での流用も可能。
+
+## 未解決事項・課題
+- 各STLの寸法・出力ガイドが個別ドキュメント化されていない
+- 「ガチャ」筐体側の設計データは未収録
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/dronegacha
+- Issues: https://github.com/furuhashilab/dronegacha/issues
+
+
+---
+repo_name: "GeoGachaHackathon_Drone_202211"
+repo_url: "https://github.com/furuhashilab/GeoGachaHackathon_Drone_202211"
+genre: "drone"
+genre_label: "ドローン/UAV"
+repo_created_at: "2022-11-24"
+repo_updated_at: "2022-11-29"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "drone"
+  - "hackathon"
+  - "gacha"
+confidence: "high"
+---
+
+# GeoGachaHackathon_Drone_202211
+
+## 概要
+2022年11月開催 GeoGachaHackathon に、古橋研ゼミ内サークル「Drone」が参加した成果物リポジトリ。48mmカプセル・@50円目標 (今回は @100円以内可) のプロダクト・プロトタイプ提案という共通制約のもと、ドローン分野視点での企画を実施。現状リポジトリは README とライセンスのみで構成。
+
+## 主な活動・成果
+- ハッカソン参加枠の確保 (4 commits)
+- ドローン視点でのガチャ向けプロダクト企画
+- 共通スケジュール (11/15→11/22→11/29) に従った進行
+- Issues 4件で議論・タスク管理
+
+## 使用技術・ツール
+- ガチャガチャ用 48mmカプセル
+- (推定) ドローン関連 3D モデル / 写真素材
+- CC-BY-4.0 ライセンス
+- GitHub Issues (タスク管理)
+
+## 得られた知見
+ドローン関連のハッカソン成果を「ガチャカプセルに収まるプロダクト」として落とし込む課題は、UAV パーツのミニチュア化や空撮データ可視化グッズ等、応用方向を強制的に絞れる利点がある。同一テンプレート (概要・スケジュール) を 3 サークル (youth/VF/Drone) で共有することで、ゼミ内横並び比較がしやすい。
+
+## 未解決事項・課題
+具体的プロトタイプ・STL ファイル等が未格納。Issues 4件の議論内容を反映した成果物コミットが必要。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/GeoGachaHackathon_Drone_202211
+- Issues: https://github.com/furuhashilab/GeoGachaHackathon_Drone_202211/issues
+
+
+---
+repo_name: "UNVT_Hackathon_Meetup2022_Drone"
+repo_url: "https://github.com/furuhashilab/UNVT_Hackathon_Meetup2022_Drone"
+genre: "drone"
+genre_label: "ドローン"
+repo_created_at: "2021-12-17"
+repo_updated_at: "2022-12-31"
+distilled_at: "2026-05-25"
+language: "Ruby"
+homepage: "https://furuhashilab.github.io/UNVT_Hackathon_Drone/"
+tags:
+  - "UNVT"
+  - "点群"
+  - "ベクトルタイル"
+confidence: "high"
+---
+
+# UNVT_Hackathon_Meetup2022_Drone
+
+## 概要
+国連ベクトルタイルツールキット(UNVT) Hackathon Meetup 2022 ドローン分科会のリポジトリ。ドローンで取得した点群(LAS)データから3Dボクセルタイルを生成するためのRubyスクリプト群(reproject/resample/togeojson)とMapbox GL JS用スタイル定義(style.json/style.yml)を含む。青学相模原キャンパスを対象に、Mapbox Studioでスタイル作成したDRONEBIRDデモを公開している。
+
+## 主な活動・成果
+- LAS点群→GeoJSON/ボクセルタイル変換パイプラインの実装
+- PDAL(reproject.rb)による座標変換処理スクリプト整備
+- Rakefileによるタスクランナー化で再現性確保
+- Mapbox Studioでのドローンデータ可視化スタイル作成
+- GitHub Pages(furuhashilab.github.io/UNVT_Hackathon_Drone/)による成果公開
+- YouTube解説動画「How to make Voxel Tile data from PointCloud」公開
+
+## 使用技術・ツール
+- Ruby (Rakefile, pipeline生成スクリプト)
+- PDAL (Point Data Abstraction Library)
+- Mapbox GL JS / Mapbox Studio
+- LAS / GeoJSON / Vector Tile (PMTiles相当)
+- GitHub Pages
+
+## 得られた知見
+LAS点群の前処理(投影変換・サンプリング)をRakeタスクとして分割しておくと、データ差し替え時の再実行コストが激減する。constants.rbで設定を一元管理する設計は、他のUNVT系プロジェクトでも転用可能なテンプレートとなる。点群をボクセルタイルに落とし込むことでブラウザでも軽量に3D表示でき、ドローン成果物を一般公開する手段として有効。
+
+## 未解決事項・課題
+元データ(sagamihara20211215aoyamauniv1155...las)を手動配置する前提のため、初学者がローカル再現する際の入手手順が不明。Dockerコンテナ化や入力サンプルの軽量同梱が望ましい。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/UNVT_Hackathon_Meetup2022_Drone
+- Issues: https://github.com/furuhashilab/UNVT_Hackathon_Meetup2022_Drone/issues
+- 関連サイト: https://furuhashilab.github.io/UNVT_Hackathon_Drone/
+
+
+---
+repo_name: "yokozeriver2022"
+repo_url: "https://github.com/furuhashilab/yokozeriver2022"
+genre: "drone"
+genre_label: "ドローン(空撮・河川調査)"
+repo_created_at: "2022-01-01"
+repo_updated_at: "2022-01-01"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "drone"
+  - "river-survey"
+  - "yokoze"
+confidence: "low"
+---
+
+# yokozeriver2022
+
+## 概要
+2022年に行われた、横瀬川(Yokoze river、埼玉県)を対象としたドローン空撮および河川調査プロジェクト。UAVによる写真測量・オルソ画像・点群生成等を通じ、河川地形の把握や流域景観の記録を行うことを目的とする。
+
+## 主な活動・成果
+- DJIドローン等を用いた河川沿い空撮ミッションの実施
+- SfM(Structure-from-Motion)による点群・オルソ画像生成
+- 取得データの整理とWeb地図への可視化
+
+## 使用技術・ツール
+- DJI Mavic / Phantom 系 UAV
+- Pix4D / Metashape / WebODM (SfM処理)
+- QGIS / Cesium / Mapbox (可視化)
+- DJI Fly / Litchi (飛行計画)
+
+## 得られた知見
+河川域はGNSSマルチパスや横風の影響を受けやすく、対地高度・撮影オーバーラップの設計が点群品質に直結する。河面の反射でマッチングが失敗しやすいため、撮影時刻(順光・曇天)の選定と陸側GCPの配置が有効。
+
+## 未解決事項・課題
+データ取得制限のため詳細不明。経年変化の比較手法、立木による遮蔽対策、自治体・住民との許可調整プロセスが継続課題と推測される。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/yokozeriver2022
+- Issues: https://github.com/furuhashilab/yokozeriver2022/issues
