@@ -2989,3 +2989,103 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/original_articles_TaichiFuruhashi
 - Issues: https://github.com/furuhashilab/original_articles_TaichiFuruhashi/issues
+---
+repo_name: "langrs"
+repo_url: "https://github.com/furuhashilab/langrs"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2025-05-23"
+repo_updated_at: "2025-05-23"
+distilled_at: "2026-05-26"
+language: "Python"
+homepage: null
+tags:
+  - "language-processing"
+  - "python"
+  - "nlp"
+confidence: "low"
+---
+
+# langrs
+
+## 概要
+本リポジトリは、MohanadDiab/langrs からフォークされた古橋研究室（furuhashilab）によるリポジトリである。オリジナルリポジトリはPythonで実装されており、言語処理・言語関連ツール（"langrs" という名称から推定）に関するOSS活動の一環として取り込まれたと考えられる。description・topicsともに未設定であり、Issues機能も無効化されているため、詳細な目的は不明だが、研究・教育目的でのフォークと推測される。
+
+## 主な活動・成果
+- furuhashilabが MohanadDiab/langrs をフォーク（2025年5月23日）
+- Issues・Discussionsは無効化されており、研究室内での独自利用を想定した構成
+- オリジナルリポジトリはスター63件・フォーク7件と一定の注目を集めているOSSプロジェクト
+- オリジナルは2026年4月時点でも継続的に更新されている
+
+## 使用技術・ツール
+- Python（オリジナルリポジトリの主要言語）
+- Git / GitHub（バージョン管理・フォーク運用）
+- MIT License
+
+## 得られた知見
+- 外部のOSSリポジトリを研究室組織アカウントにフォークして取り込む手法は、教育・研究目的での技術習得や実験環境の構築に有効である。Issues無効化・topics未設定のまま運用するケースは、内部利用やコード参照目的のフォークに多く見られるパターンであり、リポジトリの活用意図をREADMEやdescriptionで明示することが望ましい。
+
+## 未解決事項・課題
+- descriptionおよびtopicsが未設定のため、リポジトリの目的・用途が外部から判別しにくい状態にある
+- Issues機能が無効化されており、フォーク後の独自改変内容や研究室での活用状況が把握できない
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/langrs
+- Issues: https://github.com/furuhashilab/langrs/issues
+- フォーク元: https://github.com/MohanadDiab/langrs
+
+- ---
+repo_name: "SotM2025"
+repo_url: "https://github.com/furuhashilab/SotM2025"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2025-05-16"
+repo_updated_at: "2025-05-16"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "openstreetmap"
+  - "youthmappers"
+  - "mapathon"
+confidence: "high"
+---
+
+# SotM2025
+
+## 概要
+本リポジトリは、State of the Map 2025（SotM Manila 2025）への発表準備を管理するために古橋研究室（青山学院大学・YouthMappers AGU）が作成したものである。発表テーマは、オープンアクセス書籍『Open Mapping towards Sustainable Development Goals』の日本語翻訳プロジェクトと、学生主導のオンラインマパソン活動の紹介である。日本における YouthMappers・OpenStreetMap の認知度向上を目的とした教育・コミュニティ活動の成果を国際カンファレンスで共有することを目指している。
+
+## 主な活動・成果
+- SotM 2025（フィリピン・マニラ開催）のShort Talk「Education」トラックへの発表申請（Issue #1）
+- 発表タイトル：「Translating "Open Mapping Towards SDGs": A YouthMappers Student Project from Furuhashi Lab, Japan」
+- Springer出版の370ページの書籍をゼミ生12人で分担翻訳（1人約20ページ）、2023年秋学期開始・2025年4月時点で140ページ完了・同年9月完成予定
+- 翻訳ルール策定：文体統一（敬体）、用語統一、レイアウト整合、参考文献処理。成果物はGoogle DriveおよびGitHubで共同管理
+- 2025年1月にオンラインマパソンを初開催：OSMアカウント作成・Tasking Managerを用いた与論島のマッピングを実施
+- マパソン反省点として、ZoomとPC併用時の画面共有トラブル、スマホ利用者へのサポート不足を特定し、次回へ向けた改善方針を整理
+- 2025年8月9日に第2回オンラインマパソンを開催予定（事前マニュアル・技術練習・サポート体制を強化）
+- 2025年7月に大学間合同マパソンを計画
+- 20分プレゼンの構成案をIssue #2で詳細に策定（導入・翻訳PJ・マパソン・展望・まとめの5部構成）
+
+## 使用技術・ツール
+- OpenStreetMap（OSM）
+- Tasking Manager（HOT）
+- Google Drive（翻訳ファイルの共同管理）
+- GitHub（プロジェクト管理・議論）
+- Canva（マパソン告知ポスター作成）
+- Zoom（オンラインマパソン実施）
+
+## 得られた知見
+- 大人数での書籍翻訳では、文体・用語・フォーマットの統一ルールを事前に文書化しておくことが品質維持の鍵となる。
+- オンラインマパソンでは参加者のデバイス環境（スマホ／PC）の差異が運営上のボトルネックになりうるため、事前に接続・操作環境を確認・統一するマニュアル整備が必要である。
+- GitHub Issuesを発表準備・構成設計のプロジェクト管理ツールとして活用することで、議論の経緯と決定事項を一元的に記録・共有できる。
+- 非英語圏の学生コミュニティに対して、翻訳活動とマパソンを組み合わせた「知識のローカライズ＋実践」の二段階アプローチが、デジタルリテラシーと国際的OSMコミュニティへの参加促進に有効である。
+
+## 未解決事項・課題
+- 翻訳の残り約230ページ（2025年9月完成予定）の完成と公開方法の確定
+- 第2回マパソン（2025年8月9日）および大学間合同マパソン（2025年7月）の実施・評価
+- Issue #1・#2 ともにオープン状態のまま（SotM発表後のクローズ予定と思われる）
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/SotM2025
+- Issues: https://github.com/furuhashilab/SotM2025/issues
