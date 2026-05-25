@@ -3089,3 +3089,179 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/SotM2025
 - Issues: https://github.com/furuhashilab/SotM2025/issues
+---
+repo_name: "next-ksj-formats"
+repo_url: "https://github.com/furuhashilab/next-ksj-formats"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2025-05-15"
+repo_updated_at: "2025-05-15"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "kokudo-suuchi-jouhou"
+  - "geoparquet"
+  - "shapefile"
+confidence: "high"
+---
+
+# next-ksj-formats
+
+## 概要
+本リポジトリは、国土交通省GIS研究室（gislab-mlit）が管理していた国土数値情報（KSJ）の次世代フォーマット検討リポジトリ（next-ksj-formats）がアーカイブされたため、古橋研究室が追加情報のメモ用にフォークしたものである。国土数値情報の将来的なデータフォーマット（GeoParquet等）への移行や、現状の Shapefile 運用における課題を記録・議論することを目的としている。オリジナルはスター14件を獲得しており、GIS分野での関心の高さがうかがえる。
+
+## 主な活動・成果
+- ArcGIS Pro が GeoParquet の読み込みに対応したことをIssue #1 でFYI情報として記録（2025年5月）
+  - 対応制約として、列名は32文字以内・ネスト不可・空間列は単一・GeoParquet 1.0.0/1.1.0準拠・geometry collection非対応などを整理
+- 情報公開請求でシェープファイルを請求したところ `.shp` ファイルのみ（`.dbf`・`.shx` 等の構成ファイルなし）が提供されたという実務上の問題事例をIssue #2 で共有（2025年7月）
+- フォーク元（gislab-mlit/next-ksj-formats）はアーカイブ済みのため、古橋研究室側のフォークが継続的な情報蓄積の場として機能
+
+## 使用技術・ツール
+- Shapefile（国土数値情報の従来フォーマット）
+- GeoParquet（次世代地理空間データフォーマット、GeoParquet 1.0.0 / 1.1.0）
+- ArcGIS Pro（GeoParquet読み込みに新対応）
+- GitHub Issues（情報メモ・FYI共有の場として活用）
+
+## 得られた知見
+- アーカイブされたOSSリポジトリをフォークして「情報メモリポジトリ」として維持する手法は、元リポジトリの議論資産を保存しつつ追加知見を蓄積するうえで有効である。
+- ArcGIS Pro の GeoParquet 対応は実現したものの、列名文字数制限・geometry collection非対応など実務上の制約が残存しており、国土数値情報の完全移行には仕様整合の検討が必要である。
+- 行政機関への情報公開請求で Shapefile を求めた際、`.shp` のみ（`.dbf`・`.shx` 等を欠いた不完全な形）で提供されるケースがあり、担当部署のGISリテラシーや提供手続きの標準化が課題として浮かび上がっている。
+
+## 未解決事項・課題
+- Issue #1・#2 ともにオープンのまま（継続的な情報収集・議論が想定されている）
+- 国土数値情報の次世代フォーマット（GeoParquet等）への具体的な移行スケジュール・仕様は未確定
+- 情報公開請求における Shapefile 提供不備問題への行政側の対応は不明
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/next-ksj-formats
+- Issues: https://github.com/furuhashilab/next-ksj-formats/issues
+- フォーク元（アーカイブ済み）: https://github.com/gislab-mlit/next-ksj-formats
+
+- ---
+repo_name: "GitHub-manual-beginners"
+repo_url: "https://github.com/furuhashilab/GitHub-manual-beginners"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2025-04-07"
+repo_updated_at: "2025-04-07"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "github"
+  - "beginner"
+  - "tutorial"
+confidence: "high"
+---
+
+# GitHub-manual-beginners
+
+## 概要
+本リポジトリは、古橋研究室（青山学院大学）がGitHub初心者向けに作成したマニュアルをまとめたものである。description に「GitHub Beginner's Manual」とあるとおり、GitHub の基本操作を習得していない学生・新規メンバーを対象とした教育・オンボーディング資料の管理を目的としている。研究室内でのデジタルリテラシー育成活動の一環と位置づけられる。
+
+## 主な活動・成果
+- GitHub初心者向けマニュアルの作成・公開（2025年4月）
+- Issuesは0件・フォーク0件であり、リポジトリ作成直後の初期状態または内部利用に留まっている
+- リポジトリサイズ（4,021KB）から、画像や図解を含む比較的充実したドキュメント群が格納されていると推定される
+
+## 使用技術・ツール
+- GitHub（バージョン管理・ドキュメント公開）
+- Markdown（マニュアル記述形式として推定）
+
+## 得られた知見
+- 研究室単位でGitHub入門マニュアルを独自に整備・管理することで、新規メンバーのオンボーディングを標準化できる。既存の外部チュートリアルに依存せず、研究室固有のワークフロー（Issue管理・ブランチ運用など）を反映したドキュメントを内製することが、実践的なデジタルリテラシー教育において有効である。
+
+## 未解決事項・課題
+- 特になし（Issuesなし・オープンな議題なし）
+- ただし、マニュアルの継続的な更新体制や外部公開・活用方針は不明
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/GitHub-manual-beginners
+- Issues: https://github.com/furuhashilab/GitHub-manual-beginners/issues
+
+- ---
+repo_name: "furuhashikun"
+repo_url: "https://github.com/furuhashilab/furuhashikun"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2025-03-17"
+repo_updated_at: "2025-03-17"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "3d-data"
+  - "character"
+  - "open-data"
+confidence: "medium"
+---
+
+# furuhashikun
+
+## 概要
+本リポジトリは、古橋研究室のキャラクター「ふるはしくん」の3Dデータを管理・公開するためのリポジトリである。CC0-1.0（Creative Commons Zero）ライセンスで公開されており、誰でも自由に利用・改変・再配布が可能なオープンデータとして提供されている。リポジトリサイズ（約50MB）から、3Dモデルファイルが実際に格納されていると推定される。
+
+## 主な活動・成果
+- 「ふるはしくん」の3Dデータを CC0 ライセンスのもとで公開（2025年3月）
+- オープンイシューが1件存在するが、詳細は不明
+- フォーク・スターともに0件であり、現時点では研究室内または関係者向けの利用が中心と推定される
+
+## 使用技術・ツール
+- 3Dモデルデータ（フォーマット不明、GLB / OBJ / FBX 等と推定）
+- GitHub（データ管理・公開）
+- Creative Commons Zero（CC0-1.0）ライセンス
+
+## 得られた知見
+- キャラクターや研究室マスコットの3DデータをCC0で公開することで、外部コミュニティによる二次利用（VR/AR・イベント展示・教育コンテンツ等）を促進できる。オープンデータとして公開する際はライセンスを明示的に設定することが、再利用性向上において重要である。
+
+## 未解決事項・課題
+- オープンイシューが1件残存（内容不明）
+- 3Dデータの対応フォーマットや推奨ビューア・利用方法についての説明が不明
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/furuhashikun
+- Issues: https://github.com/furuhashilab/furuhashikun/issues
+
+- ---
+repo_name: "furuhashichildren"
+repo_url: "https://github.com/furuhashilab/furuhashichildren"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-12-21"
+repo_updated_at: "2024-12-22"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "member-list"
+  - "lab-management"
+  - "open-data"
+confidence: "high"
+---
+
+# furuhashichildren
+
+## 概要
+本リポジトリは、古橋研究室（青山学院大学）のメンバーリストを管理・公開するためのリポジトリである。description に「古橋研究室メンバーリスト」とあるとおり、研究室に所属する学生・関係者の情報を一元管理することを目的としている。CC0-1.0 ライセンスで公開されており、メンバー情報をオープンデータとして扱う方針がとられている。
+
+## 主な活動・成果
+- 古橋研究室メンバーリストの作成・公開（2024年12月）
+- Issuesは0件・フォーク0件であり、管理・更新は研究室内で完結している
+- リポジトリサイズが6KBと小規模であり、テキストベース（Markdown等）のシンプルな構成と推定される
+
+## 使用技術・ツール
+- GitHub（メンバーリストの管理・公開）
+- Markdown（記述形式として推定）
+- Creative Commons Zero（CC0-1.0）ライセンス
+
+## 得られた知見
+- 研究室メンバーリストをGitHubリポジトリで管理することで、メンバーの入れ替わりに応じた差分管理・履歴追跡が容易になる。CC0ライセンスを適用してオープンに公開することで、外部からの研究室紹介・連絡先確認にも活用できる。
+
+## 未解決事項・課題
+- 特になし（Issuesなし・オープンな議題なし）
+- メンバー情報の定期的な更新運用体制については不明
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/furuhashichildren
+- Issues: https://github.com/furuhashilab/furuhashichildren/issues
