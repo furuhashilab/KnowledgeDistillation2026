@@ -1444,3 +1444,49 @@ confidence: "medium"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/tokorozawawalking2025
 - Issues: https://github.com/furuhashilab/tokorozawawalking2025/issues
+---
+repo_name: "2025.10.CesiumStories"
+repo_url: "https://github.com/furuhashilab/2025.10.CesiumStories"
+genre: "design"
+genre_label: "デザイン"
+repo_created_at: "2025-10-26"
+repo_updated_at: "2025-10-26"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "Cesium"
+  - "ストーリーテリング"
+  - "3D可視化"
+confidence: "medium"
+---
+
+# 2025.10.CesiumStories
+
+## 概要
+古橋研究室が2025年10月に取り組んだCesium Storiesを用いた3D地理空間ストーリーテリングの試作リポジトリである。Cesium IonおよびCesium Storiesを活用し、3Dモデル・タイルセットを組み込んだインタラクティブな地図ナラティブコンテンツの制作を目的としている。展示紹介・教育・研究など複数の用途を視野に入れた構成検討が行われている。
+
+## 主な活動・成果
+- Cesium Storiesによるストーリーテリングの試作版を作成し、Permalinkを生成
+- スライド構成の検討：「Adjust tileset location → Save → Capture View」のワークフローを試行
+- 英語表記の要否・ターゲット用途（展示・教育・研究）について担当者間で議論を開始
+- タイルセット位置の保存が数秒後にリセットされる不具合を発見し、Cesium Ion側での再保存の必要性を調査中
+
+## 使用技術・ツール
+- Cesium Stories（ストーリーテリングプラットフォーム）
+- Cesium Ion（3Dタイルセット・モデルのホスティング・管理）
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+- Cesium StoriesでタイルセットのAdjust tileset locationを行った後、Capture Viewの前に必ずCesium Ion側での位置情報の再保存が必要な場合がある。Stories上の「Save」だけでは位置がリセットされることがあり、Ionとの同期手順を明確にしておくことが重要である。
+- ストーリーテリングコンテンツの設計段階で「目的（展示・教育・研究）」と「言語（日本語・英語）」を先に定義しておくと、構成や伝え方の手戻りを防げる。
+
+## 未解決事項・課題
+- タイルセット位置の保存リセット問題の根本原因が未確定（Cesium Stories仕様かIon連携の問題か）
+- コンテンツの対象用途（展示・教育・研究）と英語対応の方針が未決定
+- Issue #1がOpenのままで、試作版の完成・公開に向けた次のアクションが未定
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/2025.10.CesiumStories
+- Issues: https://github.com/furuhashilab/2025.10.CesiumStories/issues
+- 
