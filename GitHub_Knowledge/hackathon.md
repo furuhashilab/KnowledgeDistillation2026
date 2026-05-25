@@ -759,3 +759,46 @@ confidence: "medium"
 - リポジトリ: https://github.com/furuhashilab/2020_YOKOZExSAUNA
 - Issues: https://github.com/furuhashilab/2020_YOKOZExSAUNA/issues
 
+---
+repo_name: "hackathon-grareco"
+repo_url: "https://github.com/furuhashilab/hackathon-grareco"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2020-12-21"
+repo_updated_at: "2020-12-21"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "graphic-recording"
+  - "gsi-japan"
+  - "illustration"
+confidence: "medium"
+---
+
+# hackathon-grareco
+
+## 概要
+古橋研究室（furuhashilab）によるハッカソン向けグラフィックレコーディング（グラレコ）活動を管理するリポジトリ。国土地理院（GSI）のTwitter投稿内容をイラスト化・視覚化するプロジェクトとして立ち上げられた。発表資料の作成とグラレコ制作の2本柱で活動が進められた。
+
+## 主な活動・成果
+- 国土地理院Twitterの専門用語・投稿内容をイラスト化するタスクを設定し、複数メンバー（yukiohgishi・Ayaka0324・kahorusato）がアサインされて作業を分担
+- グラフィックレコーディング（グラレコ）の制作をissueとして独立管理し、担当者を明示して進行
+- ハッカソン発表用スライド・資料の作成をissueで追跡管理
+
+## 使用技術・ツール
+- GitHub Issues（タスク・進捗管理）
+- グラフィックレコーディング（手描き・デジタルイラスト等による視覚的議事録）
+- 国土地理院（GSI）Twitter（情報ソース）
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+- ハッカソンのような短期集中イベントでも、GitHubのIssueを活用してグラレコや発表資料といった非コード成果物のタスク管理を行うことで、役割分担と進捗の可視化が実現できる。専門的な地理情報（国土地理院コンテンツ）をイラスト化・グラレコ化することで、難解な概念を一般向けに伝えるビジュアルコミュニケーション手法として応用可能。
+
+## 未解決事項・課題
+全3件のissue（国土地理院Twitterのイラスト化・グラレコ・発表用資料）がいずれもオープンのままクローズされておらず、成果物の最終的な完成・確認状況が不明。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/hackathon-grareco
+- Issues: https://github.com/furuhashilab/hackathon-grareco/issues
+
