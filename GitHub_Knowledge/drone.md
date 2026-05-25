@@ -1,19 +1,5 @@
----
-repo_name: "drone1_3dprinting_project"
-repo_url: "https://github.com/furuhashilab/drone1_3dprinting_project"
-genre: "drone"
-genre_label: "ドローン"
-repo_created_at: "2025-10-18"
-repo_updated_at: "2026-01-06"
-distilled_at: "2026-05-26"
-language: null
-homepage: null
-tags:
-  - "drone"
-  - "3d-printing"
-  - "blender"
-confidence: "high"
----
+
+
 
 # drone1_3dprinting_project
 
