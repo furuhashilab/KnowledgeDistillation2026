@@ -1397,3 +1397,50 @@ confidence: "medium"
 - リポジトリ: https://github.com/furuhashilab/TokyoEYESonMilano2025
 - Issues: https://github.com/furuhashilab/TokyoEYESonMilano2025/issues
 - 関連サイト: https://furuhashilab.github.io/TokyoEYESonMilano2025/
+---
+repo_name: "tokorozawawalking2025"
+repo_url: "https://github.com/furuhashilab/tokorozawawalking2025"
+genre: "design"
+genre_label: "デザイン"
+repo_created_at: "2025-12-10"
+repo_updated_at: "2025-12-10"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "walking-route"
+  - "openstreetmap"
+  - "map-visualization"
+confidence: "medium"
+---
+
+# tokorozawawalking2025
+
+## 概要
+所沢市のトトロの森（宮崎駿作品でも知られる）と狭山丘陵エリアのウォーキングルートを可視化し、世界に発信することを目的としたプロジェクト。古橋研究室がOpenStreetMap系ツール（umap）を用いて3段階の散歩コース（3時間・半日・1日）を地図上に作成・公開している。子ども連れから本格ハイキングまで対応した複数コース設計が特徴。
+
+## 主な活動・成果
+- **Issue #1（依頼MEMO）**: 3種類のウォーキングコースをumap（OpenStreetMapベースの地図共有サービス）で作成し、URLを公開。
+  - ①3時間コース（子ども連れ向け安心設計）: http://u.osmfr.org/m/1268426/
+  - ②半日コース（いいとこどり）: http://u.osmfr.org/m/1268427/
+  - ③1日コース（全部満喫）: http://u.osmfr.org/m/1268428/
+- トトロの森・狭山丘陵の魅力を国際的に発信するためのフィードバックを広く募集している。
+- コメント数は0件で、外部からのアドバイス収集は現在も継続中。
+
+## 使用技術・ツール
+- **umap（u.osmfr.org）**: OpenStreetMapベースのルート可視化・地図共有サービス
+- **OpenStreetMap**: 地図データのベースレイヤー
+- language: null（プログラミング言語なし）
+
+## 得られた知見
+- umapを使えばコーディング不要でOpenStreetMapベースのウォーキングルートを短時間で作成・共有でき、難易度別の複数コースを一括管理するのに適している。
+- 対象ユーザー（子ども連れ・ライト層・ヘビー層）に応じてコース所要時間を3段階に分けることで、幅広い訪問者ニーズに対応した観光地図設計が可能となる。
+- GitHub Issues を地図コンテンツの依頼・フィードバック受付窓口として活用することで、オープンな共同編集体制を構築できる。
+
+## 未解決事項・課題
+- Issue #1 がオープンのまま、フィードバック・アドバイスのコメントがゼロ件。外部からの意見収集・ルート改善が未着手。
+- ライセンス未設定（license: null）のため、地図データの再利用条件が不明確。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/tokorozawawalking2025
+- Issues: https://github.com/furuhashilab/tokorozawawalking2025/issues
