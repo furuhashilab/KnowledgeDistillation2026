@@ -149,3 +149,47 @@ confidence: "high"
 - リポジトリ: https://github.com/furuhashilab/oam4kusatsu
 - Issues: https://github.com/furuhashilab/oam4kusatsu/issues
 
+---
+repo_name: "UNVT_Hackathon_Meetup2022_Drone_kid-c"
+repo_url: "https://github.com/furuhashilab/UNVT_Hackathon_Meetup2022_Drone_kid-c"
+genre: "drone"
+genre_label: "ドローン"
+repo_created_at: "2021-12-19"
+repo_updated_at: "2021-12-19"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "unvt"
+  - "hackathon"
+  - "drone"
+confidence: "high"
+---
+
+# UNVT_Hackathon_Meetup2022_Drone_kid-c
+
+## 概要
+本リポジトリは、UNVT（UN Vector Tile Toolkit）Hackathon Meetup 2022 において、古橋研究室のドローン部（kid-c チーム）が使用した作業用リポジトリである。ハッカソンのドローン関連タスクに取り組むチームの成果物・作業内容を管理する目的で作成されており、イベント直前に立ち上げられ短期集中で活動が行われた。GitHub Pages が有効化されており、成果物の公開も想定されていたとみられる。
+
+## 主な活動・成果
+- UNVT Hackathon Meetup 2022 向けにドローン部チーム（kid-c）の作業リポジトリを新規作成
+- 作成から約2日間（2021年12月19〜21日）でプッシュが完了しており、ハッカソン当日前後の短期作業に対応
+- Issues・コメントの記録はなく、成果物の詳細は GitHub Pages 公開ページで確認できる可能性がある
+- リポジトリサイズは 1KB と非常に小さく、主にドキュメントや設定ファイルのみの構成とみられる
+
+## 使用技術・ツール
+- UNVT（UN Vector Tile Toolkit）
+- ドローン（UAV）による空撮・データ収集
+- GitHub Pages（成果物公開）
+- Git / GitHub（作業管理）
+
+## 得られた知見
+- ハッカソン形式のイベントでは、チームごとに独立したリポジトリを事前に用意し GitHub Pages を有効化しておくことで、成果物の即時公開と作業の可視化が容易になる。UNVT のようなオープン標準とドローン空撮データを組み合わせる試みは、地理空間情報の軽量配信と現地測量の融合という研究室の強みを活かした取り組みである。
+
+## 未解決事項・課題
+特になし
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/UNVT_Hackathon_Meetup2022_Drone_kid-c
+- Issues: https://github.com/furuhashilab/UNVT_Hackathon_Meetup2022_Drone_kid-c/issues
+
