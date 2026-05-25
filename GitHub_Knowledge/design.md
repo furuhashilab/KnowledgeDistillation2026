@@ -1291,3 +1291,42 @@ mapboxjphandson
 - 関連ブログ（なぜMapbox Meetupを主催するか）: https://medium.com/furuhashilab/なぜ古橋研究室が-mapbox-meetup-を主催するのか-48813d8c26b4
 - UNVT ango: https://github.com/un-vector-tile-toolkit/ango
 - Mapbox Vector Tile仕様: https://docs.mapbox.com/vector-tiles/specification/
+
+
+storytelling
+
+概要
+
+本リポジトリは、Mapboxが開発した「地図を使ったストーリーテリング」テンプレート（mapbox/storytelling）を古橋研究室（furuhashilab）がフォークしたものである。スクロール操作に連動して地図のカメラ位置・ズーム・スタイルが変化するインタラクティブなWebページを、コーディング不要に近い形で作成できるテンプレートとして広く利用されており、報道・教育・研究発表など多様な用途での地図ナラティブ制作を目的としている。フォーク元（mapbox/storytelling）は650以上のスターを持つ著名なOSSテンプレートで、2024年まで継続的にメンテナンスされている。
+
+主な活動・成果
+
+- Mapbox公式の storytelling テンプレートを古橋研究室組織アカウント配下に2019年11月にフォーク
+- Issuesは無効化されており、研究室内での独自カスタマイズ・議論の記録はない
+- フォーク元（mapbox/storytelling）はHTML・JavaScript・CSS構成のWebテンプレートとして、スクロール駆動の地図ナラティブを実現する
+- フォーク元は299件のフォークと5件のオープンIssueを持つアクティブなプロジェクト（2024年11月まで更新）
+
+使用技術・ツール
+
+- Mapbox GL JS：WebGLベースの地図レンダリングライブラリ
+- HTML / JavaScript / CSS：フォーク元の主要実装言語（languageフィールドはHTML）
+- Scrollama：スクロールイベント駆動のJavaScriptライブラリ（ストーリーテリングの章送り制御に使用）
+- Mapbox Studio：地図スタイルの作成・カスタマイズツール
+- GeoJSON：地図上に表示するデータ形式
+- ライセンス：BSD 3-Clause
+
+得られた知見
+
+- Mapbox Storytellingテンプレートは、config.js にチャプターごとの座標・ズーム・スタイルを設定するだけでインタラクティブな地図ナラティブを作成できる。専門的なWeb開発知識がなくても地図を使ったビジュアルストーリーが制作可能であり、研究発表・教育コンテンツ・報道グラフィックスへの応用範囲が広い。
+- スクロール駆動の地図表現は、静的な地図や動画と比べて読者が自分のペースで情報を追えるため、複雑な地理的文脈を持つ内容の伝達に特に有効である。
+- フォークして組織アカウントで管理することで、授業・研究プロジェクトごとに派生リポジトリを作成する際のベースとして活用できる。
+
+未解決事項・課題
+
+- Issuesが無効化されており、研究室内での具体的な活用事例・カスタマイズ内容が不明。フォーク後の独自コミットもなく、テンプレートをそのまま保持している状態と推定される。
+
+参考リンク
+
+- リポジトリ: https://github.com/furuhashilab/storytelling
+- Issues: https://github.com/furuhashilab/storytelling/issues
+- フォーク元リポジトリ（Mapbox公式）: https://github.com/mapbox/storytelling
