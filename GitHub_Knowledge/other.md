@@ -2523,3 +2523,47 @@ confidence: "high"
 - リポジトリ: https://github.com/furuhashilab/www_furuhashiab_com
 - Issues: https://github.com/furuhashilab/www_furuhashiab_com/issues
 - 関連サイト: http://furuhashilab.com
+---
+repo_name: "geocaching4agu"
+repo_url: "https://github.com/furuhashilab/geocaching4agu"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-07-01"
+repo_updated_at: "2026-01-29"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "geocaching"
+  - "aoyama-gakuin-university"
+  - "geospatial-data"
+confidence: "medium"
+---
+
+# geocaching4agu
+
+## 概要
+青山学院大学（AGU）におけるジオキャッシングのメンテナンスを目的として作成されたリポジトリである。ジオキャッシングとは、GPSを使って実在するキャッシュ（隠し場所）を探索するアウトドア活動であり、本リポジトリはキャンパス内外のキャッシュ管理に必要な各種データを一元管理するために運用されている。古橋研究室が主体となって維持・更新しており、2024年7月に作成後も継続的に活動が行われている。
+
+## 主な活動・成果
+- 青山学院大学のジオキャッシング関連データの収集・整備
+- キャッシュのメンテナンスに必要な各種地理空間データの管理
+- リポジトリの継続的な更新（最終更新：2026年1月）
+- 研究室メンバー7名がリポジトリを購読・監視
+
+## 使用技術・ツール
+- GitHub（データ管理・バージョン管理）
+- ジオキャッシング（GPS位置情報を活用したアウトドアアクティビティ）
+- 地理空間データファイル（GeoJSON等、キャッシュ位置情報の記録に使用と推定）
+- プログラミング言語：なし（データリポジトリ）
+
+## 得られた知見
+- 大学キャンパスを舞台にしたジオキャッシングは、地理空間情報の教育・体験学習として活用できる。GitHubをデータ管理基盤として使うことで、複数メンバーによるキャッシュ位置情報のバージョン管理と更新履歴の追跡が容易になる。
+- 研究室単位でジオキャッシングを運営する際は、メンテナンス用データを専用リポジトリで一元管理することで、担当者交代時の引き継ぎコストを低減できる。
+
+## 未解決事項・課題
+- Issues情報が提供されていないため、具体的な残課題は不明。topicsタグが未設定であり、リポジトリの検索可能性向上のためタグ付けが望ましい。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/geocaching4agu
+- Issues: https://github.com/furuhashilab/geocaching4agu/issues
