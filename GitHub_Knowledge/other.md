@@ -2948,3 +2948,44 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/welcome2furuhashilab
 - Issues: https://github.com/furuhashilab/welcome2furuhashilab/issues
+---
+repo_name: "original_articles_TaichiFuruhashi"
+repo_url: "https://github.com/furuhashilab/original_articles_TaichiFuruhashi"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2025-05-27"
+repo_updated_at: "2025-05-27"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "research"
+  - "academic-papers"
+  - "furuhashilab"
+confidence: "high"
+---
+
+# original_articles_TaichiFuruhashi
+
+## 概要
+古橋太一（青山学院大学・古橋研究室主宰）の原著論文を公開・管理するリポジトリである。2025年5月に開設され、CC0-1.0ライセンスのもとで論文データを公開している。リポジトリのサイズ（約19MB）から、PDFなどの論文ファイルが複数格納されていると推測される。
+
+## 主な活動・成果
+- 古橋太一の原著論文データをGitHubリポジトリで一元管理・公開
+- CC0-1.0ライセンスを適用し、論文の自由な利用・再配布を許可
+- 開設から約1日で初期コンテンツの登録が完了（pushed_atがcreated_atの翌日）
+- オープンIssueなし。現時点では安定した静的リポジトリとして運用
+
+## 使用技術・ツール
+- GitHub（論文データの版管理・公開プラットフォーム）
+- CC0-1.0ライセンス（パブリックドメイン相当の公開形式）
+
+## 得られた知見
+- 研究者個人の原著論文をGitHubリポジトリで管理・公開することで、バージョン管理・永続的URL・オープンアクセスをまとめて実現できる。CC0ライセンスの採用により、論文データの二次利用や引用時のライセンス手続きを最小化できる。
+
+## 未解決事項・課題
+- 特になし（Issueなし）
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/original_articles_TaichiFuruhashi
+- Issues: https://github.com/furuhashilab/original_articles_TaichiFuruhashi/issues
