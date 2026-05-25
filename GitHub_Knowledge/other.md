@@ -2906,3 +2906,45 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/geogacha
 - Issues: https://github.com/furuhashilab/geogacha/issues
+---
+repo_name: "welcome2furuhashilab"
+repo_url: "https://github.com/furuhashilab/welcome2furuhashilab"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2025-06-12"
+repo_updated_at: "2026-05-19"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "orientation"
+  - "onboarding"
+  - "furuhashilab"
+confidence: "high"
+---
+
+# welcome2furuhashilab
+
+## 概要
+古橋研究室（青山学院大学）への新規加入者向けオリエンテーション用の公開リポジトリである。2025年6月に開設され、演習ⅠA・ⅠBの選考・加入希望者を対象に、GitHubアカウントの確認や研究室への参加手続きをIssueベースで管理している。CC0-1.0ライセンスで公開されており、研究室の透明なオープン運営方針を体現したリポジトリといえる。
+
+## 主な活動・成果
+- 2026年度の演習ⅠA・ⅠB選考を対象としたGitHubアカウント確認をIssue #1で実施（期限：2025年6月17日）
+- 参加希望者がIssueにコメントする形で存在確認・意思表示を行う運用フローを採用
+- 確認済みメンバーをIssueのチェックリスト形式（@mapbytomoya, @YutoKyoto, @miwamiwa76, @KousakuNakagawa ほか）で管理。30件のコメントが集まっており、活発な参加状況が確認できる
+
+## 使用技術・ツール
+- GitHub Issues（参加確認・コミュニケーションのプラットフォーム）
+- GitHubチェックリスト記法（メンバー確認状況の可視化）
+- CC0-1.0ライセンス
+
+## 得られた知見
+- 研究室への新規加入者オンボーディングにGitHub Issuesを活用することで、参加確認・連絡・記録を一元化できる。コメント＋チェックリストの組み合わせは、参加状況の可視化とトラッキングに有効なシンプルな手法である。
+- 期限付きのGitHubアカウント確認タスクをIssueとして設けることで、加入希望者がGitHub操作に慣れる最初のステップとしても機能する。
+
+## 未解決事項・課題
+- Issue #1（演習ⅠA・ⅠB選考）がオープンのまま継続中。選考結果・最終確定の記録が残っていない
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/welcome2furuhashilab
+- Issues: https://github.com/furuhashilab/welcome2furuhashilab/issues
