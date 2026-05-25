@@ -2214,13 +2214,12 @@ confidence: "high"
 - リポジトリ: https://github.com/furuhashilab/postal-code-api
 - Issues: https://github.com/furuhashilab/postal-code-api/issues
 
-両方のAPIの取得に成功しました！内容をまとめます。
+
 
 ---
 
-ドキュメントのデータと前回取得したIssuesデータを合わせて整理します。
 
----
+
 
 ## リポジトリ情報 (`/repos/furuhashilab/README`)
 
