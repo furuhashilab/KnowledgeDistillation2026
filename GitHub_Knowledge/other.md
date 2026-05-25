@@ -1,4 +1,50 @@
 ---
+repo_name: "grareco"
+repo_url: "https://github.com/furuhashilab/grareco"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2018-04-18"
+repo_updated_at: "2025-11-21"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "グラフィックレコーディング"
+  - "アーカイブ"
+  - "研究室"
+confidence: "medium"
+---
+
+# grareco
+
+## 概要
+古橋研究室（furuhashilab）が開催する講義・勉強会・ゼミのグラフィックレコーディング（グラレコ）をアーカイブするためのリポジトリである。リポジトリ名「grareco」は「グラレコ」の略称に由来する。参加者がその場でビジュアル化した記録を画像ファイルとして蓄積・共有することを目的としており、2018年の創設以来継続的に運用されている。
+
+## 主な活動・成果
+- GitHubのIssueを提出窓口として活用し、各回のグラレコ画像（JPEG、最低1600×1200ピクセル）をIssueのコメントにアップロードする運用フローを確立
+- 2018年4月：神奈川県大和市寄付講座（大木市長登壇）のグラレコをPDFおよびスクリーンショット形式で記録・保存（Issue #1）
+- 2019年12月23日開催分のグラレコを11件のコメントで収集（Issue #2）
+- 2020年1月6日開催分のグラレコを8件のコメントで収集（Issue #3）
+- 全IssueはOpenのままアーカイブとして維持されており、提出締切後もコメントが追加された記録がある
+
+## 使用技術・ツール
+- GitHub Issues（画像アップロード・アーカイブの提出プラットフォームとして利用）
+- JPEG画像形式（提出フォーマット：最低1600×1200ピクセル）
+- PDF（補足資料の添付に使用）
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+- GitHubのIssueは画像ファイルの提出・収集プラットフォームとして機能する。日付ベースのIssueタイトルを採番することで、開催回ごとの成果物を時系列アーカイブとして低コストで管理できる。
+- グラレコの提出品質を担保するため「最低1600×1200ピクセル以上」という解像度基準を明示することで、後からの可読性・再利用性を確保できる。
+- IssueをOpenのまま運用することで、後日追加コメントや補足画像を受け付ける柔軟な窓口として機能させられる。
+
+## 未解決事項・課題
+- Issue #1〜#3がすべてOpenのままであり、クローズ運用のルールが明確化されていない。アーカイブとして意図的にOpenにしているのか、管理上の未整理なのか判断できない状態が続いている。
+- topicsが未設定のため、リポジトリの検索性・分類性が低い。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/grareco
+- Issues: https://github.com/furuhashilab/grareco/issues---
 repo_name: "InformationSociety2021AGU"
 repo_url: "https://github.com/furuhashilab/InformationSociety2021AGU"
 genre: "other"
