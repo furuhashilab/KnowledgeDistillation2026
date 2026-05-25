@@ -1541,3 +1541,55 @@ mapboxjpmeetup
 - Issues: https://github.com/furuhashilab/mapboxjpmeetup/issues
 - 関連ブログ（なぜMapbox Meetupを主催するか）: https://link.medium.com/Nno2Albd81
 - GeoNews掲載記事: https://geo-news.jp/archives/1176
+---
+repo_name: "2025Mapathon"
+repo_url: "https://github.com/furuhashilab/2025Mapathon"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2025-06-14"
+repo_updated_at: "2025-08-02"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "mapathon"
+  - "OpenStreetMap"
+  - "YouthMappers"
+confidence: "high"
+---
+
+# 2025Mapathon
+
+## 概要
+古橋研究室（AGU YouthMappers）が2025年8月に開催した、日本・タイ間の学生による国際共同マッパソン「Japan-Thailand YouthMappers Joint Mapathon with TomTom 2025 Aug.」の企画・運営リポジトリである。青山学院大学の学生とタイ・Srinakharinwirot大学の学生が連携し、与論島（日本）とHua Hin（タイ）をOpenStreetMap上でマッピングすることで、異文化間協力とグローバルな地図作成スキルの育成を目的としている。TomTomが企業パートナーとして参画した。
+
+## 主な活動・成果
+- イベント概要をIssue #5に整理：2025年8月9日20:00〜22:00（JST）、Zoom開催、参加者はAGU YouthMappers 8名＋Srinakharinwirot学生15名＋Kiran氏
+- HOT Tasking Managerを使用したマッピング対象地域を決定：与論島（Project #25614）とHua Hin（Project #26175）
+- TomTomとのコミュニケーション（Issue #3）：ゲストトーク・フィードバックセッション・技術QA・ノベルティ提供・SNS発信などの協力内容を検討。「ふるはしくんGPT」を活用して提案内容を整理
+- Srinakharinwirot大学とのコミュニケーション窓口をIssue #2として設置
+- マッパソンの目的・意義（Issue #7）とHua Hin選定理由（Issue #6）について議論を継続中
+- 当日使用スライドおよび参加者応募フォームをGoogle DocsおよびGoogle Formsで作成・共有
+
+## 使用技術・ツール
+- OpenStreetMap（マッピング対象プラットフォーム）
+- HOT Tasking Manager（タスク管理・マッピング分担）
+- Zoom（オンライン開催プラットフォーム）
+- Google Slides（当日スライド）
+- Google Forms（参加者応募フォーム）
+- ChatGPT（「ふるはしくんGPT」としてイベント企画の壁打ちに活用）
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+- 企業（TomTom）をマッパソンに巻き込む際は「短めのゲストトーク＋参加者マッピング成果へのフィードバック」が最も教育効果が高く、参加者のモチベーション向上にもつながる。
+- 対照的な2地域（地図化不十分な離島と発展した都市部）を同一イベントで扱うことで、参加者が多様な地理的文脈に対応できる実践的スキルを習得できる。
+- ChatGPT等のAIツールをイベント企画の壁打ち相手として活用することで、企業への提案文草案や役割整理を効率化できる。
+
+## 未解決事項・課題
+- マッパソンの目的（Issue #7）とHua Hin選定理由（Issue #6）の議論がOpenのまま
+- Srinakharinwirot大学とのコミュニケーション（Issue #2）にコメントがなく、連携状況が不明
+- 当日の進行（タイムライン）に「未定」部分が残っており、最終化が必要
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/2025Mapathon
+- Issues: https://github.com/furuhashilab/2025Mapathon/issues
