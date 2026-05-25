@@ -274,3 +274,48 @@ confidence: "high"
 - リポジトリ: https://github.com/furuhashilab/UNVT_Hackathon_Meetup2022_Design
 - Issues: https://github.com/furuhashilab/UNVT_Hackathon_Meetup2022_Design/issues
 
+---
+repo_name: "city-roads"
+repo_url: "https://github.com/furuhashilab/city-roads"
+genre: "design"
+genre_label: "デザイン"
+repo_created_at: "2020-08-15"
+repo_updated_at: "2020-08-15"
+distilled_at: "2026-05-25"
+language: null
+homepage: "https://anvaka.github.io/city-roads/"
+tags:
+  - "openstreetmap"
+  - "visualization"
+  - "road-network"
+confidence: "medium"
+---
+
+# city-roads
+
+## 概要
+任意の都市の全道路ネットワークを美しく可視化するWebアプリ「city-roads」（anvaka/city-roads、スター数9,000超）を古橋研究室がフォークしたリポジトリ。OSMデータを元に都市の道路網を描画するビジュアライゼーションツールで、研究室の地図・可視化活動への参照・活用を目的としてforkされたと推察される。MITライセンス。
+
+## 主な活動・成果
+- anvaka/city-roadsをmitsuchi/city-roads経由でforkし、furuhashilab配下で管理
+- Issuesは無効化（`has_issues: false`）されており、具体的な作業記録なし
+- フォーク後の独自変更はなし（サイズ・内容ともに親と同一）
+
+## 使用技術・ツール
+- JavaScript（親リポジトリの主要言語）：道路網の描画・インタラクション
+- OpenStreetMap（OSM）：道路データソース
+- Overpass API：OSMデータ取得
+- WebGL / Canvas：高速レンダリング
+- MIT License
+
+## 得られた知見
+city-roadsはOSMのOverpass APIを介して任意の都市名を入力するだけで全道路ネットワークを即座に可視化できるツールであり、地理情報の教育・展示用途として非常に敷居が低い。フォーク元（anvaka/city-roads）が9,000以上のスターを持つ著名OSSであることから、地図可視化の授業・研究発表でデモとして活用できる。OSMデータの視覚的表現手法として、都市ごとの道路網の密度・形状の違いを直感的に示せる。
+
+## 未解決事項・課題
+特になし（Issuesは無効化、独自カスタマイズなし）。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/city-roads
+- Issues: https://github.com/furuhashilab/city-roads/issues
+- 関連サイト: https://anvaka.github.io/city-roads/
+
