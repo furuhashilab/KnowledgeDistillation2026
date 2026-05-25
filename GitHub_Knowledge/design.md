@@ -1490,3 +1490,51 @@ confidence: "medium"
 - リポジトリ: https://github.com/furuhashilab/2025.10.CesiumStories
 - Issues: https://github.com/furuhashilab/2025.10.CesiumStories/issues
 - 
+---
+repo_name: "furuhashilab_logo"
+repo_url: "https://github.com/furuhashilab/furuhashilab_logo"
+genre: "design"
+genre_label: "デザイン"
+repo_created_at: "2018-06-06"
+repo_updated_at: "2025-06-17"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "logo"
+  - "branding"
+  - "furuhashilab"
+confidence: "high"
+---
+
+# furuhashilab_logo
+
+## 概要
+古橋研究室（青山学院大学）のロゴデータを一元管理する公開リポジトリである。黒・白バリエーションのロゴ画像をはじめ、AI形式・SVG形式・Keynote形式など複数フォーマットのデータを収録している。2018年の開設以来、授業「空間情報デザイン基礎」での学生によるオリジナルロゴ制作課題の提出場所としても活用されてきた。2025年には背景透明版ロゴの追加対応も行われている。
+
+## 主な活動・成果
+- 研究室ロゴの黒・白バリエーションをIssue #1で公開・管理（PNG形式）
+- 2019年の「空間情報デザイン基礎（gspacedesign2019）」授業にてゼミ生が各自オリジナルロゴをIssue #2へ提出（36件のコメント＝提出物）。AI・SVG・ZIPなど各種フォーマットで納品
+- 学生個人によるロゴ案をIssue形式で提出・共有（Issue #3, #5）
+- Qiita Organizationページ向けロゴ（320×320px・60×60px）の作成対応（Issue #6）
+- 背景透明パターンのロゴ新規追加（Issue #7、2025年6月）
+
+## 使用技術・ツール
+- Adobe Illustrator（.ai形式）
+- Keynote（.key形式）
+- SVG / PNG（ロゴの配布形式）
+- ZIP圧縮（GitHub Issueへのバイナリファイル添付の回避策として使用）
+- GitHub Issues（ロゴデータの提出・管理プラットフォームとして活用）
+
+## 得られた知見
+- GitHub Issuesはコードに限らず、デザイン制作物の提出・レビュー・バージョン管理のプラットフォームとして機能する。SVGZなど直接アップロードできない形式はZIP圧縮＋サムネイル画像の併載という運用ルールを設けることで、フォーマット問題を回避できる。
+- ロゴは用途ごとに背景透明・背景あり・カラーバリエーションを複数用意しておくと、Qiitaやイベント資料など各種メディアへの転用がスムーズになる。
+- 授業課題としてロゴ制作をIssueで管理することで、学生の成果物を一覧化・比較しやすくなり、教育的フィードバックにも活用できる。
+
+## 未解決事項・課題
+- 全7件のIssueがいずれもオープン状態のまま。背景透明パターンの正式採用・マージについての最終決定が明示されていない（Issue #7）
+- Qiita Organization向けロゴ（Issue #6）の作業完了・掲載確認が未クローズ
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/furuhashilab_logo
+- Issues: https://github.com/furuhashilab/furuhashilab_logo/issues
