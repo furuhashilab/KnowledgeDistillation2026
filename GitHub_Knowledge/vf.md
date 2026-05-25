@@ -282,3 +282,53 @@ VRプラットフォームのセッション機能には同時接続人数制限
 - リポジトリ: https://github.com/furuhashilab/2020_TEDxdesign
 - Issues: https://github.com/furuhashilab/2020_TEDxdesign/issues
 
+---
+repo_name: "makingmovie4furuhashilab2025"
+repo_url: "https://github.com/furuhashilab/makingmovie4furuhashilab2025"
+genre: "vf"
+genre_label: "V&F（映像・動画）"
+repo_created_at: "2025-07-22"
+repo_updated_at: "2025-07-29"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "動画制作"
+  - "研究室紹介"
+  - "ハッカソン"
+confidence: "high"
+---
+
+# makingmovie4furuhashilab2025
+
+## 概要
+古橋研究室の3年生が中心となって、次年度のゼミ募集向け研究室紹介動画（2〜3分のショート動画）を制作するプロジェクトである。2025年7月に「古橋研究室紹介動画ハッカソン」として開催され、撮影・編集から構成検討まで学生主体で進められた。完成動画は2025年8月9日のマッパソン前座として披露することが目標とされた。
+
+## 主な活動・成果
+- Issue #2：ハッカソン詳細を整理。スケジュール（中間報告7/29・プレビュー8/5・試写会8/9）、作業フォルダ（Google Drive）、提出形式（mp4）を決定
+- Issue #3：動画構成案を策定。オープニング（空撮・国際会議映像）、研究室全体説明、ゼミ内サークル（Youth・ドローン・デザイン・V&F）各紹介、古橋先生インタビュー、メッセージ動画、NG集の流れを設計
+- Issue #4：中間報告（7/29時点）。撮影完了、テロップ調整・素材共有が残タスクとして整理された。役割分担（撮影・編集：荒川、チーム代表出演：加藤・井上・小崎・臼井）も確定
+- Issue #5：修正版①（8/3時点）のレビュー依頼。動画タイトルの「2025」表記について意見収集
+- Issue #6：「2025」をタイトルから外し「Aoyama Gakuin University」への変更案が提案された
+
+## 使用技術・ツール
+- 動画撮影・編集（担当：荒川）
+- Google Drive（動画素材・作業ファイルの共有・提出）
+- GitHub Issues（作業管理・フィードバック収集）
+- mp4形式（最終成果物フォーマット）
+- プログラミング言語：なし（language: null）
+- ライセンス：CC0-1.0
+
+## 得られた知見
+- 研究室紹介動画制作をハッカソン形式（期限付き・中間報告あり）で進めることで、学生が主体的に撮影・編集・構成を担いながらも適切なフィードバックサイクルを回せる。
+- 動画タイトルへの年号記載は再利用性を損なう場合があり、汎用性を高めたい場合は「年度」より「所属機関名」を前面に出す命名が有効である。
+- 動画素材の管理はSSDや個人端末に頼らず、制作中から研究室共有ドライブへの早期アップロードを徹底することで、属人化リスクを下げられる。
+
+## 未解決事項・課題
+- 動画タイトルの「2025」vs「Aoyama Gakuin University」問題が未決定（Issue #5・#6）
+- 動画素材の研究室共有ドライブへのアップロードが未完了（Issue #4）
+- 全Issueがオープンのまま、最終完成・公開の記録が残っていない
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/makingmovie4furuhashilab2025
+- Issues: https://github.com/furuhashilab/makingmovie4furuhashilab2025/issues
