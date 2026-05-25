@@ -2750,4 +2750,49 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/InformationSociety2025AGU
 - Issues: https://github.com/furuhashilab/InformationSociety2025AGU/issues
-- 
+  ---
+repo_name: "TheJapaneseHouseOfCouncillorsElection2025"
+repo_url: "https://github.com/furuhashilab/TheJapaneseHouseOfCouncillorsElection2025"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2025-07-16"
+repo_updated_at: "2025-07-22"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "選挙"
+  - "GeoJSON"
+  - "オープンデータ"
+confidence: "high"
+---
+
+# TheJapaneseHouseOfCouncillorsElection2025
+
+## 概要
+2025年日本参議院選挙における選挙ポスター掲示板のマッピングデータをアーカイブするリポジトリである。市民ボランティアプロジェクト「チームみらい」が収集したポスター掲示板の位置情報をGeoJSON形式に変換・保存し、選挙関連地理空間データのオープンな二次利用を可能にすることを目的としている。stargazers数4という比較的高い注目度からも、社会的関心の高さがうかがえる。
+
+## 主な活動・成果
+- チームみらいボランティアが構築した選挙ポスター掲示板マッピングサイトのデータをGeoJSON形式に変換・アーカイブ
+- Issue #1：ポスター掲示板マップのスクリーンショットを記録・保存
+- Issue #2：外部コントリビューターからのライセンス要請に対応し、元データのライセンス（GPL-3.0）を遵守する形でAGPL-3.0をリポジトリに適用
+- Issue #3：選挙最終日後にマッピングサイトが閉鎖されたため最終版データの取得に失敗。データ提供元（チームみらい）に公開方法を相談中
+
+## 使用技術・ツール
+- GeoJSON（地理空間データ形式）
+- GitHub Issues（データ収集・ライセンス議論の管理）
+- team-mirai-volunteer/action-board（元データソース）
+- ライセンス：AGPL-3.0（GPL-3.0継承による適用）
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+- 選挙・イベントなど期間限定のオープンデータは、公開期間終了後に予告なくサイトが閉鎖されることがある。データアーカイブは活動期間中にリアルタイムで取得しておくことが重要で、「終了後に取得しよう」では手遅れになるリスクがある。
+- 他プロジェクトのオープンデータを利用する際はライセンスの伝播（GPL系のコピーレフト）を事前に確認し、自リポジトリのライセンス選定に反映させる必要がある。外部コントリビューターからの指摘で発覚するケースもあるため、データ取得時点での確認が望ましい。
+
+## 未解決事項・課題
+- 最終版ポスター掲示板データが未取得のまま（Issue #3）。チームみらい側の公開方針決定待ち
+- Issue #2のライセンス変更対応がOpenのままであり、AGPL-3.0適用の最終確認が必要
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/TheJapaneseHouseOfCouncillorsElection2025
+- Issues: https://github.com/furuhashilab/TheJapaneseHouseOfCouncillorsElection2025/issues
