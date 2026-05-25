@@ -627,3 +627,135 @@ confidence: "high"
 - リポジトリ: https://github.com/furuhashilab/UNVT-Hackathon-Meetup-2022_YouthMappers_AGU
 - Issues: https://github.com/furuhashilab/UNVT-Hackathon-Meetup-2022_YouthMappers_AGU/issues
 
+---
+repo_name: "riverxsaunaxfuruhashilab"
+repo_url: "https://github.com/furuhashilab/riverxsaunaxfuruhashilab"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2020-07-21"
+repo_updated_at: "2020-07-27"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "hackathon"
+  - "sauna"
+  - "remote-work"
+confidence: "medium"
+---
+
+# riverxsaunaxfuruhashilab
+
+## 概要
+「川とサウナと古橋ゼミ」をテーマに、古橋研究室のゼミ生が取り組んだハッカソン向け企画プロジェクトのリポジトリ。リモートワーク環境における川・サウナを組み合わせたアイデアを軸に、企画立案からハッカソン発表資料の作成まで進められた。Issues を使ってミーティング記録・タスク管理を行うゼミ型の軽量プロジェクト運営スタイルが採用されている。
+
+## 主な活動・成果
+- メンバー管理 Issue を設け、GitHub Assign でプロジェクト参加者を自己登録する運用を確立
+- 第1回ミーティングを開催し、プロジェクトの方向性を議論
+- テキストベースの企画書を作成（Issue #6）
+- ハッカソン向け発表資料を作成・共有（Issue #8）
+- 「リモートワークと川とサウナ」をテーマに再度ミーティングを実施し、コンセプトを深堀り（Issue #11）
+
+## 使用技術・ツール
+- GitHub Issues（タスク管理・ミーティング記録）
+- GitHub Assign / Milestone（メンバー・進捗管理）
+- テキストベース企画書（具体ツール不明）
+
+## 得られた知見
+- ハッカソンの企画フェーズでも GitHub Issues をミーティング記録やタスクトラッカーとして活用することで、アイデア段階から成果物（発表資料）への進行を可視化できる。「メンバー管理 Issue」パターンは参加意思表明と担当整理を同時に行えるシンプルかつ再現性の高い手法で、他のゼミプロジェクトにも横展開しやすい。
+
+## 未解決事項・課題
+- 全 Issues（5件）がオープンのまま残っており、企画書・発表資料の完成状況や最終的なハッカソン参加・結果が不明。リポジトリの更新が2020年7月末で停止しており、その後の活動記録が確認できない。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/riverxsaunaxfuruhashilab
+- Issues: https://github.com/furuhashilab/riverxsaunaxfuruhashilab/issues
+
+---
+repo_name: "2020_gps_ga-es"
+repo_url: "https://github.com/furuhashilab/2020_gps_ga-es"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2020-06-26"
+repo_updated_at: "2020-06-30"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "hackathon"
+  - "location-based-game"
+  - "gps-game"
+confidence: "high"
+---
+
+# 2020_gps_ga-es
+
+## 概要
+2020年6月に開催されたハッカソン「位置ゲー部（GPS Game Analysis & Enhancement Study）」のリポジトリ。Pokémon GO・ドラゴンクエストウォーク・Ingress・Minecraft Earth（マイクラアース）といった GPS を活用した位置情報ゲームの仕組みやレベル設計を分析・研究し、2020年6月30日の発表に向けて各ゲーム担当者が分担して調査・資料化を行った。成果物は Medium の記事としてまとめられ、Issue に URL がリンクされている。
+
+## 主な活動・成果
+- Pokémon GO のレベル見直し・設定分析（Issue #1、Medium 記事化）
+- ドラゴンクエストウォークのレベル設定分析（Issue #2、Medium 記事化）
+- Minecraft Earth のレベル設定検討（Issue #3、Medium 記事化）
+- Ingress の作業効率化分析（Issue #5、Medium 記事化）
+- 各ゲームのドキュメント Issue として Ingress・マイクラアース・ドラクエウォーク・Pokémon GO の Medium 記事をそれぞれ Issue にリンク
+- 2020/06/30 発表用 Google スライドを作成・Issue でリンク共有（Issue #6）
+- Milestone「2020年6月30日」で全タスクを一元管理
+
+## 使用技術・ツール
+- GitHub Issues / Milestones（タスク管理・発表準備）
+- Medium（調査・分析記事の公開）
+- Google スライド（発表資料）
+- 対象ゲーム：Pokémon GO・ドラゴンクエストウォーク・Ingress・Minecraft Earth
+
+## 得られた知見
+- 位置情報ゲームのレベル設計を比較分析することで、各ゲームが GPS・現実空間の移動をどのようにゲームプレイに組み込んでいるかの知見が得られる。担当者ごとにゲームを割り当て Medium 記事として成果を公開する形式は、ハッカソン内でのスコープ分割と成果物の外部発信を同時に実現する効果的なアプローチ。
+
+## 未解決事項・課題
+- 全 Issues（9件）がオープンのまま。Milestone「2020年6月30日」もクローズされておらず、発表後のフォローアップが記録されていない。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/2020_gps_ga-es
+- Issues: https://github.com/furuhashilab/2020_gps_ga-es/issues
+
+---
+repo_name: "2020_YOKOZExSAUNA"
+repo_url: "https://github.com/furuhashilab/2020_YOKOZExSAUNA"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2020-06-26"
+repo_updated_at: "2020-06-26"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "hackathon"
+  - "yokoze"
+  - "sauna"
+confidence: "medium"
+---
+
+# 2020_YOKOZExSAUNA
+
+## 概要
+埼玉県横瀬町とサウナを組み合わせた2020年6月のハッカソン企画リポジトリ。description は空だが、リポジトリ名と Issues の内容から、横瀬町の地域資源（ホルモンカレーなど）とサウナ体験を掛け合わせた観光・体験コンテンツの企画・制作を目指したプロジェクトと推定される。`riverxsaunaxfuruhashilab` リポジトリと同時期に立ち上げられており、関連する活動の一部とみられる。
+
+## 主な活動・成果
+- 横瀬ホルモンカレーガイドのレシピ動画作成タスクを Issue 化（Issue #4）
+- 翌日（2020年6月30日）の発表に向けた準備 Issue を作成（Issue #7「明日で」）
+- リポジトリへのコミットは作成から1日以内に完了しており、短期集中の活動が確認できる
+
+## 使用技術・ツール
+- GitHub Issues（タスク管理）
+- 動画制作（レシピ動画、具体ツール不明）
+
+## 得られた知見
+- 地域の食文化（横瀬ホルモンカレー）をレシピ動画という形でコンテンツ化し、サウナと組み合わせることで地域観光に新しい体験価値を加えるアプローチは、地域連携型ハッカソンのコンセプト設計として参考になる。短期間（数日）で企画から発表資料まで仕上げる際は、Issues で成果物単位のタスクを立てておくと抜け漏れを防ぎやすい。
+
+## 未解決事項・課題
+- 2件の Issues がオープンのまま。レシピ動画の完成・公開状況が不明。リポジトリへの更新が2020年6月26日の1日のみで、発表後の記録が残っていない。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/2020_YOKOZExSAUNA
+- Issues: https://github.com/furuhashilab/2020_YOKOZExSAUNA/issues
+
