@@ -1538,3 +1538,46 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/furuhashilab_logo
 - Issues: https://github.com/furuhashilab/furuhashilab_logo/issues
+
+---
+repo_name: "-V3-"
+repo_url: "https://github.com/furuhashilab/-V3-"
+genre: "design"
+genre_label: "デザイン"
+repo_created_at: "2024-12-17"
+repo_updated_at: "2024-12-17"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "graphic-recording"
+  - "illustration"
+  - "design"
+confidence: "high"
+---
+
+# -V3-
+
+## 概要
+本リポジトリは、古橋研究室デザイン部が制作する「おたすけグラレコ（グラフィックレコーディング支援アプリ）」のバージョン3（V3）制作に向けた素材・アセットの保管・管理を目的として作成されたものである。先輩世代から引き継がれた公開リポジトリ（otasukegrareco）をベースに、V3の内容確定後にアップデートする方針がとられている。イラスト・ロゴ・グラレコ作例など、アプリに組み込む素材の収集・整理が主な活動内容である。
+
+## 主な活動・成果
+- V&F部ロゴ画像（複数案）をIssue #1 で共有・管理
+- Issue #2（Portfolio）では、先生の審査を経てメンバーが描いたグラレコをアプリに追加する方針を決定
+- Issue #3 では、メンバー各自の自信作グラレコをリポジトリに集約するよう呼びかけ（担当：mapconcierge）
+- Issue #4 では、先輩から受け継いだ公開リポジトリ（furuhashilab/otasukegrareco）をV3内容確定後にアップデートする計画を明記
+- リポジトリサイズが0KBであり、素材はIssueの添付画像として管理されている段階（ファイルのコミットはまだ進んでいない）
+
+## 使用技術・ツール
+- GitHub Issues（素材収集・タスク管理の場として活用）
+- グラフィックレコーディング（手書きまたはデジタルイラスト）
+- V&F部ロゴ制作（画像形式不明）
+
+## 得られた知見
+- アプリ制作の素材収集フェーズにおいて、GitHub Issuesを「素材提出ボックス」として活用する手法は、メンバーへの呼びかけと成果物の一元管理を同時に実現できる。ただし、Issue添付画像はリポジトリのファイルツリーに含まれないため、最終的にファイルとしてコミットする工程を別途設けることが望ましい。
+- グラレコのような手作業成果物を複数人で収集・選定する場合、審査基準（本事例では「先生の判断」）を事前に明示することで、提出者の混乱を防げる。
+
+## 未解決事項・課題
+- 全4件のIssueがオープンのまま（V3の内容未確定・素材収集中）
+- 公開リポジトリ（otasukegrareco）へのアップデートはV3内容確定後に実施予定であり、未着手
+- ファイルのコミットが行われておらず、実質的な素材管理はIssue添付画像に依存している状態
