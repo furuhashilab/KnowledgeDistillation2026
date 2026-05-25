@@ -2653,3 +2653,55 @@ confidence: "medium"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/MtBUKO3D4capsule
 - Issues: https://github.com/furuhashilab/MtBUKO3D4capsule/issues
+---
+repo_name: "InformationSociety2025AGU"
+repo_url: "https://github.com/furuhashilab/InformationSociety2025AGU"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2025-11-27"
+repo_updated_at: "2025-12-18"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "education"
+  - "open-data"
+  - "geojson"
+confidence: "high"
+---
+
+# InformationSociety2025AGU
+
+## 概要
+青山学院大学・古橋研究室による「社会と情報 2025」授業の課題提出用リポジトリ。情報社会論に関する複数の課題（ライセンス・著作権・オープンデータ・位置情報）を GitHub Issues を通じて収集・管理している。LocalWiki がサーバ不調となった際の代替提出先としても機能しており、GitHub の Issue/Comment 機能を教育目的に活用した実践的な事例となっている。
+
+## 主な活動・成果
+- **Issue #1（ソフトウェアライセンス概念図）**: オープンソース・プロプライエタリ・パブリックドメインなどソフトウェアライセンスの関係を図示する課題。学生48件のコメントが寄せられた。
+- **Issue #2（正しい引用の概念図）**: 「引用」「剽窃」「盗用」「盗作」「オマージュ」「パロディ」の違いを図にまとめる課題。36件のコメントが集まった。
+- **Issue #5（公共データ利用規約）**: 「公共データ利用規約（第1.0版）」または「政府標準利用規約（第2.0版）」を採用しているウェブサイト・データの調査課題。39件の回答が投稿された。
+- **Issue #6（LocalWiki代替提出先）**: LocalWiki サーバ不調を受け、GitHub Issue をオススメ飲食店情報の代替提出先に設定。Markdown 記法と GeoJSON Embed を組み合わせた投稿形式を採用し、31件が投稿された。
+- **Issue #7（課題提出例）**: 町田駅前マクドナルドを例に、店舗名・写真・GeoJSON座標・オススメ理由・ライセンス明記という提出フォーマットのサンプルが示された。
+- 全提出物に CC BY 4.0 / ODbL 1.0 ライセンスの明記を義務付け、オープンデータの実践を授業内で徹底。
+
+## 使用技術・ツール
+- **GitHub Issues / Comments**: 課題提出・集約プラットフォームとして活用
+- **Markdown**: 課題記述・学生投稿のフォーマット
+- **GeoJSON Embed（GitHub レンダリング）**: 位置情報をIssue内で地図表示
+- **Google Classroom**: 提出URLの管理（Permalink方式）
+- **LocalWiki**: 当初の提出先（サーバ不調により代替運用）
+- **CC BY 4.0 / ODbL 1.0**: 投稿データのライセンス管理
+- language: null（プログラミング言語なし）
+
+## 得られた知見
+- GitHub Issues は LMS（学習管理システム）の代替・補完として十分機能する。LocalWiki のような外部サービスが障害を起こした場合でも、GeoJSON Embed や画像アップロードなど GitHub 標準機能だけで地図付き情報収集が可能。
+- 学生の成果物にオープンライセンス（CC BY / ODbL）を付与することで、授業活動そのものがオープンデータ生産につながる設計が実現できる。
+- Permalink を提出URLとして使う方式は、提出タイムスタンプの改ざん防止・追跡が容易で、教育現場における提出管理に応用できる。
+
+## 未解決事項・課題
+- Issue #1〜#7 がすべてオープン（未クローズ）のまま。課題の最終評価・採点後にクローズする運用フローが明示されていない。
+- LocalWiki サーバ障害への恒久的な対策（代替プラットフォームの選定など）は未決定。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/InformationSociety2025AGU
+- Issues: https://github.com/furuhashilab/InformationSociety2025AGU/issues
+- 
