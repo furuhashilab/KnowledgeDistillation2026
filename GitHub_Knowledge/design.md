@@ -1330,3 +1330,70 @@ storytelling
 - リポジトリ: https://github.com/furuhashilab/storytelling
 - Issues: https://github.com/furuhashilab/storytelling/issues
 - フォーク元リポジトリ（Mapbox公式）: https://github.com/mapbox/storytelling
+
+- ---
+repo_name: "TokyoEYESonMilano2025"
+repo_url: "https://github.com/furuhashilab/TokyoEYESonMilano2025"
+genre: "design"
+genre_label: "デザイン"
+repo_created_at: "2025-06-03"
+repo_updated_at: "2026-04-01"
+distilled_at: "2026-05-26"
+language: null
+homepage: "https://furuhashilab.github.io/TokyoEYESonMilano2025/"
+tags:
+  - "map"
+  - "milano"
+  - "tokyo"
+confidence: "medium"
+---
+
+# TokyoEYESonMilano2025
+
+## 概要
+ミラノの地理・都市構造を東京の地名・エリアに対応づけた比較地図「Tokyo EYES on Milano 2025」を制作・公開するためのリポジトリ。GitHub Pagesで地図サイトとして公開されており、ミラノ在住・訪問者が東京の感覚でミラノを直感的に理解できるようにすることを目的としている。地理空間的な類似性・機能的な類似性・雰囲気の類似性を多角的に検討し、各エリアに東京地名を割り当てる作業をIssuesで公開議論している。
+
+## 主な活動・成果
+- ミラノの主要エリア・ランドマーク各地について、対応する東京地名の考察をIssueごとに整理（21件）
+  - Duomo（ミラノ大聖堂）→ 大手町（複数地下鉄が集中する都市の中心）
+  - Garibaldi → 池袋（西方向への鉄道充実、ランドマーク＝Bosco Verticale≒サンシャイン60）
+  - Porta Genova → 渋谷（ナビリオ運河≒目黒川・渋谷川、若者が多い）
+  - Centrale → 上野（東玄関口的ターミナル、アメ横っぽいメルカート）
+  - Cadorna → 新宿（空港直通あり＝成田エクスプレス的）
+  - Porta Romana → 高輪ゲートウェイ（オリンピック向け開発中）
+  - Wagner → 築地（高評価のメルカート）／ 豊洲（Orto Mercato）と棲み分け
+  - Isola → 谷根千（小洒落たBARが多いエリア）
+  - CityLife → 「中野にあるお台場」（万博跡地＝国際展示場＋郊外立地）
+  - Porta Venezia → 歌舞伎町（夜のネオン、治安の懸念）
+  - Porta Nuova → 丸の内、Cordusio → 兜町、San Babila → 有楽町（金融街の比較整理）
+  - Arzaga → 経堂・千歳船橋付近（文教地区、団地・マンション）
+  - China Town → 池袋中華街（Garibaldi近接・近年の中華街化）
+  - Bosco Verticale → サンシャイン60（Garibaldi近くのランドマーク）
+  - Torre Velasca → 元麻布ヒルズ（キノコ型の上層階形状の類似）
+  - ナビリオ運河 → 目黒川・渋谷川・外堀（用途・雰囲気別に複数対応付け）
+  - ESSELUNGA広告の分布 → ミラノの「山手線内側」の境界指標として考察
+- ChatGPT 4oとの壁打ちによるミラノ・東京の金融街比較表を整備
+
+## 使用技術・ツール
+- GitHub Pages（地図サイトの公開）
+- GitHub Issues（エリア考察・議論の管理）
+- Mapillary（ストリートビュー的現地写真の参照）
+- ChatGPT 4o（比較分析の壁打ちに活用）
+- プログラミング言語：なし（地図・ドキュメント主体）
+
+## 得られた知見
+- 都市間の対応付けは「空間的位置」「機能・業態」「雰囲気・文化的性格」の3軸を分けて検討することで精度が上がる。位置優先だけでは誤解が生じる（例：CityLifeは位置は中野だが実態はお台場）。
+- GitHub Issuesを地名・エリア単位で1件ずつ立てることで、考察の粒度を揃えつつ後から検索・参照しやすい構造になる。
+- AIとの壁打ちを比較分析の叩き台として活用し、人間がその後現地知識で修正・精査するハイブリッド手法が有効。
+- 空間歪曲（両都市のスケール・形状の差異）が対応付けの難所であり、対応地名の選定に際して常に明示的に議論する必要がある。
+
+## 未解決事項・課題
+- 全21件のIssueがオープンのまま残っており、最終的な対応地名の確定・マップへの反映が継続課題。
+- Wagnerのメルカートを「築地」とするかどうかで意見が二極化しており合意未形成。
+- Centrale駅のメルカートの表現方法も未決定。
+- 一部エリアは現地調査（Orto Mercatoの肉市場確認など）が未完了。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/TokyoEYESonMilano2025
+- Issues: https://github.com/furuhashilab/TokyoEYESonMilano2025/issues
+- 関連サイト: https://furuhashilab.github.io/TokyoEYESonMilano2025/
