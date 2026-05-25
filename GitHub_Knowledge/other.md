@@ -2567,3 +2567,45 @@ confidence: "medium"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/geocaching4agu
 - Issues: https://github.com/furuhashilab/geocaching4agu/issues
+---
+repo_name: ".github"
+repo_url: "https://github.com/furuhashilab/.github"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2023-02-21"
+repo_updated_at: "2026-01-23"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "github-profile"
+  - "organization"
+  - "furuhashilab"
+confidence: "high"
+---
+
+# .github
+
+## 概要
+古橋研究室（furuhashilab）のGitHub Organizationプロフィールページを管理するための特殊リポジトリである。GitHubでは `.github` という名称のリポジトリに `profile/README.md` を置くことで、Organization のトップページにプロフィール情報を表示できる。本リポジトリはその仕組みを利用して研究室の公開プロフィールを整備・維持することを目的としている。ライセンスはCC0-1.0（パブリックドメイン相当）が適用されている。
+
+## 主な活動・成果
+- furuhashilab Organization のGitHubプロフィールページの作成・維持
+- プロフィールコンテンツの継続的な更新（最終更新：2026年1月）
+- CC0-1.0ライセンスによるコンテンツの公開
+
+## 使用技術・ツール
+- GitHub Organization Profile（`.github` リポジトリの `profile/README.md` 機能）
+- Markdown（プロフィール記述）
+- プログラミング言語：なし（設定・コンテンツリポジトリ）
+
+## 得られた知見
+- GitHub Organizationにおいて `.github` リポジトリを作成し `profile/README.md` を置くだけで、Organization トップページにカスタムプロフィールを表示できる。研究室や団体の活動紹介・リンク集として活用でき、メンバーへの情報共有やOSSコミュニティへの発信に有効である。
+- CC0ライセンスを適用することで、プロフィールコンテンツを誰でも自由に再利用・改変できる状態にでき、オープンサイエンス・オープン教育の姿勢を示す手段にもなる。
+
+## 未解決事項・課題
+特になし
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/.github
+- Issues: https://github.com/furuhashilab/.github/issues
