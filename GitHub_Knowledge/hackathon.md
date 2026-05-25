@@ -802,3 +802,693 @@ confidence: "medium"
 - リポジトリ: https://github.com/furuhashilab/hackathon-grareco
 - Issues: https://github.com/furuhashilab/hackathon-grareco/issues
 
+
+---
+repo_name: "chatgpt4plateau"
+repo_url: "https://github.com/furuhashilab/chatgpt4plateau"
+genre: "hackathon"
+genre_label: "ハッカソン・ハンズオン"
+repo_created_at: "2023-07-20"
+repo_updated_at: "2023-08-03"
+distilled_at: "2026-05-25"
+language: "Game Maker Language"
+homepage: null
+tags:
+  - "ChatGPT"
+  - "PLATEAU"
+  - "Code Interpreter"
+confidence: "high"
+---
+
+# chatgpt4plateau
+
+## 概要
+2023年8月3日開催「生成AIによるコード生成とCode Interpreterの活用ハンズオン with Project PLATEAU」用の公開リポジトリ。神奈川県相模原市のPLATEAU CityGML/GeoJSON/3DTiles/MVTおよびDRONEBIRDによる空撮GeoTIFF・3D Point Cloud (LAS) をサンプルデータとして配布し、ChatGPT Code InterpreterでのGISデータ加工を試すハンズオンを実施。
+
+## 主な活動・成果
+- 相模原市のPLATEAUデータをCityGML、GeoJSON、3DTiles、MVT、ShapeZIPで多形式提供
+- 建築物・都市計画決定・道路・土地利用・地形・洪水浸水想定区域・土砂災害警戒区域モデルを網羅
+- DRONEBIRD空撮 (GeoTIFF + LAS点群) のサンプルも併載
+- 33件のIssue (ハンズオン参加者の成果共有)
+- ISSUE_TEMPLATEを整備し、参加者が試行結果を統一フォーマットで投稿できる仕組みを構築
+- 7 stars獲得 (担当群中トップ)
+
+## 使用技術・ツール
+- ChatGPT Code Interpreter (GPT-4)
+- PLATEAU CityGML / GeoJSON / 3DTiles / MVT
+- DRONEBIRD GeoTIFF / LAS点群
+- GitHub Issue Templates
+- CC0-1.0 ライセンス
+
+## 得られた知見
+ハンズオン参加者の試行結果をIssueテンプレで投稿させる仕組みは、(1)成果の見える化、(2)後続学習者のサンプル集積、(3)講師側のフィードバック効率化、を同時に達成する。生成AI×GISハンズオンでは「サンプルデータの多形式同梱」が再現性確保の鍵。
+
+## 未解決事項・課題
+- リポジトリのprimary languageが "Game Maker Language" と誤判定されている (実態はサンプルデータ)
+- ハンズオン以降の継続的な事例追加更新が止まっている
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/chatgpt4plateau
+- Issues: https://github.com/furuhashilab/chatgpt4plateau/issues
+
+
+---
+repo_name: "DMP_hackathon2022_teamAandB"
+repo_url: "https://github.com/furuhashilab/DMP_hackathon2022_teamAandB"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2022-01-01"
+repo_updated_at: "2022-12-31"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "hackathon"
+  - "dmp"
+  - "team-collaboration"
+confidence: "low"
+---
+
+# DMP_hackathon2022_teamAandB
+
+## 概要
+2022年に開催された DMP (Digital Mapping Party / Data Management Plan 系) ハッカソンにおける、チーム A とチーム B の合同成果物を格納するリポジトリ。古橋研究室ゼミ内のチーム単位の開発・プロトタイピング成果をまとめる場所として運用された。リポジトリ HTML 取得時にコンテンツが取得できず、詳細は限定的。
+
+## 主な活動・成果
+- 2022年開催のハッカソンにおけるチームA・チームB の合同成果物の集約
+- ゼミ内チーム間コラボレーションの実証
+- 成果物のリポジトリ単位でのアーカイブ化
+
+## 使用技術・ツール
+- GitHub (リポジトリベースの成果物管理)
+- (詳細不明: README/言語情報を取得できず)
+
+## 得られた知見
+ハッカソンの成果を A/B 両チーム合同のリポジトリで保存することで、後年の振り返りや他ゼミ生への引き継ぎが行いやすい。研究室イベントの成果物リポジトリは命名規則 (`{event}_{year}_{teams}`) を統一すると検索性が高い。
+
+## 未解決事項・課題
+リポジトリ取得時にコンテンツが空またはアクセス制限のため内容詳細が不明。README やコミット履歴の整備が必要。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/DMP_hackathon2022_teamAandB
+- Issues: https://github.com/furuhashilab/DMP_hackathon2022_teamAandB/issues
+
+
+---
+repo_name: "furulab2022hackathon_kitten"
+repo_url: "https://github.com/furuhashilab/furulab2022hackathon_kitten"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2022-09-30"
+repo_updated_at: "2022-10-03"
+distilled_at: "2026-05-25"
+language: null
+homepage: "https://docs.google.com/spreadsheets/d/1zZuaiRNXYX1onp3-dPjoYrhQy6Qd0072-fQ8OwN72j0/edit"
+tags:
+  - "Ukraine"
+  - "Georeferencing"
+  - "OSINT"
+confidence: "high"
+---
+
+# furulab2022hackathon_kitten
+
+## 概要
+古橋研究室2022年9月ウクライナ・ハッカソン参加チーム「kitten」のリポジトリ。テーマは、ロシアによるウクライナ侵攻状況に関する未アーカイブの衛星画像・ドローン空撮映像・3Dデータ等を収集し、地理座標と紐付け(ジオリファレンス)してデジタル証跡を蓄積すること。成果はGoogleスプレッドシートに集約されている。
+
+## 主な活動・成果
+- 未アーカイブの衛星/ドローン画像のジオリファレンス作業
+- 3Dデータ等関連コンテンツの収集とメタデータ整理
+- 最終成果物Googleスプレッドシートへの集約 (1zZuaiRNXYX1onp3-...)
+- メンバー: OZAWA TAIYU, MOTOYA KAWANO
+
+## 使用技術・ツール
+- Google Earth Pro / Google Spreadsheet
+- 衛星画像 / ドローン映像 / 3Dデータ
+- ジオリファレンス手法 (画像オーバーレイ)
+- Markdown / GitHub Issues
+- CC-BY-4.0 ライセンス
+
+## 得られた知見
+紛争地のオープンソース・インテリジェンス(OSINT)では、SNS等で拡散される映像を「いつ・どこで撮影されたか」を地理座標に紐付ける「ジオリファレンス」作業が、事実関係の検証と歴史記録の双方で重要。Googleスプレッドシートを共通成果物プラットフォームとすることで、複数チームの並行作業を集約しやすい。
+
+## 未解決事項・課題
+ジオリファレンス精度の検証や、収集データの長期アーカイブ方針が課題として残る可能性が高い。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/furulab2022hackathon_kitten
+- Issues: https://github.com/furuhashilab/furulab2022hackathon_kitten/issues
+- 関連サイト: https://docs.google.com/spreadsheets/d/1zZuaiRNXYX1onp3-dPjoYrhQy6Qd0072-fQ8OwN72j0/edit
+
+---
+repo_name: "furulab2022hackathon_NERV"
+repo_url: "https://github.com/furuhashilab/furulab2022hackathon_NERV"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2022-09-27"
+repo_updated_at: "2022-10-01"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "Ukraine"
+  - "KMZ"
+  - "TimeAnimation"
+confidence: "high"
+---
+
+# furulab2022hackathon_NERV
+
+## 概要
+古橋研究室2022年9月ウクライナ・ハッカソン参加チーム「NERV」のリポジトリ。前線抽出班として、自衛隊公式TwitterからUkraine情勢の画像をダウンロードし、Google Earth Pro上でジオリファレンスして時系列付きの前線ラインKMZファイルを生成する作業を実施。成果物は `UkraineFrontLines_JSDF_latest.kmz` (TimeStamp付) として公開。
+
+## 主な活動・成果
+- 自衛隊公式Twitter発信画像のジオリファレンス
+- Google Earth ProでのオーバーレイとTimeStamp付前線ライン作成
+- 時間アニメーション対応KMZファイルの配布
+- GitHub Projects (UkraineHackathon_NERV_project) でのタスク管理
+- メンバー: Urara Nagashima, Kohki Kikuchi
+
+## 使用技術・ツール
+- Google Earth Pro
+- KML/KMZ (`<TimeStamp>` 要素による時系列表現)
+- Twitter (情報ソース: 自衛隊公式)
+- GitHub Projects (issue 36件)
+- CC-BY-4.0 ライセンス
+
+## 得られた知見
+KML/KMZの`<TimeStamp>`要素を用いることで、Google Earthの時間スライダー機能と連動した前線変化アニメーションを低コストで実現可能。SNS発信のスクリーンショットを公的ソースとして検証・ジオリファレンスするワークフローは、現代的なOSINT手法のひとつとして再利用性が高い。2名1組のペア体制とSlack #seminar2022での進捗共有がハッカソン運営に有効。
+
+## 未解決事項・課題
+issues 36件・コミット50件と活発だがコメント未取得で詳細論点は要追跡。前線データの精度検証、情報ソース(自衛隊Twitter)の信頼性評価が継続課題。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/furulab2022hackathon_NERV
+- Issues: https://github.com/furuhashilab/furulab2022hackathon_NERV/issues
+
+
+---
+repo_name: "furulab2022hackathon_NW"
+repo_url: "https://github.com/furuhashilab/furulab2022hackathon_NW"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2022-10-03"
+repo_updated_at: "2022-10-03"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "satellite-imagery"
+  - "drone"
+  - "geo-reference"
+confidence: "medium"
+---
+
+# furulab2022hackathon_NW
+
+## 概要
+furuhashilab内ハッカソンにおけるNWチーム (Naoya Uematsu, Wataru Yoshida) の作業用リポジトリ。ロシアによるウクライナ侵攻に関連する未アーカイブの衛星画像・ドローン映像・3Dデータ等を収集し、ジオリファレンスを付与する課題に取り組んだ。災害・紛争地域の地理空間情報をオープンに整理することを目的とする。
+
+## 主な活動・成果
+- ハッカソンチーム「NW」の活動拠点としてリポジトリを開設
+- 衛星・ドローン画像・3DデータをOSINT的に収集する作業フレームを定義
+- ジオリファレンス手法に関する初期検討を実施
+
+## 使用技術・ツール
+- GitHub (ドキュメンテーション・コラボレーション)
+- CC-BY-4.0 ライセンス採用
+- 衛星画像・ドローン画像・3Dデータ (ジオリファレンス対象)
+- OSINT 的ワークフロー
+
+## 得られた知見
+研究室内ハッカソンを少人数チーム単位で並走させ、それぞれ独立したリポジトリに成果物・議論を集約する運用パターンが有効。地理参照付きの紛争地マッピングは、データ供給源 (衛星/UAV) の信頼性とライセンス整理が初動の鍵となる。
+
+## 未解決事項・課題
+README は課題定義のみで成果物コミットがなく、ジオリファレンスの実装フロー・最終アウトプットが公開されていない。複数チーム間の成果統合プロセスが不明確。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/furulab2022hackathon_NW
+- Issues: https://github.com/furuhashilab/furulab2022hackathon_NW/issues
+
+
+---
+repo_name: "furulab2022hackathon_plusn"
+repo_url: "https://github.com/furuhashilab/furulab2022hackathon_plusn"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2022-09-26"
+repo_updated_at: "2022-09-26"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "satellite-imagery"
+  - "drone"
+  - "geo-reference"
+confidence: "medium"
+---
+
+# furulab2022hackathon_plusn
+
+## 概要
+furuhashilab内ハッカソン「+n」チーム (ShogoHirasawa, halgraphic) の作業用リポジトリ。NWチームと同様、ロシアのウクライナ侵攻に関連する未アーカイブの衛星画像・ドローン映像・3Dデータを収集してジオリファレンスを行うテーマに取り組んだ。
+
+## 主な活動・成果
+- 「+n」チームの作業拠点としてリポジトリ運用 (7コミット)
+- 衛星/UAV映像・3Dデータの収集とジオリファレンスのワークフロー検討
+- CC-BY-4.0 ライセンスでのオープンコラボ体制を構築
+
+## 使用技術・ツール
+- GitHub (リポジトリ運用)
+- 衛星画像・ドローン画像・3Dデータ
+- CC-BY-4.0 ライセンス
+- OSINT 系データソース
+
+## 得られた知見
+同一テーマを複数チーム (NW / +n) が並行して扱うことで、収集アプローチ・ジオリファレンス手法の比較検討が可能になる。チームごとに独立した小さなリポジトリを切る運用は、ハッカソン形式と相性が良い。
+
+## 未解決事項・課題
+コミット数が少なく、成果物 (ジオリファレンス済データ・ビューア等) の公開には至っていない。チーム間の成果共有・統合方針が明文化されていない。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/furulab2022hackathon_plusn
+- Issues: https://github.com/furuhashilab/furulab2022hackathon_plusn/issues
+
+
+---
+repo_name: "furulab2022hackathon_ramen"
+repo_url: "https://github.com/furuhashilab/furulab2022hackathon_ramen"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2022-09-28"
+repo_updated_at: "2022-10-04"
+distilled_at: "2026-05-25"
+language: "Python"
+homepage: null
+tags:
+  - "Ukraine"
+  - "Georeferencing"
+  - "PythonScript"
+confidence: "high"
+---
+
+# furulab2022hackathon_ramen
+
+## 概要
+古橋研究室2022年ウクライナ・ハッカソン参加チーム「ramen」のリポジトリ。kittenチームと同様に未アーカイブの衛星/ドローン画像と3Dデータを収集・ジオリファレンスする活動に加え、画像へクレジット文字を自動付与するPythonスクリプト `Automated-credit-input.py` を独自開発した点が特徴。
+
+## 主な活動・成果
+- ジオリファレンス対象の衛星画像 (`satelliteimageries/`) 収集
+- Pillowを用いた画像クレジット自動挿入Pythonスクリプト開発 (`Automated-credit-input.py`)
+- ファイル選択ダイアログによる複数画像一括処理機能
+- メンバー: Ibuki Shibayama, Sota Suzuki, Yasuda Haruka, Shogo Hirasawa
+
+## 使用技術・ツール
+- Python 100% (PIL/Pillow + Tkinter ファイル選択)
+- 衛星画像/ドローン画像/3Dデータ
+- ジオリファレンス手法
+- macOS環境での開発・検証
+- CC-BY-4.0 ライセンス
+
+## 得られた知見
+ハッカソンでは「定型作業の手動繰り返し」がボトルネックになりがちで、これを小さなPythonスクリプトで自動化するだけでも生産性が大幅向上する。クレジット文字の位置を絶対座標で指定する実装は画像サイズ非互換を生むため、相対座標化が次の改善ポイントとなる(README自身が指摘)。
+
+## 未解決事項・課題
+- テキスト挿入位置を絶対座標→相対座標へ変更すること
+- macOSのみでの動作確認のため、Windowsでの検証が未実施
+- フォント調整 (READMEに「Upcoming updates」として明記)
+- issues 27件と多く、コメント未取得で議論詳細は追跡余地あり
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/furulab2022hackathon_ramen
+- Issues: https://github.com/furuhashilab/furulab2022hackathon_ramen/issues
+
+---
+repo_name: "Gachagacha_Hackathon_2023_-teamA"
+repo_url: "https://github.com/furuhashilab/Gachagacha_Hackathon_2023_-teamA"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2023-04-15"
+repo_updated_at: "2023-04-19"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "hackathon"
+  - "blender-3d"
+  - "character-design"
+confidence: "high"
+---
+
+# Gachagacha_Hackathon_2023_-teamA
+
+## 概要
+古橋研究室ガチャガチャ・ハッカソン2023のチームA成果物リポジトリ。研究室マスコット「ふるはしくん」の冬仕様3Dモデル、ピカチュウ風マップデザイン、研究室活動紹介グラフィックレコーディング (グラレコ) の3つを成果物として開発。Blenderによる3Dキャラクター制作とマップカートグラフィを横断する内容。
+
+## 主な活動・成果
+- ふるはしくん冬仕様 Blenderモデル (.blend) 制作
+- ピカチュウ風マップデザインの企画
+- 古橋研究室活動紹介グラレコの作成
+- 4件のissueで進行管理、10コミットで成果物を集約
+
+## 使用技術・ツール
+- Blender (3Dモデリング、.blendファイル)
+- Adobe Illustrator (グラレコ・マップデザイン想定)
+- GitHub (CC-BY-4.0ライセンス)
+
+## 得られた知見
+ハッカソン形式で3Dキャラクター制作 (Blender) とカートグラフィ表現 (マップデザイン) と図解 (グラレコ) を並走させることで、研究室の多面的活動を一括して可視化できる。Blenderファイルをそのままレポジトリに置くことで、後輩のリミックス素材として再利用しやすい。
+
+## 未解決事項・課題
+ピカチュウ風マップとグラレコは見出しのみで成果物がコミットされておらず、ハッカソン後の成果ドキュメント化が不十分。3Dモデルのレンダリング結果や用途も明示されていない。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/Gachagacha_Hackathon_2023_-teamA
+- Issues: https://github.com/furuhashilab/Gachagacha_Hackathon_2023_-teamA/issues
+
+
+---
+repo_name: "Gachagacha_Hackathon_2023_teamB"
+repo_url: "https://github.com/furuhashilab/Gachagacha_Hackathon_2023_teamB"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2023-04-15"
+repo_updated_at: "2023-04-21"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "hackathon"
+  - "gachagacha"
+  - "prototype-design"
+confidence: "high"
+---
+
+# Gachagacha_Hackathon_2023_teamB
+
+## 概要
+古橋研究室で開催されたガチャガチャ・ハッカソン2023のチームB成果物リポジトリ。ジオ展用ガチャ (48mmカプセル) と芦ヶ久保駅ASTABA用ガチャ (48mm/75mmカプセル) の2案を企画・プロトタイピングした。物理プロダクト (カプセルトイ) を題材とする珍しいハッカソンの記録である。
+
+## 主な活動・成果
+- 4/18(火) 成果発表、4/21(金) ジオ展でガチャガチャ販売
+- 「ジオ展用ガチャ」と「芦ヶ久保駅ASTABA用ガチャ」の2系統を企画
+- プロトタイプフォルダにデザイン案を格納
+- 5件のissueで企画議論を進行
+
+## 使用技術・ツール
+- ガチャガチャカプセル (48mm / 75mm)
+- 物理プロトタイピング (3Dモデル想定)
+- GitHub Issues (CC-BY-4.0ライセンス)
+
+## 得られた知見
+短期間ハッカソンで物理プロダクト (ガチャガチャ) を企画から販売まで完結させるワークフロー。展示会 (ジオ展) や地域 (横瀬町) という具体的な利用シーンを設定することでアイデアの方向性が定まりやすい。価格帯 (100円/500円/1000円) に応じたカプセルサイズの使い分けが実用的。
+
+## 未解決事項・課題
+README記載が最小限で、プロトタイプの最終デザインや販売実績、参加者の振り返りが文書化されていない。物理在庫管理や継続販売の仕組みは未整備。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/Gachagacha_Hackathon_2023_teamB
+- Issues: https://github.com/furuhashilab/Gachagacha_Hackathon_2023_teamB/issues
+
+
+---
+repo_name: "GeoGachaHackathon_youth_202211"
+repo_url: "https://github.com/furuhashilab/GeoGachaHackathon_youth_202211"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2022-11-15"
+repo_updated_at: "2022-12-09"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "hackathon"
+  - "3d-print"
+  - "gacha"
+confidence: "high"
+---
+
+# GeoGachaHackathon_youth_202211
+
+## 概要
+2022年11月、古橋研ゼミ内サークル「youth」が参加した GeoGachaHackathon の成果物リポジトリ。48mmカプセルに収まる、目標コスト50円/個のプロトタイプを作る制約のもと、青山学院大学相模原キャンパス B棟の 3D モデルを 3 分割し凹凸ジョイント付き STL として 3D プリント、ガチャガチャ景品化した。
+
+## 主な活動・成果
+- 相模原キャンパス B棟の 3D モデル (Ibuki Shibayama 2022卒論成果) を 3 分割し STL 出力
+- 各パーツに同幅の凹凸を付け、欠番でも連結遊びを可能にする設計
+- Blender からスケール 1.0 / 0.75 の 2 系統で STL を書き出し、0.75 でプロトタイプ印刷
+- 11/15 キックオフ → 11/22 コアタイム → 11/29 成果発表の 2 週間ハッカソン進行
+
+## 使用技術・ツール
+- Blender (3D モデリング / STL エクスポート)
+- 3D プリンタ (FDM 推定)
+- 48mm ガチャカプセル
+- CC-BY-4.0 ライセンス
+
+## 得られた知見
+卒論の建物 3D モデルを「連結可能なミニチュア」として再利用することで、研究成果の社会的展示価値を高められる。コスト @50円/個・48mm カプセル制約は厳しいが、形状分割設計と凹凸ジョイントによりコレクション性も生まれる。Blender スケール (0.75 等) で印刷時間・材料費と造形精度のバランス調整が肝要。
+
+## 未解決事項・課題
+量産時の塗装・組立工程、印刷失敗率の低減、@50円目標達成のための材料最適化。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/GeoGachaHackathon_youth_202211
+- Issues: https://github.com/furuhashilab/GeoGachaHackathon_youth_202211/issues
+
+
+---
+repo_name: "Mapathon4Turkey"
+repo_url: "https://github.com/furuhashilab/Mapathon4Turkey"
+genre: "hackathon"
+genre_label: "ハッカソン・マッパソン"
+repo_created_at: "2023-02-08"
+repo_updated_at: "2023-02-28"
+distilled_at: "2026-05-25"
+language: null
+homepage: "https://tasks.hotosm.org/projects/14233"
+tags:
+  - "マッパソン"
+  - "クライシスマッピング"
+  - "OSM"
+confidence: "high"
+---
+
+# Mapathon4Turkey
+
+## 概要
+2023年2月のトルコ・シリア大地震を受けて開催された、トルコのクライシスマッピングを目的とするマッパソンに関するリポジトリ。HOT (Humanitarian OpenStreetMap Team) のTasking Manager上のプロジェクト #14233 を対象に、参加者がOSMへ建物・道路をトレースし、人道支援活動を地図面でサポートした。
+
+## 主な活動・成果
+- マッパソンポスター (.ai/.png) を制作・公開し参加者を募集
+- Certificationテンプレート (.ai/.png) を制作し参加者へ修了証を発行
+- 工程表.md・応募フォーム・プレゼン資料 (Google Slides) を整備しイベント運営を一本化
+- HOTタスクマネージャと連動した実マッピング作業を主導
+
+## 使用技術・ツール
+- Adobe Illustrator (.ai) (ポスター・修了証制作)
+- HOT Tasking Manager
+- OpenStreetMap (OSM)
+- Google Forms / Google Slides
+- Markdown (工程表)
+
+## 得られた知見
+災害発生からマッパソン開催までを2〜3週間で立ち上げるには、(1)ポスター・修了証等のクリエイティブ、(2)応募〜参加〜証明発行のフォーム導線、(3)HOTタスクID等の対象指定、をGitHub一箇所に集約するのが効率的。Illustratorソースを公開することで再利用・派生開催にも繋がる。
+
+## 未解決事項・課題
+- 開催後の成果 (マッピング件数等) のサマリードキュメントが残されていない
+- 1 Issueのみで議論ログの蓄積が限定的
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/Mapathon4Turkey
+- Issues: https://github.com/furuhashilab/Mapathon4Turkey/issues
+- 関連サイト: https://tasks.hotosm.org/projects/14233
+
+
+---
+repo_name: "plateauhackathon2023"
+repo_url: "https://github.com/furuhashilab/plateauhackathon2023"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2023-07-06"
+repo_updated_at: "2023-07-20"
+distilled_at: "2026-05-25"
+language: null
+homepage: "https://furuhashilab.github.io/plateauhackathon2023/"
+tags:
+  - "PLATEAU"
+  - "ストーリーテリング"
+  - "Re:Earth"
+confidence: "high"
+---
+
+# plateauhackathon2023
+
+## 概要
+青山学院大学・フェリス女学院大学合同で開催された「PLATEAU ストーリーテリングハッカソン 2023」の公式リポジトリ。Project PLATEAUの3D都市モデルとRe:Earthのストーリーテリング機能を活用し、参加11チームが「自分の想いとPLATEAUを組み合わせるストーリー」を制作。7/6キックオフ→7/13ハンズオン→7/19提出→7/20発表という2週間のスケジュールで実施された。
+
+## 主な活動・成果
+- 11チームの作品 (富嶽三十六景江戸巡り、Re:Earth Museum、奈阿、ラテグミ他) をGitHub Pagesで公開
+- 各賞 (最優秀賞、PLATEAU賞、古橋賞、岡田賞、コンテンツ賞) を選定
+- Re:Earth公式Discordチャンネル (#hackathon2023_ja) でリアルタイム支援
+- 個人/チーム登録〜成果物提出までGoogle Forms中心の運用
+- 第三者著作物は許諾不要ライセンスのみ使用するルールを徹底
+
+## 使用技術・ツール
+- Project PLATEAU (3D都市モデル)
+- Re:Earth / PLATEAU VIEW 2.0 (ビューワ)
+- GitHub Pages (作品公開)
+- Discord (コミュニケーション)
+- Google Forms (応募/提出)
+- embed機能 (作品の外部埋め込み)
+
+## 得られた知見
+3D都市モデル×ストーリーテリングのハッカソンでは、(1)Re:Earthのstory機能のような既製ツールに乗ることで2週間という短期間でも全11チームが成果物を完成可能、(2)成果物を全てGitHub Pagesで公開させる規約により、ハッカソン後も継続的に作品が閲覧される資産が残る、という運用パターンが有効。
+
+## 未解決事項・課題
+- 1チーム「奈阿」がRe:Earthのみ公開でGitHubリポジトリ化が未完
+- 提出後の作品継続改善や外部公開プラットフォーム化は次年度課題
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/plateauhackathon2023
+- Issues: https://github.com/furuhashilab/plateauhackathon2023/issues
+- 関連サイト: https://furuhashilab.github.io/plateauhackathon2023/
+
+
+---
+repo_name: "Tochizi-hai-OpenDataHackathon"
+repo_url: "https://github.com/furuhashilab/Tochizi-hai-OpenDataHackathon"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2022-01-01"
+repo_updated_at: "2022-12-31"
+distilled_at: "2026-05-25"
+language: "HTML"
+homepage: "https://furuhashilab.github.io/Tochizi-hai-OpenDataHackathon/"
+tags:
+  - "open-data"
+  - "hackathon"
+  - "unvt-portable"
+confidence: "high"
+---
+
+# Tochizi-hai-OpenDataHackathon
+
+## 概要
+都知事杯オープンデータハッカソン参加チーム (古橋研) のリポジトリ。プレゼン資料・ドローン空撮データのオープン化・Mapbox Style 仕様日本語ドキュメント完成・Raspberry Pi 上のオフライン地図サーバ (UNVT Portable) 開発を成果物として束ねる、ハッカソン期間の活動拠点として機能した。
+
+## 主な活動・成果
+- ドローン空撮データのオープン化 (dronebird/oam_sagamihara20211215aoyamauniv1155mapconcierge00arw01)
+- Mapbox Style Specification の日本語ドキュメント完成 (StyleSpecification4mapbox)
+- Raspberry Pi 上で動くオフライン地図サーバ UNVT Portable の開発
+- 12 件の Issue で UNVT Portable の Wi-Fi/DHCP/Ethernet/FTP 等の動作検証を実施
+- Mapbox GL JS → MapLibre GL JS への置き換え検証 (完全オフライン化)
+- 東京都ベクトルタイルと八王子市ハザードマップ + ドローン空撮の重ね合わせ
+
+## 使用技術・ツール
+- HTML (100%) / Mapbox GL JS / MapLibre GL JS
+- UNVT Portable (Raspberry Pi)
+- Mapbox Style Specification
+- ドローン空撮 (OpenAerialMap 互換)
+- Speaker Deck (発表資料配信)
+
+## 得られた知見
+ハッカソンのリポジトリは「成果物リンク集 + Issue による作業ログ」という構成にしておくと、当日の試行錯誤 (Wi-Fi が繋がらない、DHCP の IP が割り振られない、FTP の使い方など) がそのまま再現手順書化する。Mapbox GL JS から MapLibre GL JS への切替検証もハッカソン期間の自然な選択肢として記録できている。
+
+## 未解決事項・課題
+UNVT Portable で「PC から Wi-Fi 経由で繋ぐと指定 DHCP の IP が割り振られない」という Issue が残存。MapLibre 置き換え後の運用安定性、ローカル Wi-Fi AP 化の永続化方法も継続検討事項。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/Tochizi-hai-OpenDataHackathon
+- Issues: https://github.com/furuhashilab/Tochizi-hai-OpenDataHackathon/issues
+- 関連サイト: https://furuhashilab.github.io/Tochizi-hai-OpenDataHackathon/
+
+
+---
+repo_name: "tokyoOSShakathon2022"
+repo_url: "https://github.com/furuhashilab/tokyoOSShakathon2022"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2022-08-23"
+repo_updated_at: "2022-08-23"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "open-data"
+  - "vector-tile"
+  - "tokyo"
+confidence: "high"
+---
+
+# tokyoOSShakathon2022
+
+## 概要
+東京都知事杯オープンデータハッカソン2022における、チーム「UNVT」の公開リポジトリ。東京都および関東甲信越エリアを対象に、ベクトルタイルベースマップ、地形ラスタタイル、衛星画像、避難所、行政界などの各種データセットを生成・ホスティングし、防災ユースケースの可視化に取り組んだ。First Stage発表用スライドへのリンクも含む。
+
+## 主な活動・成果
+- 関東甲信越のベクトルタイルベースマップ、地形RGB Elevationタイル、衛星画像タイル、行政界タイルを作成
+- 東京都の避難所ベクトルタイル (UNVT_for_Tokyo-to) を派生リポジトリで公開
+- GitHub Pages 上に複数のテーマ別 Web マップをホスティング (Kanto_basemap, Tokyo_Terrain-map, Tokyo_satellit_map, etc.)
+- First Stage 発表資料を Google Slides で公開
+
+## 使用技術・ツール
+- UN Vector Tile Toolkit (UNVT)
+- ベクトルタイル / ラスタタイル (zxy 形式)
+- RGB Elevation (地形タイル)
+- GitHub Pages (ホスティング)
+- CC0-1.0 License
+
+## 得られた知見
+オープンデータハッカソンにおいては、テーマ別 (基盤地図・地形・衛星・避難所・行政界) にリポジトリを分割し、それぞれ GitHub Pages で個別公開してから index 集約する構成が、短期開発・発表で扱いやすい。ベクトルタイル + ラスタタイルの組み合わせで防災ユースを横断的に表現できる。
+
+## 未解決事項・課題
+「東京都のハザードマップベクトルタイル」と「ハザードマップホスティング」は未完了 (チェックボックス未消化)。複数の GitHub Pages 配信を統合したフロントUIは未整備。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/tokyoOSShakathon2022
+- Issues: https://github.com/furuhashilab/tokyoOSShakathon2022/issues
+
+
+---
+repo_name: "youth_UN-EC_OSS4SDG_hachathon2022"
+repo_url: "https://github.com/furuhashilab/youth_UN-EC_OSS4SDG_hachathon2022"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2022-10-18"
+repo_updated_at: "2022-10-23"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "PLATEAU"
+  - "OpenStreetMap"
+  - "YouthMappers"
+confidence: "high"
+---
+
+# youth_UN-EC_OSS4SDG_hachathon2022
+
+## 概要
+UN-EC (国連経済委員会) OSS4SDG ハッカソン2022における、YouthMappers AGU・古橋研究室・青山学院大学チームの作業リポジトリ。テーマはPLATEAU 3D都市モデルデータをOpenStreetMapにインポートすることで、対象地域は東京都東村山市。CC-BY-4.0ライセンスで成果を共有している。
+
+## 主な活動・成果
+- 東村山市のPLATEAUデータをOSMへインポートするワークフロー策定
+- インポートマニュアル草案(nyampire氏Qiita記事)に基づく作業手順検証
+- インポート作業のパフォーマンス測定
+- メンバー: Ibuki Shibayama, Sota Suzuki, Shogo Hirasawa
+
+## 使用技術・ツール
+- PLATEAU (3D都市モデル)
+- OpenStreetMap (OSM)
+- yuuhayashi/citygml-osm 変換ツール
+- GitHub Issues / Markdown
+
+## 得られた知見
+PLATEAU→OSMインポートは既存OSSコンバータと整備されたインポートマニュアルの組み合わせで実行可能だが、自治体単位での実証が品質確保に重要。YouthMappersのような若手マッパーコミュニティとUN系ハッカソンの連携が、SDGsデータ整備の継続的推進力となる。
+
+## 未解決事項・課題
+TODOにて「マニュアル完成」「パフォーマンス検証」「東村山市データのOSM本番反映」が未完項目として残されている。issues 9件はコメント未取得で詳細議論内容は要追跡。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/youth_UN-EC_OSS4SDG_hachathon2022
+- Issues: https://github.com/furuhashilab/youth_UN-EC_OSS4SDG_hachathon2022/issues
