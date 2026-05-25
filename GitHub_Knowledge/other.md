@@ -2355,3 +2355,48 @@ confidence: "medium"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/geoten
 - Issues: https://github.com/furuhashilab/geoten/issues
+---
+repo_name: "PlacenameKaraoke"
+repo_url: "https://github.com/furuhashilab/PlacenameKaraoke"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2021-03-02"
+repo_updated_at: "2026-05-10"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "placename"
+  - "karaoke"
+  - "toponymy"
+confidence: "high"
+---
+
+# PlacenameKaraoke
+
+## 概要
+「地名縛りカラオケルール」を定義・整理するためのリポジトリ。歌詞中に地名を含む楽曲のみを選曲対象とするカラオケのハウスルールを、古橋研究室がGitHub上でオープンにドキュメント化したプロジェクトである。地名と楽曲の関係性を研究・遊戯両面から探求することを目的としており、NLPや地理情報の観点からも参照・発展が期待されている。
+
+## 主な活動・成果
+- カラオケルール用のビジュアル素材（画像）の収集・整理（Issue #1、Flickr CC BY 2.0素材を活用）
+- 「鉄道唱歌」「女一人（デューク・エイセス）」「いーあるふぁんくらぶ（みきとP feat. GUMI）」など、地名を含む楽曲の草の根的なリストアップ（Issue #2）
+- NLP分野の学術文献「乾(2023) 位置属性を有しない事物に対する地理的特定性の分析」をSpeakerDeckで参照・共有し、学術的背景の整備を開始（Issue #3）
+
+## 使用技術・ツール
+- GitHub Issues（ルール・事例の収集・議論の場として活用）
+- Flickr（CC BY 2.0ライセンス画像の素材活用）
+- SpeakerDeck（学術発表スライドの参照）
+- プログラミング言語：なし（ドキュメント主体のリポジトリ）
+
+## 得られた知見
+- GitHubのIssuesは、コード管理のみならず、ルール策定・事例収集・参考文献管理など、人文・社会系の知識整理ツールとしても有効に活用できる。
+- 地名を含む楽曲の収集は、民俗的・草の根的な情報収集と学術的アプローチ（NLP・地理情報学）を組み合わせることで、双方向に深めることができる。
+- CC BY等のオープンライセンス素材をGitHub上で参照・共有することで、コンテンツの権利処理を透明化しながらプロジェクトを進めることができる。
+
+## 未解決事項・課題
+- Issue #1（画像素材整理）、Issue #2（草の根楽曲リスト）、Issue #3（参考文献整備）の3件がいずれもオープンのまま残っており、引き続き事例・文献の収集が継続課題となっている。
+- 楽曲リストの体系的な整理・分類基準の策定には至っていない。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/PlacenameKaraoke
+- Issues: https://github.com/furuhashilab/PlacenameKaraoke/issues
