@@ -2255,43 +2255,62 @@ geomedia4gsc_grareco
 ---
 
 
-## furuhashilab/README リポジトリ概要
-
-**オーナー:** furuhashilab（組織）
-**説明:** 古橋研究室（古橋ゼミ）に興味のある学生は、最初に読んでください。これを熟読できていない学生は指導対象から外します。
-**ホームページ:** http://furuhashilab.com/
-**ライセンス:** CC BY 4.0
-**作成日:** 2017年9月12日
-**最終更新:** 2026年5月21日
-**スター数:** 25　**ウォッチャー:** 25　**フォーク:** 3
-**オープンIssue数:** 26
-**トピック:** general
-
+---
+repo_name: "README"
+repo_url: "https://github.com/furuhashilab/README"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2017-09-12"
+repo_updated_at: "2026-05-21"
+distilled_at: "2026-05-25"
+language: null
+homepage: "http://furuhashilab.com/"
+tags:
+  - "furuhashilab"
+  - "opensourcemapping"
+  - "geospatial-education"
+confidence: "high"
 ---
 
-## オープンIssue一覧（最新順）
+# README
 
-| # | タイトル | 作成日 | コメント数 |
-|---|---------|--------|-----------|
-| [#42](https://github.com/furuhashilab/README/issues/42) | 古橋研究室オンラインハッカソン2025-2026 | 2026-05-21 | 2 |
-| [#41](https://github.com/furuhashilab/README/issues/41) | 飲み会・その他イベント | 2025-12-02 | 1 |
-| [#40](https://github.com/furuhashilab/README/issues/40) | 古橋研究室オンラインハッカソン2025-2026 | 2025-05-13 | 7 |
-| [#39](https://github.com/furuhashilab/README/issues/39) | 古橋研究室 AIとのつきあい方ガイドライン v1.2.0 | 2025-02-19 | 9 |
-| [#38](https://github.com/furuhashilab/README/issues/38) | 古橋研究室オンラインハッカソン2024-2025 | 2024-06-25 | 6 |
-| [#36](https://github.com/furuhashilab/README/issues/36) | 古橋研究室 留学フィールドスタディ v1.1 | 2023-11-20 | 0 |
-| [#34](https://github.com/furuhashilab/README/issues/34) | 広報用コンテンツ | 2022-09-20 | 2 |
-| [#32](https://github.com/furuhashilab/README/issues/32) | 位置情報ゲーム実績の目標を更新提案 | 2021-09-21 | 0 |
-| [#29](https://github.com/furuhashilab/README/issues/29) | 古橋研究室流 SNSリテラシー講座(案) | 2021-04-10 | 0 |
-| [#25](https://github.com/furuhashilab/README/issues/25) | 古橋研究室オンラインハッカソン2020 | 2020-05-05 | 22 |
-| [#23](https://github.com/furuhashilab/README/issues/23) | 古橋研究室 WPAアプリづくり | 2019-11-25 | 13 |
-| [#21](https://github.com/furuhashilab/README/issues/21) | 古橋研究室流 国際会議の参加ルール v1.5 | 2019-11-07 | 3 |
-| [#20](https://github.com/furuhashilab/README/issues/20) | ものづくり部MEMO: レーザー加工機組み立て | 2019-10-21 | 0 |
-| [#19](https://github.com/furuhashilab/README/issues/19) | 古橋研究室流 ゼミ内サークル活動ルール v2.1 | 2019-10-07 | 0 |
+## 概要
+古橋研究室（青山学院大学地球社会共生学部）の学生向け総合ガイドリポジトリ。研究室に興味のある学生・所属学生が最初に読むべき公式ルール・ノウハウ・イベント情報を一元管理する場として2017年に作成された。「一億総伊能化社会の実現」をビジョンに掲げ、地図・位置情報・OSM（OpenStreetMap）・ドローン・生成AIなど幅広い技術領域を横断する実践的教育活動の基盤となっている。
 
----
+## 主な活動・成果
+- 毎年度のオンラインハッカソン（2020〜2025-2026年度）を研究室内イベントとして定期開催。チームごと5分LT形式での成果発表、Zoomライブストリーミング、公式ブログへのグラレコ付き報告が必須とされている
+- 生成AI利用ガイドライン v1.2.0 を策定・運用中。使用AIのバージョン・日付の明記、ハルシネーション3アウト制、AI生成画像へのアイコン付与などを義務化。ChatGPT・Gemini・Grok・Copilot等を用いてガイドライン自体もアップデートしている
+- 「古橋研究室スタンダード v0.41」として学生が習得すべき共通スキル（GitHub、Markdown、Creative Commons、フィールドワークアプリ、位置情報ゲーム基礎等）を体系化
+- 卒論/ゼミ論ルールをGitHub上で管理し、IMRaD型構成・CC BY 4.0ライセンス・GitHub Pages公開を標準化
+- 留学フィールドスタディ課題としてStrava・Mapillary・ストーリーテリング地図ツール（Mapbox Storytelling、Re:Earth、Cesium ION等）を活用した成果物提出を義務付け
+- 国際会議参加ルール・ゼミ内サークルルール・合宿装備規定・データ/機材管理ルール・SNSリテラシー講座などをIssue上で継続的に整備
+- 朝日新聞取材向け広報コンテンツ（OSMウクライナ支援マッピング活動）や国際人道支援マパソン（International Humanitarian Mapathon）への参加記録も管理
 
-**注目Issue:** 最新の #42 は2025-2026年度のオンラインハッカソンで、各チーム5分発表・公式ブログへのグラレコ必須・Zoomライブ配信という共通ルールが設定されています。また #39「AIとのつきあい方ガイドライン」は使用AIのバージョン・日付の明記義務やハルシネーション3アウト制など、研究室独自の生成AI利用ルールとして注目されます。
----
+## 使用技術・ツール
+- 地図・位置情報: OpenStreetMap、Mapillary、Strava、Organic Maps、Google Earth Web、Mapbox Storytelling、Re:Earth、PLATEAU VIEW、Cesium ION、Esri StoryMaps、GeoJSON.io
+- ドローン: DJI Fly、PIX4DcapturePro、Dronelink
+- 位置情報ゲーム: Ingress Prime、IITC-Mobile、Pokémon GO
+- 生成AI: ChatGPT、Gemini、Grok、GitHub Copilot、Microsoft Copilot、Claude、Midjourney、DeepSeek（ローカル運用）
+- コミュニケーション: Slack、Medium（公式ブログ）、Facebook、Zoom、Instagram、LinkedIn
+- 開発・管理: GitHub（Issues / Projects / Pages / Actions / Copilot）、Glide（PWAアプリ）、Google Spreadsheet
+- デザイン・グラレコ: プロッキー、マイルドライナー、A3用紙
+- ライセンス: CC BY 4.0、CC0、MIT、Apache、GPL v3
 
+## 得られた知見
+- **GitHubのIssueをWiki代わりに使うことで、ルール・ノウハウ・イベント記録を一元管理しバージョン管理できる。** 教育機関のゼミ運営においてもOSSの開発文化（Issues・Projects・Pages）を導入することで、透明性・継続性・検索性が大幅に向上する。
+- 生成AI利用において「使用したAIの種類・バージョン・日付を必ず明記する」という運用ルールは、学術誠実性の担保と再現性確保のモデルケースとして他の教育機関・組織に転用できる。
+- ICS（インシデント・コマンド・システム）の監督限界ルール（1サークル6名以内）を学生サークル運営に適用することで、責任範囲の明確化とスケーラブルな組織運営が実現できる。
+- フィールドワーク成果をStrava・Mapillary・ストーリーテリング地図として公開し、Mediumブログに報告する一連のワークフローは、市民参加型GIS教育の実践モデルとして応用可能。
+
+## 未解決事項・課題
+- 位置情報ゲームの必須レベル基準（Pokémon GO の必要レベル）の更新議論（Issue #32）が未クローズのまま放置されている
+- PWAアプリ（Glide）の学生成果物可視化・連絡先表示・ニュース投稿ルールなど複数の改善タスクが未完了（Issue #23）
+- 「失敗と自分の判断での行動の仕方」についてのまとめが着手されていない（Issue #9）
+- 全26件のIssueがオープン状態であり、完了・アーカイブの運用基準が明示されていない
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/README
+- Issues: https://github.com/furuhashilab/README/issues
+- 関連サイト: http://furuhashilab.com/
 
 
