@@ -2400,3 +2400,42 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/PlacenameKaraoke
 - Issues: https://github.com/furuhashilab/PlacenameKaraoke/issues
+---
+repo_name: "geogacha2026"
+repo_url: "https://github.com/furuhashilab/geogacha2026"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2026-04-23"
+repo_updated_at: "2026-04-26"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "geogacha"
+  - "geo-exhibition"
+  - "sticker"
+confidence: "low"
+---
+
+# geogacha2026
+
+## 概要
+古橋研究室が2026年に実施した「ジオガチャ」企画に関連するリポジトリ。地理・地図をテーマにしたイベント向けのガチャ形式コンテンツの管理・運営を目的として作成された。GitHubテンプレートリポジトリとして設定されており、類似企画への再利用が想定されている。
+
+## 主な活動・成果
+- ジオガチャ2026企画のリポジトリ立ち上げ・初期構築
+- テンプレートリポジトリとして設定し、将来の類似イベントへの転用を想定した構成
+
+## 使用技術・ツール
+- GitHub（テンプレートリポジトリ機能を活用）
+- プログラミング言語：なし（企画・管理主体のリポジトリ）
+
+## 得られた知見
+- GitHubのテンプレートリポジトリ機能を活用することで、年次イベントや繰り返し開催される企画の管理構成を標準化・再利用しやすくなる。
+
+## 未解決事項・課題
+- Issuesが1件オープンのまま（詳細は未確認）。descriptionも未設定であり、リポジトリの目的・概要の明文化が課題。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/geogacha2026
+- Issues: https://github.com/furuhashilab/geogacha2026/issues
