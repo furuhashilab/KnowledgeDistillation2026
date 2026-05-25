@@ -2609,3 +2609,47 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/.github
 - Issues: https://github.com/furuhashilab/.github/issues
+---
+repo_name: "MtBUKO3D4capsule"
+repo_url: "https://github.com/furuhashilab/MtBUKO3D4capsule"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2026-01-13"
+repo_updated_at: "2026-01-20"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "3d-printing"
+  - "geocaching"
+  - "mt-buko"
+confidence: "medium"
+---
+
+# MtBUKO3D4capsule
+
+## 概要
+埼玉県秩父市に位置する武甲山（Mt. BUKO）を題材にした3Dプリント用型データを管理するリポジトリである。「ジオガチャ」（ジオキャッシングと組み合わせたガチャポン形式のアクティビティ）用カプセルとして使用する武甲山の立体模型の型データを収録している。古橋研究室が展開するジオキャッシング関連活動の一環として、フィジカルな体験要素を取り入れたコンテンツ制作を目的として2026年1月に作成された。ライセンスはCC0-1.0が適用されており、データの自由な再利用が可能である。
+
+## 主な活動・成果
+- 武甲山の3D形状データ（型）の作成・公開
+- ジオガチャ用カプセルとして使用できる3Dプリント向けデータの整備
+- CC0-1.0ライセンスによるデータのオープン公開
+- リポジトリサイズ約98MBの大容量3Dデータを管理
+
+## 使用技術・ツール
+- 3Dモデリング（地形データから武甲山の立体形状を生成）
+- 3Dプリンティング（カプセル型の物理出力を想定）
+- GitHub（3Dデータのバージョン管理・公開）
+- プログラミング言語：なし（3Dデータリポジトリ）
+
+## 得られた知見
+- 実在する山岳地形を3D化してカプセルトイ（ガチャ）型に落とし込むことで、ジオキャッシングに物理的なコレクション要素を付加できる。地形データと3Dプリンティングを組み合わせることで、地域の自然・地理情報を教育的かつ体験的に伝えるグッズ制作が可能になる。
+- GitHubはテキストコードだけでなく大容量の3Dデータ（STL/OBJなど）の管理・公開にも活用でき、CC0ライセンスと組み合わせることで誰でも再印刷・改変できるオープンな型データ共有が実現する。
+
+## 未解決事項・課題
+特になし
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/MtBUKO3D4capsule
+- Issues: https://github.com/furuhashilab/MtBUKO3D4capsule/issues
