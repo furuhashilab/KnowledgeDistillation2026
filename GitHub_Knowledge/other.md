@@ -2221,49 +2221,47 @@ confidence: "high"
 
 
 
-## リポジトリ情報 (`/repos/furuhashilab/README`)
 
-| フィールド | 値 |
-|-----------|-----|
-| `id` | 103204158 |
-| `name` | README |
-| `full_name` | furuhashilab/README |
-| `description` | 古橋研究室（古橋ゼミ）に興味のある学生は、最初に読んでください。 |
-| `private` | false（公開リポジトリ） |
-| `created_at` | 2017-09-12 |
-| `updated_at` | 2026-05-21 |
-| `stargazers_count` | 25 |
-| `forks_count` | 3 |
-| `open_issues_count` | 26 |
-| `license` | CC-BY-4.0 |
-| `default_branch` | master |
-| `topics` | general |
-| `homepage` | http://furuhashilab.com/ |
 
 ---
 
-## Issues一覧 (`/repos/furuhashilab/README/issues`)
+## furuhashilab/README リポジトリ概要
 
-| # | タイトル | 状態 | 作成日 |
-|---|---------|------|--------|
-| 42 | 古橋研究室オンラインハッカソン2025-2026 | open | 2026-05-21 |
-| 41 | 飲み会・その他イベント | open | 2025-12-02 |
-| 40 | 古橋研究室オンラインハッカソン2025-2026 | open | 2025-05-13 |
-| 39 | 古橋研究室 AIとのつきあい方ガイドライン v1.2.0 | open | 2025-02-19 |
-| 38 | 古橋研究室オンラインハッカソン2024-2025 | open | 2024-06-25 |
-| 36 | 古橋研究室 留学フィールドスタディ v1.1 | open | 2023-11-20 |
-| 34 | 広報用コンテンツ | open | 2022-09-20 |
-| 32 | 位置情報ゲーム実績の目標を更新提案 | open | 2021-09-21 |
-| 29 | 古橋研究室流 SNSリテラシー講座(案) | open | 2021-04-10 |
-| 21 | 古橋研究室流国際会議の参加ルール v1.5 | open | 2019-11-07 |
-| 20 | ものづくり部MEMO: レーザー加工機組み立て | open | 2019-10-21 |
-| 19 | 古橋研究室流 ゼミ内サークル活動ルール v2.1 | open | 2019-10-07 |
+**オーナー:** furuhashilab（組織）
+**説明:** 古橋研究室（古橋ゼミ）に興味のある学生は、最初に読んでください。これを熟読できていない学生は指導対象から外します。
+**ホームページ:** http://furuhashilab.com/
+**ライセンス:** CC BY 4.0
+**作成日:** 2017年9月12日
+**最終更新:** 2026年5月21日
+**スター数:** 25　**ウォッチャー:** 25　**フォーク:** 3
+**オープンIssue数:** 26
+**トピック:** general
 
 ---
 
-**補足：** Issues APIはデフォルトで `state=open` のものを返します。クローズ済みも含めて取得したい場合は以下のようにパラメータを追加します。
+## オープンIssue一覧（最新順）
 
-```
-https://api.github.com/repos/furuhashilab/README/issues?state=all
-```
+| # | タイトル | 作成日 | コメント数 |
+|---|---------|--------|-----------|
+| [#42](https://github.com/furuhashilab/README/issues/42) | 古橋研究室オンラインハッカソン2025-2026 | 2026-05-21 | 2 |
+| [#41](https://github.com/furuhashilab/README/issues/41) | 飲み会・その他イベント | 2025-12-02 | 1 |
+| [#40](https://github.com/furuhashilab/README/issues/40) | 古橋研究室オンラインハッカソン2025-2026 | 2025-05-13 | 7 |
+| [#39](https://github.com/furuhashilab/README/issues/39) | 古橋研究室 AIとのつきあい方ガイドライン v1.2.0 | 2025-02-19 | 9 |
+| [#38](https://github.com/furuhashilab/README/issues/38) | 古橋研究室オンラインハッカソン2024-2025 | 2024-06-25 | 6 |
+| [#36](https://github.com/furuhashilab/README/issues/36) | 古橋研究室 留学フィールドスタディ v1.1 | 2023-11-20 | 0 |
+| [#34](https://github.com/furuhashilab/README/issues/34) | 広報用コンテンツ | 2022-09-20 | 2 |
+| [#32](https://github.com/furuhashilab/README/issues/32) | 位置情報ゲーム実績の目標を更新提案 | 2021-09-21 | 0 |
+| [#29](https://github.com/furuhashilab/README/issues/29) | 古橋研究室流 SNSリテラシー講座(案) | 2021-04-10 | 0 |
+| [#25](https://github.com/furuhashilab/README/issues/25) | 古橋研究室オンラインハッカソン2020 | 2020-05-05 | 22 |
+| [#23](https://github.com/furuhashilab/README/issues/23) | 古橋研究室 WPAアプリづくり | 2019-11-25 | 13 |
+| [#21](https://github.com/furuhashilab/README/issues/21) | 古橋研究室流 国際会議の参加ルール v1.5 | 2019-11-07 | 3 |
+| [#20](https://github.com/furuhashilab/README/issues/20) | ものづくり部MEMO: レーザー加工機組み立て | 2019-10-21 | 0 |
+| [#19](https://github.com/furuhashilab/README/issues/19) | 古橋研究室流 ゼミ内サークル活動ルール v2.1 | 2019-10-07 | 0 |
+
+---
+
+**注目Issue:** 最新の #42 は2025-2026年度のオンラインハッカソンで、各チーム5分発表・公式ブログへのグラレコ必須・Zoomライブ配信という共通ルールが設定されています。また #39「AIとのつきあい方ガイドライン」は使用AIのバージョン・日付の明記義務やハルシネーション3アウト制など、研究室独自の生成AI利用ルールとして注目されます。
+---
+
+
 
