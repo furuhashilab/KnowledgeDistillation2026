@@ -1,4 +1,57 @@
 ---
+repo_name: "drone1_3dprinting_project"
+repo_url: "https://github.com/furuhashilab/drone1_3dprinting_project"
+genre: "drone"
+genre_label: "ドローン"
+repo_created_at: "2025-10-18"
+repo_updated_at: "2026-01-06"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "drone"
+  - "3d-printing"
+  - "blender"
+confidence: "high"
+---
+
+# drone1_3dprinting_project
+
+## 概要
+古橋研究室のドローン班（drone1）が取り組む、3Dプリンターを用いたドローン機体の自作プロジェクト。descriptionは未設定だが、issuesの内容からBlenderによる3Dモデリングと3Dプリンター出力を組み合わせてドローン機体を製作することが主目的と読み取れる。複数の学生がメンバー分担しながら、Blenderでの機体モデリング・3Dプリンター操作マニュアル作成・最終報告資料の準備を並行して進めている。
+
+## 主な活動・成果
+- **Issue #9（Blenderで機体の作成①）**: 担当者がBlenderでドローン本体・アーム・プロペラを段階的にモデリング。Units設定（mm）・Edit Mode操作・Mirror Modifier・Subdivision Surfaceの適用手順を詳細に記録。プロペラ干渉問題を発見し設計を修正。
+- **Issue #10（Blenderで機体の作成②）**: 別担当者（もえ）が同様に機体モデリングに取り組み、4件の進捗コメントを投稿。
+- **Issue #11（Blenderで機体の作成③）**: さらに別担当者（ゆかりりと）が機体作成を担当し、4件の進捗を記録。
+- **Issue #7（3Dプリンターの使い方マニュアル作成）**: 複数メンバーがアサインされ3Dプリンター操作マニュアルを作成。一度クローズ後に再オープン（3件のコメントあり）。
+- **Issue #12（最終報告資料の作成）**: 全5名がアサインされ、プロジェクト成果をまとめた最終報告資料の作成に着手（コメントなし・進行中）。
+
+## 使用技術・ツール
+- **Blender**: ドローン機体の3Dモデリング（本体・アーム・プロペラ）
+  - Mirror Modifier（左右対称作業の効率化）
+  - Subdivision Surface（表面の滑らか化）
+  - Edit Mode / Wireframe / Solid 各ビューポート操作
+  - Material Properties（マテリアル・色付け）
+- **3Dプリンター**: モデリングデータの出力・実機製作
+- **ChatGPT**: Blenderの操作手順を調べる補助ツールとして活用
+- **YouTube**: Blenderドローンモデリングの参考動画として利用
+- language: null（プログラミング言語なし）
+
+## 得られた知見
+- Blenderでの対称形状モデリングにはMirror ModifierのClippingを早期に有効化することで、左右均等な編集が一括でき作業効率が大幅に向上する。
+- プロペラ設計ではアームとの干渉チェックをWireframeビューで早期に行うことが重要。後工程で設計変更が発生するリスクを抑えられる。
+- ChatGPTをBlenderの操作手順調査に活用することで、初学者でも試行錯誤のコストを下げながらモデリングを進められる。
+- GitHub Issuesを担当者別・工程別に分割することで、複数人での並行作業状況の可視化と進捗管理が効果的に機能する。
+
+## 未解決事項・課題
+- Issue #9〜#12 がすべてオープンのまま。機体モデリングの完成・3Dプリント出力・最終報告のいずれも完了確認が取れていない。
+- プロペラの色付け・マテリアル設定（ツルツル質感の実現）が「今後の作業」として残されている。
+- 3Dプリンターのマニュアル（Issue #7）が再オープン状態であり、最終版の確定が未完了。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/drone1_3dprinting_project
+- Issues: https://github.com/furuhashilab/drone1_3dprinting_project/issues---
 repo_name: "UNVT_Hackathon_Drone"
 repo_url: "https://github.com/furuhashilab/UNVT_Hackathon_Drone"
 genre: "drone"
