@@ -1108,7 +1108,7 @@ https://youtu.be/Cd5ui0DyH-o?si=yCssGjv-K9vbNopT
 要約不可能
 
 ---
-##mapbox/OpenStreetMap Meetup #19 “地図データが拓く未来のビジネス ～ オープンデータで創る革新的価値 ～"
+## mapbox/OpenStreetMap Meetup #19 “地図データが拓く未来のビジネス ～ オープンデータで創る革新的価値 ～"
 
 **URL:**
 https://youtu.be/DRGZ6xrTPRs?si=-XdnhVCS6ucTtDPt
@@ -1151,19 +1151,15 @@ https://youtu.be/DRGZ6xrTPRs?si=-XdnhVCS6ucTtDPt
 *   **コミュニティの可視化**: 日本のデベロッパーは「離島に住んでいる」ように静かだが、実は技術力が高い。彼らを発掘するためのコンテストなどの「登竜門」が必要である。
 
 ---
-
-
-
-
-## Maillary 3D Point Cloud Data in Duomo, Milano
+## Milano ATM GTFS test on Mini Tokyo 3D
 
 **URL:**
-https://youtu.be/Frh5Fw0tCLM?si=SEwKUQHRX4BMyhk6
+https://youtu.be/NiVpWXy5d8s?si=zZe167BaV88vPLnr
 
 **公開日:**
-2024-12-03
+2025-02-26
 
-要約不可能
+要約不可
 
 ---
 ## YouthMappersAGU Mapathon 2025 Jan
@@ -1256,10 +1252,9 @@ https://youtu.be/0vw0RV7fa7w?si=PmNXtYqiIeTX0v3y
 https://youtu.be/Frh5Fw0tCLM?si=wEH9eiOhLDKL6GTV
 
 **公開日:**
-2024-12-02
+2024-12-03
 
 要約不可能
-
 ---
 ## CrisisMapping Conference 2018 with ガチャピン・ムック
 
