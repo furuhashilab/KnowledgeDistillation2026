@@ -2477,3 +2477,49 @@ confidence: "low"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/-SNS-
 - Issues: https://github.com/furuhashilab/-SNS-/issues
+---
+repo_name: "www_furuhashiab_com"
+repo_url: "https://github.com/furuhashilab/www_furuhashiab_com"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2015-05-25"
+repo_updated_at: "2021-11-01"
+distilled_at: "2026-05-26"
+language: "HTML"
+homepage: "http://furuhashilab.com"
+tags:
+  - "furuhashilab"
+  - "laboratory-website"
+  - "spatial-information"
+confidence: "high"
+---
+
+# www_furuhashiab_com
+
+## 概要
+青山学院大学 地球社会共生学部 古橋研究室の公式ウェブサイトを管理するリポジトリ。GitHub Pagesを利用してHTMLで構築・公開されており、研究室の活動紹介・情報発信の基盤となっている。2015年に開設され、長期にわたって継続的に運用されている。
+
+## 主な活動・成果
+- 研究室公式サイト（http://furuhashilab.com）のGitHub Pages運用
+- Issue #1にて古橋ゼミの紹介文・セミナーガイド（2016年版）を整備・共有
+  - 研究テーマ「参加型空間情報と社会貢献」および「一億総伊能化社会」構想を文書化
+  - 3・4年次の達成目標（空間情報の把握・可視化→空間分析・フィールドワーク）を明文化
+  - 応募条件（国際機関イベント参加必須、ノートPC所有推奨）・選考方法を整理
+  - Diversity・Accessibility・Sustainabilityの3軸を評価基準として定義
+
+## 使用技術・ツール
+- HTML（サイト構築）
+- GitHub Pages（静的サイトホスティング）
+- GitHub Issues（ドキュメント管理・情報共有）
+
+## 得られた知見
+- 研究室のウェブサイトをGitHub Pagesで管理することで、学生も含めたオープンな共同編集・バージョン管理が可能になる。
+- 研究室の理念（DAS：Diversity・Accessibility・Sustainability）を評価軸として明文化することで、学生の活動指針を一貫して運用できる。
+
+## 未解決事項・課題
+- Issue #1「古橋ゼミ 紹介文」が2017年以降オープンのまま残っており、内容の更新・クローズが未対応。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/www_furuhashiab_com
+- Issues: https://github.com/furuhashilab/www_furuhashiab_com/issues
+- 関連サイト: http://furuhashilab.com
