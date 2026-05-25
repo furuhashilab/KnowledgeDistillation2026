@@ -139,3 +139,146 @@ Issue #1「screenshots」が1件オープンのままクローズされていな
 - リポジトリ: https://github.com/furuhashilab/ShibuyaUrarojiStreetView
 - Issues: https://github.com/furuhashilab/ShibuyaUrarojiStreetView/issues
 
+---
+repo_name: "googleearthstudio"
+repo_url: "https://github.com/furuhashilab/googleearthstudio"
+genre: "vf"
+genre_label: "V&F（映像・動画）"
+repo_created_at: "2020-03-29"
+repo_updated_at: "2020-10-21"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "google-earth-studio"
+  - "ffmpeg"
+  - "video-production"
+confidence: "high"
+---
+
+# googleearthstudio
+
+## 概要
+Google Earth Studioを活用した映像制作のノウハウ（Know-How）を蓄積・共有するリポジトリ。Google Earth Studioで出力した連番JPEGファイルをFFmpegで動画（MP4）に変換する手順が中心的なトピックとなっている。リポジトリサイズ（約140MB）から、実際の画像・動画素材も含まれていると推察される。
+
+## 主な活動・成果
+- Google Earth Studioから書き出した連番JPEG（例：インドネシア・タンボラ山周辺）をFFmpegでMP4動画に変換する実行例をIssueに記録
+- FFmpegのパターンマッチング挙動に関するトラブルシューティングを実施：デフォルトのグロブマッチが連番ファイルを認識しない問題を発見し、`-pattern_type none`オプションを使うことで解決
+- 変換コマンドの最終形として `-r 30 -pattern_type none -i ファイル名_%03d.jpeg -vcodec libx264 -pix_fmt yuv420p -r 60` を確立
+
+## 使用技術・ツール
+- Google Earth Studio：地球規模の3D地図映像を生成するWebアプリ
+- FFmpeg：動画変換・エンコードCLIツール（libx264コーデック、yuv420pピクセルフォーマット使用）
+- JPEG連番ファイル：Google Earth Studioの出力フォーマット
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+- Google Earth StudioからFFmpegで動画変換する際、デフォルトのファイルパターンマッチングでは連番JPEGが認識されないエラーが発生する。`-pattern_type none`を明示的に指定することで回避できる。
+- 入力フレームレート（`-r 30`）と出力フレームレート（`-r 60`）を分けて指定することで、スムーズな動画出力が可能になる。
+- この変換ワークフロー（Google Earth Studio → 連番JPEG → FFmpeg → MP4）は、地理的な3D映像コンテンツ制作の標準的な手順として他プロジェクトへも転用できる。
+
+## 未解決事項・課題
+Issue #1「実行例」がオープンのままクローズされておらず、最終的な成果物（動画）の完成・確認状況が不明。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/googleearthstudio
+- Issues: https://github.com/furuhashilab/googleearthstudio/issues
+
+---
+repo_name: "-MapSwipe"
+repo_url: "https://github.com/furuhashilab/-MapSwipe"
+genre: "vf"
+genre_label: "V&F（映像・動画）"
+repo_created_at: "2020-09-28"
+repo_updated_at: "2020-10-05"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "mapswipe"
+  - "video-production"
+  - "humanitarian-mapping"
+confidence: "high"
+---
+
+# -MapSwipe
+
+## 概要
+古橋研究室の映像制作ユニット「ガチャムク」とMapSwipe（人道支援向けクラウドソーシング地図アプリ）のコラボレーション動画を制作するリポジトリ。MapSwipeの活動・意義を広く伝えるための広報動画の作成が目的と推察される。リポジトリサイズが極めて小さい（1KB）ことから、主な成果物は外部（Google Drive・YouTubeなど）で管理されていた可能性が高い。
+
+## 主な活動・成果
+- ガチャムク（furuhashilab内の映像制作チーム）とMapSwipeのコラボ動画企画・制作
+- （Issuesなし：詳細な作業記録は残されていない）
+
+## 使用技術・ツール
+- MapSwipe：スマートフォン向け人道支援クラウドソーシング地図アプリ
+- ガチャムク（Gachamuku）：古橋研究室の映像制作チーム・ツール群
+- プログラミング言語：なし（language: null）
+
+## 得られた知見
+人道支援系ツール（MapSwipe等）の普及・啓発には、研究室の映像制作チームと連携したコラボ動画という形式が有効なアプローチになりうる。研究活動の成果を映像コンテンツとして発信する際、GitHubリポジトリはタスク管理の場として機能し、実際の素材・成果物は外部ストレージ（YouTube・Google Drive）に置く運用パターンが古橋研究室では定着している。
+
+## 未解決事項・課題
+Issuesが存在せず、動画の完成・公開状況が不明。リポジトリサイズが1KBと非常に小さく、実質的な成果物はリポジトリ外に存在すると思われる。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/-MapSwipe
+- Issues: https://github.com/furuhashilab/-MapSwipe/issues
+
+---
+repo_name: "2020_TEDxdesign"
+repo_url: "https://github.com/furuhashilab/2020_TEDxdesign"
+genre: "vf"
+genre_label: "V&F（映像・動画）"
+repo_created_at: "2020-06-23"
+repo_updated_at: "2020-10-01"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "tedx"
+  - "video-production"
+  - "virtual-event"
+confidence: "high"
+---
+
+# 2020_TEDxdesign
+
+## 概要
+TEDxAGU 2020年度の会場デザイン・映像制作・配信を担当するリポジトリ。新型コロナウイルス感染拡大を受け、当初のSTYLY（VRプラットフォーム）を使ったバーチャル会場開催から、事前収録＋クロマキー合成＋YouTube/Zoom配信へと方針を転換しながら制作を進めた。フォーク数4・スター数1・サブスクライバー12名と研究室内でも関心が高いリポジトリ。
+
+## 主な活動・成果
+- STYLY（VR配信）の検討・断念：セッション機能の同時接続上限が30人と判明し、VR会場案を廃止。スピーカー事前収録＋クロマキー合成による2D配信へ方針転換（Issue #27）
+- 撮影計画の策定：渋谷DHCスタジオでの試し撮りを実施し、上半身・全身・紹介用の3アングル撮影方式を確立（Issue #26、コメント11件）
+- ノイズ問題への対処：DHCスタジオ周辺の環境音対策を検討・調査（Issue #47）
+- 動画編集手順の整備：Adobe Premiere Proを用いた編集ワークフローとホログラム合成（After Effects）の分担体制を構築（Issue #25・#24・#46）
+- GatsbyJSによるウェブサイトデザイン更新：tedxagu/workdata4gatsbyをテスト環境として `gatsby develop/build/serve` でローカル検証し、本番サイト（tedxagu.com）への反映手順を整備（Issue #34・#35・#36）
+- Zoomによるオンライン配信設計：ブレイクアウトルームの参加者希望制移動、配信方法の具体案を検討（Issue #52・#51）
+- OBS（Open Broadcaster Software）によるライブ配信方法の調査（Issue #14）
+- Clusterへの動画アップロード検討、Remoによるアフターパーティ設計（Issue #16・#22）
+- GitHubの使い方をTEDxAGUメンバーへ教育するタスクを設定（Issue #15）
+
+## 使用技術・ツール
+- STYLY：VR空間制作プラットフォーム（当初案、断念）
+- Unity：3D空間・ホログラム制作（外部協力者が必要で難航）
+- Adobe Premiere Pro：動画編集
+- Adobe After Effects：ホログラム合成・エフェクト
+- OBS（Open Broadcaster Software）：ライブ配信
+- Gatsby.js：ウェブサイト構築（tedxagu/workdata4gatsby連携）
+- Zoom：オンライン配信・ブレイクアウトルーム
+- Cluster：VRイベントプラットフォーム
+- Remo：オンラインアフターパーティ
+- 360°カメラ（STYLY連携用途）
+- クロマキー合成：スピーカーと仮想会場の合成
+- GitHub Issues（ラベル・マイルストーンによるタスク管理）
+
+## 得られた知見
+VRプラットフォームのセッション機能には同時接続人数制限があり（STYLY: 30人上限）、大規模イベントには適さない。早期の制約確認が方針転換コストを下げる。スピーカーの事前収録＋クロマキー合成による仮想会場合成は、オンライン開催でも没入感を維持しながら配信品質を確保できる現実的な代替手法。GitHub Issueをラベル（styly・Unity・360°camera等）・マイルストーン（6月ハッカソン・7月ハッカソン・合宿）で体系管理することで、多人数・複数ワークストリームのイベント制作も追跡可能になる。
+
+## 未解決事項・課題
+26件のIssueがオープンのままで、ウェブサイトの本番反映（Issue #36）・動画編集の完了・Zoomリンク発行（Issue #53）・配信方法の確定（Issue #51）など多数のタスクが未クローズ。Unityスキルを持つ外部協力者の確保（Issue #8・#9）も未解決のまま残っている。
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/2020_TEDxdesign
+- Issues: https://github.com/furuhashilab/2020_TEDxdesign/issues
+
