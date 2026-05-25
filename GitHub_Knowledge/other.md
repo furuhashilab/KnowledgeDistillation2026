@@ -1947,3 +1947,270 @@ confidence: "high"
 - リポジトリ: https://github.com/furuhashilab/japanese-addresses
 - Issues: https://github.com/furuhashilab/japanese-addresses/issues
 
+---
+repo_name: "website"
+repo_url: "https://github.com/furuhashilab/website"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-05-08"
+repo_updated_at: "2020-05-18"
+distilled_at: "2026-05-25"
+language: "JavaScript"
+homepage: "https://furuhashilab.github.io/website/jp/"
+tags:
+  - "mapswipe"
+  - "localization"
+  - "github-pages"
+confidence: "medium"
+---
+
+# website
+
+## 概要
+本リポジトリは、古橋研究室が MapSwipe の公式ウェブサイト（mapswipe/website-old）をフォークし、日本語話者向けにローカライズするために作成したテスト用サイトである。GitHub Pages を利用して日本語版ページを公開することを目的としており、元サイトの構造を維持しながら日本語対応を試みている。Issues の内容から、学生メンバーが実際に編集・検証作業を行っていたことが読み取れる。
+
+## 主な活動・成果
+- MapSwipe 公式サイトを fork し、日本語ローカライズ版として GitHub Pages で公開（`/jp/` パス）
+- ナビゲーションタブ（about、get involved 等）の日本語訳作業を実施
+- 日本語訳を適用した際に元サイト（本家）のタブにも影響が出るという翻訳スコープの問題を発見・Issue 化（#2）
+- img ディレクトリ内の画像が表示されない不具合を発見・Issue 化（#4）
+
+## 使用技術・ツール
+- JavaScript（主要言語）
+- GitHub Pages（静的サイトホスティング）
+- Git / GitHub（バージョン管理・Issue トラッキング）
+- HTML / CSS（MapSwipe ウェブサイトのベース構造）
+
+## 得られた知見
+- 既存サイトを fork してローカライズする際、翻訳対象のスコープ（ページ単位 vs サイト全体）を事前に設計しないと、元サイトの構造にも意図せず影響を及ぼすリスクがある。言語別ディレクトリ分離や i18n ライブラリの活用など、翻訳の独立性を担保する設計が重要である。
+- 画像パスは fork 元と fork 先でルートが異なる場合があるため、静的アセットのパス解決を fork 直後に検証する習慣が有効である。
+
+## 未解決事項・課題
+- ナビゲーションタブの日本語訳が本家サイトにも影響する問題（Issue #2）が未解決のままクローズされていない
+- img ディレクトリ内の画像が表示されない不具合（Issue #4）も未解決
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/website
+- Issues: https://github.com/furuhashilab/website/issues
+- 関連サイト: https://furuhashilab.github.io/website/jp/
+
+---
+repo_name: "sl"
+repo_url: "https://github.com/furuhashilab/sl"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-06-30"
+repo_updated_at: "2020-06-30"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "unix"
+  - "cli"
+  - "joke-program"
+confidence: "high"
+---
+
+# sl
+
+## 概要
+`sl` は、Unix/Linux 環境でコマンドラインの誤タイプ（`ls` を `sl` と打ってしまうミス）を矯正するためのジョークプログラムである。`sl` と入力するとターミナル上に蒸気機関車のアスキーアートが走り抜けるアニメーションが表示され、ユーザーに誤タイプを気づかせる仕掛けになっている。古橋研究室は mtoyoda 氏によるオリジナルリポジトリ（GitHub で 3,000 以上のスターを持つ著名な OSS）を fork して保有しており、研究室メンバーへの Linux 入門・コマンドライン教育の文脈で活用されたと考えられる。
+
+## 主な活動・成果
+- mtoyoda/sl（著名な Unix ジョークコマンド）を研究室組織アカウントに fork
+- Issues は無効化されており、独自の開発・改変の記録はない
+- fork 後に独自のコミットは行われておらず、教育・参照目的での取り込みとみられる
+- 研究室内から 4 件の fork が派生しており、学生個人が手元環境で試した形跡がある
+
+## 使用技術・ツール
+- C言語（元リポジトリの主要言語）
+- ncurses（ターミナル上のアスキーアートアニメーション描画）
+- Unix / Linux コマンドライン環境
+- Git / GitHub（fork による配布・管理）
+
+## 得られた知見
+- コマンドラインの誤タイプ矯正という実用とユーモアを組み合わせたアプローチは、初学者への Linux 教育において導入のとっかかりとして有効である。著名な OSS を fork して研究室アカウントに置くことで、学生が `git clone` や fork の概念を体験的に学ぶ教材としても機能する。
+
+## 未解決事項・課題
+特になし
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/sl
+- Issues: https://github.com/furuhashilab/sl/issues
+
+---
+repo_name: "Safecast"
+repo_url: "https://github.com/furuhashilab/Safecast"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-04-09"
+repo_updated_at: "2020-04-09"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "safecast"
+  - "radiation"
+  - "open-data"
+confidence: "medium"
+---
+
+# Safecast
+
+## 概要
+本リポジトリは、古橋研究室が Safecast に関連する調査・研究活動を管理するために作成したものである。Safecast は東日本大震災後の放射線量データを市民が分散収集・公開するオープンデータプロジェクトであり、古橋研究室はこのプロジェクトと連携した研究・教育活動を行っている。リポジトリ自体は非常に小規模（3KB）で作成直後から更新が止まっており、メモや資料の管理を目的とした初期段階のリポジトリとみられる。
+
+## 主な活動・成果
+- Safecast プロジェクトに関連する資料・情報をまとめるリポジトリを新規作成
+- Issues・コメントの記録はなく、公開活動の記録は残っていない
+- 作成から約半日でプッシュが止まっており、試験的な立ち上げにとどまった可能性が高い
+
+## 使用技術・ツール
+- Git / GitHub（リポジトリ管理）
+- Safecast API・オープンデータ（関連プロジェクト）
+
+## 得られた知見
+- Safecast のような市民科学型オープンデータプロジェクトは、研究室が地域・社会課題と接続する際の有力な連携先となる。放射線量データのような時空間データを扱う研究では、データ収集の仕組みと可視化・解析パイプラインを切り分けて設計することが重要である。
+
+## 未解決事項・課題
+特になし
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/Safecast
+- Issues: https://github.com/furuhashilab/Safecast/issues
+
+---
+repo_name: "gsclocalguide"
+repo_url: "https://github.com/furuhashilab/gsclocalguide"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2018-07-10"
+repo_updated_at: "2020-04-07"
+distilled_at: "2026-05-25"
+language: "HTML"
+homepage: "http://gsclocalguide.furuhashilab.com"
+tags:
+  - "localwiki"
+  - "local-guide"
+  - "crowdsourcing"
+confidence: "high"
+---
+
+# gsclocalguide
+
+## 概要
+本リポジトリは、古橋研究室が運営する GSC（Global Sensing Consortium または学内活動）のローカルガイドプロジェクトを管理するものである。学生が首都圏各地のおすすめ飲食店・カフェを実地調査し、LocalWiki（`ja.localwiki.org/agu`）にポイントデータと詳細情報を登録・集約する市民参加型の地域情報収集活動である。GitHub Pages でガイドサイトを公開しており、2018年から継続的に運用されている。
+
+## 主な活動・成果
+- 学生が淵野辺・町田・横浜・渋谷・新宿など首都圏50地区以上を対象に飲食店の実地調査を実施
+- 調査結果を LocalWiki（`ja.localwiki.org/agu`）に個別ページとして登録し、位置情報（緯度・経度）も付与
+- 重複調査を管理するためのページ命名規則（「店名+年度+季節+調査者名」）を策定・運用
+- Issue #2 にて LocalWiki へのページ新規作成・地図ポイント登録手順をマニュアルとして整備
+- Issue #1 にてサイトのブラッシュアップ（データ更新・目的別使い分け）を課題として提起
+
+## 使用技術・ツール
+- HTML（主要言語）
+- LocalWiki（地域情報 Wiki プラットフォーム、`ja.localwiki.org`）
+- GitHub Pages（静的サイトホスティング）
+- Git / GitHub（バージョン管理・Issue による作業管理）
+
+## 得られた知見
+- 複数人が同一対象を調査する際のページ命名規則（店名＋年度＋季節＋調査者名）を事前に設計することで、LocalWiki 上の重複や混乱を防ぐことができる。学生参加型のフィールド調査では、データ登録の標準化・マニュアル整備が品質担保の鍵となる。また、GitHub Issues を調査票・マニュアル置き場として活用することで、非エンジニアの学生でも参照しやすい運用が実現できる。
+
+## 未解決事項・課題
+- Issue #1「GSC Local Guide ブラッシュアップ」（データ更新・目的別使い分け）が未解決のままクローズされていない
+- Issue #2「LocalWiki ソースコード」も未クローズ
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/gsclocalguide
+- Issues: https://github.com/furuhashilab/gsclocalguide/issues
+- 関連サイト: http://gsclocalguide.furuhashilab.com
+
+---
+repo_name: "ventilator"
+repo_url: "https://github.com/furuhashilab/ventilator"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-03-29"
+repo_updated_at: "2020-03-29"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "open-source-hardware"
+  - "covid-19"
+  - "papr"
+confidence: "high"
+---
+
+# ventilator
+
+## 概要
+本リポジトリは、COVID-19 パンデミック初期（2020年3月）に医療機器不足への対応として世界的に注目された低コスト・オープンソース人工呼吸器（または PAPR：電動ファン付き呼吸用保護具）の設計リポジトリ jcl5m1/ventilator を古橋研究室が fork したものである。fork 元は GitHub で 1,600 以上のスターを獲得した注目度の高いプロジェクトであり、研究室がオープンソースハードウェアの動向を追跡・参照する目的で取り込んだとみられる。
+
+## 主な活動・成果
+- jcl5m1/ventilator（低コスト人工呼吸器・PAPR 設計）を研究室アカウントに fork
+- Issues は無効化されており、研究室独自の改変や実装活動の記録はない
+- fork 日時（2020年3月29日）はコロナ禍の医療機器不足が深刻化していた時期と一致しており、緊急時のオープンソースハードウェア活動への関心の表れとみられる
+- fork 元は Jupyter Notebook を用いた設計シミュレーションや回路・部品リストを含む包括的なドキュメントで構成されている
+
+## 使用技術・ツール
+- Jupyter Notebook（fork 元の主要言語、設計シミュレーション・ドキュメント）
+- オープンソースハードウェア設計（回路図・部品リスト）
+- PAPR / 人工呼吸器の機械設計
+- Git / GitHub（fork による情報収集・管理）
+
+## 得られた知見
+- 緊急・災害時においてオープンソースコミュニティが医療機器設計情報を GitHub で迅速に共有・改良する動きは、研究機関が人道支援や危機対応に貢献できる新しい形態である。Jupyter Notebook を設計ドキュメントとして活用することで、シミュレーションと説明文を一体化した再現性の高い技術共有が可能になる。
+
+## 未解決事項・課題
+特になし
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/ventilator
+- Issues: https://github.com/furuhashilab/ventilator/issues
+
+---
+repo_name: "postal-code-api"
+repo_url: "https://github.com/furuhashilab/postal-code-api"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2020-06-01"
+repo_updated_at: "2020-06-01"
+distilled_at: "2026-05-25"
+language: null
+homepage: null
+tags:
+  - "postal-code"
+  - "japan-address"
+  - "open-api"
+confidence: "high"
+---
+
+# postal-code-api
+
+## 概要
+本リポジトリは、日本の郵便番号から住所情報を取得できる Postal Code API（madefor/postal-code-api）を古橋研究室が fork したものである。fork 元は GitHub で 450 以上のスターを持つ実績あるオープン API 実装であり、郵便番号と住所データを JSON 形式で静的に配信する仕組みを提供している。研究室での地図・GIS 関連プロジェクトにおいて、住所ジオコーディングの前処理や位置情報付与の補助ツールとして参照・活用する目的で取り込んだとみられる。
+
+## 主な活動・成果
+- madefor/postal-code-api を研究室アカウントに fork
+- Issues は無効化されており、研究室独自の改変・活動の記録はない
+- fork 元は 2016年から継続メンテナンスされており、日本の郵便番号データを静的 JSON として GitHub Pages で配信する設計が特徴的
+
+## 使用技術・ツール
+- JavaScript（fork 元の主要言語）
+- 静的 JSON API（郵便番号→住所の変換データ）
+- GitHub Pages（API データのホスティング）
+- 日本郵便の郵便番号データ（データソース）
+- Git / GitHub（fork による管理）
+
+## 得られた知見
+- 郵便番号と住所の変換データを静的 JSON として GitHub Pages で配信する設計は、サーバーレスで維持コストゼロの API 提供手法として有効である。地図・GIS アプリケーションで住所入力の補完や位置情報付与を行う際、外部有料サービスに依存せず自己ホスト可能なオープンデータ活用の好例である。
+
+## 未解決事項・課題
+特になし
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/postal-code-api
+- Issues: https://github.com/furuhashilab/postal-code-api/issues
+
