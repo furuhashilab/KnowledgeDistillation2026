@@ -1667,3 +1667,48 @@ confidence: "medium"
 - Issues: https://github.com/furuhashilab/otasukegrareco/issues
 - フォーク元: https://github.com/furuhashilab/2021gsc_Kahoru-Sato
 - 次世代版開発: https://github.com/furuhashilab/-V3-
+
+---
+repo_name: "open-hinata"
+repo_url: "https://github.com/furuhashilab/open-hinata"
+genre: "design"
+genre_label: "デザイン"
+repo_created_at: "2024-07-11"
+repo_updated_at: "2024-07-11"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "open-data"
+  - "web-map"
+  - "javascript"
+confidence: "low"
+---
+
+# open-hinata
+
+## 概要
+本リポジトリは、kenzkenz氏が開発・公開しているOSSプロジェクト「open-hinata」を古橋研究室がフォークしたものである。フォーク元（kenzkenz/open-hinata）はJavaScriptで実装されたWebマッピング関連のアプリケーションと推定され、スター31件・フォーク5件を持つ小規模ながら参照されているプロジェクトである。「open-hinata」の「hinata（日向）」はオープンデータや地図可視化に関連するプロジェクト名と考えられるが、descriptionが存在しないため詳細な目的は不明である。
+
+## 主な活動・成果
+- kenzkenz/open-hinataからフォークのみ実施（2024年7月11日）
+- フォーク後に独自のコミット・Issue・PRは確認されない
+- Issueは無効化されており、古橋研究室側での課題管理は行われていない
+- フォーク元は2022年7月に作成され、2024年6月まで継続的にメンテナンスされている
+
+## 使用技術・ツール
+- JavaScript：フォーク元の主要実装言語（furuhashilab側では未確認）
+- GitHub Pages：フォーク元でウェブ公開が有効化されている
+- Webマッピング関連ライブラリ（フォーク元の実装に準じると推定）
+
+## 得られた知見
+- 外部OSSプロジェクトをフォークして研究室組織アカウントに取り込むことで、教育・研究用途への転用や独自カスタマイズの準備環境を低コストで整備できる。ただし、フォーク直後に活動が止まっている場合は目的・計画を明文化しないと知識が引き継がれにくい点に注意が必要である。
+
+## 未解決事項・課題
+- フォーク後の具体的な利用目的・カスタマイズ方針が未記載
+- description・READMEの整備が行われておらず、リポジトリの用途が外部から判別困難な状態
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/open-hinata
+- Issues: https://github.com/furuhashilab/open-hinata/issues
+- フォーク元: https://github.com/kenzkenz/open-hinata
