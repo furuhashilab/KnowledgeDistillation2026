@@ -332,3 +332,49 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/makingmovie4furuhashilab2025
 - Issues: https://github.com/furuhashilab/makingmovie4furuhashilab2025/issues
+
+---
+repo_name: "furuhashilab_movie_2024"
+repo_url: "https://github.com/furuhashilab/furuhashilab_movie_2024"
+genre: "vf"
+genre_label: "V&F（映像・動画）"
+repo_created_at: "2024-07-16"
+repo_updated_at: "2024-08-03"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "video-production"
+  - "lab-promotion"
+  - "editing"
+confidence: "high"
+---
+
+# furuhashilab_movie_2024
+
+## 概要
+本リポジトリは、古橋研究室の2024年度プロモーション動画の制作・管理を目的として作成された。V&F（映像・動画）部門の学生（高井・古内）が編集を担当し、研究室メンバー全員で完成動画のチェックを行う体制を取っている。動画の長さは3〜5分以内を目標とし、BGM・テロップ・画質・ライセンス等の品質チェック項目をIssueで管理した。CC BY 4.0 ライセンスで公開。
+
+## 主な活動・成果
+- Issue #1（編集 担当：V&F）：V&F部門の高井・古内が動画編集を担当。V&F専属メンバーによる分業体制を確立
+- Issue #3（完成動画のチェック）：BGM音量・BGMライセンス・テロップ・画質・URL・尺（3〜5分以内）・ゼミ内サークル紹介の有無をチェックリストとして管理。メンバー6名（林・上原・青木・小池・金澤・林）をアサイン
+- Issue #11（READMEの作成）：動画説明・URL・コンテンツライセンス・ファイル説明・編集者インタビューを含むREADMEの作成をakidinosaursが担当
+- Issue #12（完成版〈仮〉置き場）：完成動画URLの共有用Issueを設置
+
+## 使用技術・ツール
+- 動画編集（ソフトウェア不明）
+- BGM（ライセンス確認が課題として挙がっている）
+- GitHub Issues（制作進行管理）
+- CC BY 4.0 ライセンス
+
+## 得られた知見
+- 動画制作プロジェクトにおいてGitHub Issuesを進行管理ツールとして活用することで、編集担当・チェック担当・README担当を明確に分業し、タスクの抜け漏れを防ぐことができる。完成動画のチェック項目（BGMライセンス・テロップ・画質・尺など）をチェックリスト形式のIssueとして明文化することで、品質基準の共有と確認が効率化される。
+
+## 未解決事項・課題
+- 4件のIssueがオープンのまま（完成動画URL・README・チェックリストの最終確認が未クローズ）
+- BGMライセンスの確認状況が不明
+- 完成動画の最終公開先・URLが記録されていない
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/furuhashilab_movie_2024
+- Issues: https://github.com/furuhashilab/furuhashilab_movie_2024/issues
