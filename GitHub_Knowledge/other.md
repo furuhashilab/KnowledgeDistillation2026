@@ -3661,3 +3661,151 @@ confidence: "high"
 - リポジトリ: https://github.com/furuhashilab/foss4gi18nJP
 - Issues: https://github.com/furuhashilab/foss4gi18nJP/issues
 - Wiki（翻訳作業マニュアル）: https://github.com/furuhashilab/foss4gi18nJP/wiki
+
+---
+repo_name: "gdal"
+repo_url: "https://github.com/furuhashilab/gdal"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-07-18"
+repo_updated_at: "2024-07-18"
+distilled_at: "2026-05-26"
+language: "C++"
+homepage: "https://gdal.org"
+tags:
+  - "gdal"
+  - "geospatial"
+  - "translation"
+confidence: "high"
+---
+
+# gdal
+
+## 概要
+本リポジトリは、ラスタ・ベクタ地理空間データフォーマット変換ライブラリ GDAL（OSGeo/gdal）を、OSGeo-jp 経由で古橋研究室がフォークしたものである。フォーク元の OSGeo-jp/gdal は日本語ドキュメント翻訳を目的として作成されており、古橋研究室による FOSS4G ツールの国際化（i18n）・日本語翻訳活動（foss4gi18nJP リポジトリ参照）の一環として取り込まれたと推定される。オリジナルの OSGeo/gdal はスター5,900件超・フォーク2,800件超の主要OSSプロジェクトである。
+
+## 主な活動・成果
+- OSGeo-jp/gdal（GDAL日本語翻訳用フォーク）をさらに古橋研究室がフォーク（2024年7月18日）
+- Issues機能は無効化されており、独自の活動記録はなし
+- 翻訳作業の実体は foss4gi18nJP リポジトリおよび Transifex 上で管理されていると推定される
+
+## 使用技術・ツール
+- GDAL（地理空間データ変換ライブラリ、主言語 C++）
+- GitHub（フォーク・バージョン管理）
+- Transifex（翻訳作業プラットフォームとして推定）
+
+## 得られた知見
+- 大規模OSSプロジェクト（GDAL）の翻訳活動は、OSGeo-jp のような地域コミュニティ組織がフォークを中継することで、研究室・教育機関が参加しやすい構造になっている。フォークチェーン（OSGeo → OSGeo-jp → furuhashilab）を辿ることで、どのコミュニティレイヤーでどの翻訳作業が行われているかを把握できる。
+
+## 未解決事項・課題
+- 特になし（Issues無効・オープンな議題なし）
+- 古橋研究室フォーク独自のコントリビューション内容は不明
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/gdal
+- フォーク元: https://github.com/OSGeo-jp/gdal
+- オリジナル: https://github.com/OSGeo/gdal
+- 関連サイト: https://gdal.org
+- 関連翻訳活動: https://github.com/furuhashilab/foss4gi18nJP
+
+- ---
+repo_name: "digitaltwin4shibuyaCP"
+repo_url: "https://github.com/furuhashilab/digitaltwin4shibuyaCP"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-05-21"
+repo_updated_at: "2024-07-17"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "digital-twin"
+  - "plateau"
+  - "shibuya"
+confidence: "high"
+---
+
+# digitaltwin4shibuyaCP
+
+## 概要
+本リポジトリは、Dassault Systèmesの3DExperience/CityPlanner（都市計画向け3Dデジタルツインプラットフォーム）を用いて、渋谷区のデジタルツインデータを整備することを目的とした研究プロジェクトである。PLATEAU（国交省3D都市モデル）の建物データやOpenStreetMap・地理院地図等のオープンデータを統合し、渋谷駅北西エリア（メッシュコード53393596）を対象に3D都市モデルを構築する試みである。CC0-1.0ライセンスで公開。
+
+## 主な活動・成果
+- Issue #1・#2（対象エリアBBOX・スクリーンショット）：CityPlannerの仕様上「平面投影の正方形」が必須のため、標準地域メッシュ（非正方形）を正方形エリア（5.8km×5.8km、EPSG:3857）に修正してBBOXを確定。GeoJSON形式で座標を記録
+- Issue #3（テーマ）：渋谷区の介護データ・ヘルパーの分布を主題データとして活用する方向を検討
+- Issue #4（README backup）：整備すべきデータ形式（ラスタ：GeoTIFF、ベクタ：GeoJSON/GeoPackage）・整備方法・データリスト（PLATEAUデータ・地理院DEM・OSM・渋谷区オープンデータ）を体系的に整理
+- Issue #5（対象エリアBBOX 渋谷駅北西メッシュ包有正方形）：渋谷駅北西1.5km×1.5km正方形エリアの座標をEPSG:3857で詳細に定義
+- Issue #6（作業MEMO 2024-05-29）：3DExperience起動確認・UWGlobe参照
+- Issue #7（作業MEMO 2024-06-26）：3DExperience起動URLを記録
+- Issue #8（PLATEAU建物データGeoJSONインポートエラー）：PLATEAU CityGMLを PLATEAU GIS Converter でEPSG:3857変換→GeoPackage→QGIS→GeoJSONに変換後、CityPlanner/City Referencesへのインポートで PreparingError が発生。未解決のバグとして記録
+
+## 使用技術・ツール
+- 3DExperience / CityPlanner（Dassault Systèmes、デジタルツインプラットフォーム）
+- PLATEAU（国交省3D都市モデル、CityGML形式）
+- PLATEAU GIS Converter（MIERUNE製、CityGML→GeoPackage変換）
+- QGIS（投影変換・GeoJSONエクスポート）
+- GeoJSON / GeoPackage / GeoTIFF（データフォーマット）
+- OpenStreetMap・地理院地図（ベースマップ）
+- EPSG:3857（空間参照系として統一）
+- GitHub Issues（作業MEMOおよびバグ記録）
+- CC0-1.0ライセンス
+
+## 得られた知見
+- CityPlannerは平面投影の正方形エリア定義が必須であるため、標準地域メッシュ（長方形）をそのまま利用することはできず、包有正方形への変換が必要となる。PLATEAU CityGMLをCityPlannerへ取り込む際、PLATEAU GIS ConverterとQGISを経由してGeoJSONに変換しても PreparingError が発生するケースがあり、CityPlanner側のGeoJSON取り込み仕様との不整合が存在する可能性がある。
+
+## 未解決事項・課題
+- 全8件のIssueがオープンのまま
+- Issue #8：PLATEAU建物GeoJSONのCityPlannerインポートエラーが未解決
+- 渋谷区介護データの活用方針（Issue #3）が未確定
+- デジタルツインの完成・公開時期については言及なし
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/digitaltwin4shibuyaCP
+- Issues: https://github.com/furuhashilab/digitaltwin4shibuyaCP/issues
+- PLATEAU GIS Converter: https://github.com/MIERUNE/plateau-gis-converter
+
+- ---
+repo_name: "Youth_JOSM-Validation"
+repo_url: "https://github.com/furuhashilab/Youth_JOSM-Validation"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-06-26"
+repo_updated_at: "2024-07-16"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "josm"
+  - "openstreetmap"
+  - "youthmappers"
+confidence: "medium"
+---
+
+# Youth_JOSM-Validation
+
+## 概要
+本リポジトリは、古橋研究室（furuhashilab）が関与するYouthMappers向けのJOSM（Java OpenStreetMap Editor）バリデーション活動を管理・記録するために作成されたものと推定される。YouthMappersは学生主導の人道的マッピングコミュニティであり、JOSMはOpenStreetMapの高度な編集・検証に広く用いられるデスクトップクライアントである。リポジトリ名の「Validation」は、OSMデータの品質検証プロセスに対応する活動であることを示唆している。
+
+## 主な活動・成果
+- Issue #5「動画編集〈担当：V&F〉」がオープン状態で存在しており、活動の成果物として動画編集作業がV&Fチームに割り当てられている
+- 動画編集タスクはIssueとして管理されており、研究室内での役割分担（V&Fチーム担当）が明示されている
+- Issue本文・コメントは未記入のため、具体的な作業内容の詳細は現時点では不明
+
+## 使用技術・ツール
+- JOSM（Java OpenStreetMap Editor）：OSMデータの編集・バリデーションツール
+- OpenStreetMap（OSM）：オープンな地理空間データプラットフォーム
+- GitHub Issues：タスク管理・進捗追跡
+- 動画編集ツール（V&Fチーム担当、具体的なソフトウェアは未記載）
+- 使用プログラミング言語：記録なし（null）
+
+## 得られた知見
+- JOSMバリデーション活動のような技術的作業であっても、成果の発信・記録には動画制作（V&F）などの広報・コミュニケーション活動が並走して管理される点は、研究室プロジェクト運営の参考になる
+- GitHub Issuesを役割ラベル（〈担当：V&F〉）付きで発行することで、複数チームが関与するプロジェクトのタスク分担を可視化できる
+
+## 未解決事項・課題
+- Issue #5「動画編集〈担当：V&F〉」がオープンのままであり、動画編集作業の完了・成果物の提出が未確認
+- Issue本文およびコメントが空のため、作業の詳細・進捗・完了条件が不明確
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/Youth_JOSM-Validation
+- Issues: https://github.com/furuhashilab/Youth_JOSM-Validation/issues
