@@ -3440,3 +3440,224 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/PLATEAUconcierge
 - Issues: https://github.com/furuhashilab/PLATEAUconcierge/issues
+
+---
+repo_name: "Milano2024dataset"
+repo_url: "https://github.com/furuhashilab/Milano2024dataset"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-11-03"
+repo_updated_at: "2024-11-03"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "milan"
+  - "open-data"
+  - "sabbatical"
+confidence: "high"
+---
+
+# Milano2024dataset
+
+## 概要
+本リポジトリは、古橋太一教授の2024〜2025年度サバティカル（在外研究）期間中のミラノ滞在に関連した都市データを収集・管理するためのデータセットリポジトリである。ミラノ市のオープンデータを研究・教育目的で蓄積し、CC0-1.0（パブリックドメイン相当）ライセンスで公開している。リポジトリサイズ（約22MB）から、地理空間データや画像等の実データが格納されていると推定される。
+
+## 主な活動・成果
+- 古橋教授のサバティカル研究の一環として、ミラノ市に関するデータセットを収集・公開（2024年11月）
+- Issuesは0件・フォーク0件であり、個人研究用データリポジトリとして運用
+- CC0ライセンスにより、収集データを制限なくオープンに提供
+
+## 使用技術・ツール
+- GitHub（データ管理・公開）
+- Creative Commons Zero（CC0-1.0）ライセンス
+- ミラノ市オープンデータ（データソースとして推定）
+
+## 得られた知見
+- サバティカル期間中に収集した現地都市データをCC0でGitHubに公開することで、研究コミュニティが自由に再利用できるオープンリサーチデータセットとして機能させることができる。研究者個人のフィールドワーク成果を即座にオープンデータ化する実践モデルとして参考になる。
+
+## 未解決事項・課題
+- 特になし（Issuesなし・オープンな議題なし）
+- データの具体的な内容・形式・収集方法については説明文書が不明
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/Milano2024dataset
+- Issues: https://github.com/furuhashilab/Milano2024dataset/issues
+
+- ---
+repo_name: "Milano2024dataset"
+repo_url: "https://github.com/furuhashilab/Milano2024dataset"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-11-03"
+repo_updated_at: "2024-11-03"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "milan"
+  - "open-data"
+  - "sabbatical"
+confidence: "high"
+---
+
+# Milano2024dataset
+
+## 概要
+本リポジトリは、古橋太一教授の2024〜2025年度サバティカル（在外研究）期間中のミラノ滞在に関連した都市データを収集・管理するためのデータセットリポジトリである。ミラノ市のオープンデータを研究・教育目的で蓄積し、CC0-1.0（パブリックドメイン相当）ライセンスで公開している。リポジトリサイズ（約22MB）から、地理空間データや画像等の実データが格納されていると推定される。
+
+## 主な活動・成果
+- 古橋教授のサバティカル研究の一環として、ミラノ市に関するデータセットを収集・公開（2024年11月）
+- Issuesは0件・フォーク0件であり、個人研究用データリポジトリとして運用
+- CC0ライセンスにより、収集データを制限なくオープンに提供
+
+## 使用技術・ツール
+- GitHub（データ管理・公開）
+- Creative Commons Zero（CC0-1.0）ライセンス
+- ミラノ市オープンデータ（データソースとして推定）
+
+## 得られた知見
+- サバティカル期間中に収集した現地都市データをCC0でGitHubに公開することで、研究コミュニティが自由に再利用できるオープンリサーチデータセットとして機能させることができる。研究者個人のフィールドワーク成果を即座にオープンデータ化する実践モデルとして参考になる。
+
+## 未解決事項・課題
+- 特になし（Issuesなし・オープンな議題なし）
+- データの具体的な内容・形式・収集方法については説明文書が不明
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/Milano2024dataset
+- Issues: https://github.com/furuhashilab/Milano2024dataset/issues
+
+- ---
+repo_name: "takoyaki"
+repo_url: "https://github.com/furuhashilab/takoyaki"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-09-29"
+repo_updated_at: "2024-09-30"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "recipe"
+  - "open-data"
+  - "community"
+confidence: "high"
+---
+
+# takoyaki
+
+## 概要
+本リポジトリは、さくらインターネット株式会社が公開している「さくらインターネット秘伝のたこ焼きレシピ」（sakura-cooking/takoyaki）を古橋研究室がフォークしたものである。オリジナルはスター1,239件・フォーク33件を獲得した著名なユーモア系OSSリポジトリであり、たこ焼きのレシピをGitHubで管理・オープン化するという遊び心ある取り組みとして知られている。CC0-1.0ライセンスで公開（フォーク側）。
+
+## 主な活動・成果
+- sakura-cooking/takoyaki（2018年作成）を古橋研究室がフォーク（2024年9月）
+- Issues機能は無効化されており、独自の活動記録はなし
+- オリジナルリポジトリは2026年5月時点でも継続して更新されている
+
+## 使用技術・ツール
+- GitHub（レシピのバージョン管理・公開）
+- Markdown（レシピ記述形式として推定）
+- CC0-1.0ライセンス（フォーク側）
+
+## 得られた知見
+- レシピのようなテキストコンテンツもGitHubでバージョン管理・フォーク・コントリビューションの対象にできるというGitHubの柔軟な活用事例として知られており、OSSの「オープン性」「コミュニティ参加」の概念を親しみやすい形で伝える教育的コンテンツとして機能している。スター1,200件超という実績は、技術以外の文脈でもGitHubが社会的共感を得られることを示している。
+
+## 未解決事項・課題
+- 特になし（Issues無効・オープンな議題なし）
+- フォークの目的・研究室内での活用意図は不明
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/takoyaki
+- Issues: https://github.com/furuhashilab/takoyaki/issues
+- フォーク元: https://github.com/sakura-cooking/takoyaki
+
+- ---
+repo_name: "takoyaki"
+repo_url: "https://github.com/furuhashilab/takoyaki"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-09-29"
+repo_updated_at: "2024-09-30"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "recipe"
+  - "open-data"
+  - "community"
+confidence: "high"
+---
+
+# takoyaki
+
+## 概要
+本リポジトリは、さくらインターネット株式会社が公開している「さくらインターネット秘伝のたこ焼きレシピ」（sakura-cooking/takoyaki）を古橋研究室がフォークしたものである。オリジナルはスター1,239件・フォーク33件を獲得した著名なユーモア系OSSリポジトリであり、たこ焼きのレシピをGitHubで管理・オープン化するという遊び心ある取り組みとして知られている。CC0-1.0ライセンスで公開（フォーク側）。
+
+## 主な活動・成果
+- sakura-cooking/takoyaki（2018年作成）を古橋研究室がフォーク（2024年9月）
+- Issues機能は無効化されており、独自の活動記録はなし
+- オリジナルリポジトリは2026年5月時点でも継続して更新されている
+
+## 使用技術・ツール
+- GitHub（レシピのバージョン管理・公開）
+- Markdown（レシピ記述形式として推定）
+- CC0-1.0ライセンス（フォーク側）
+
+## 得られた知見
+- レシピのようなテキストコンテンツもGitHubでバージョン管理・フォーク・コントリビューションの対象にできるというGitHubの柔軟な活用事例として知られており、OSSの「オープン性」「コミュニティ参加」の概念を親しみやすい形で伝える教育的コンテンツとして機能している。スター1,200件超という実績は、技術以外の文脈でもGitHubが社会的共感を得られることを示している。
+
+## 未解決事項・課題
+- 特になし（Issues無効・オープンな議題なし）
+- フォークの目的・研究室内での活用意図は不明
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/takoyaki
+- Issues: https://github.com/furuhashilab/takoyaki/issues
+- フォーク元: https://github.com/sakura-cooking/takoyaki
+
+- ---
+repo_name: "foss4gi18nJP"
+repo_url: "https://github.com/furuhashilab/foss4gi18nJP"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-06-13"
+repo_updated_at: "2024-09-09"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "foss4g"
+  - "qgis"
+  - "i18n"
+confidence: "high"
+---
+
+# foss4gi18nJP
+
+## 概要
+本リポジトリは、青山学院大学「応用空間情報学II」の授業でFOSS4Gツール（QGIS・GDAL等）の国際化（i18n）・日本語翻訳作業に関するナレッジを蓄積するために作成されたものである。Transifexを用いたQGIS Documentationの日本語翻訳作業マニュアルをGitHub Wikiで整備し、後継学生が引き継げる形で知識を体系化することを目的としている。FOSS4G Asia 2024での発表準備リポジトリ（FOSS4GASIA2024_general-track-presentation）からも参照される関連リポジトリである。CC BY 4.0 ライセンスで公開。
+
+## 主な活動・成果
+- Issue #1（2024-06-13 課題MEMO）：Transifexを用いたQGIS Documentationの日本語翻訳作業マニュアルをWikiに作成する課題を設定。後輩への引き継ぎ用マニュアルとして設計
+- Issue #2（引用記法のAPA準拠）：Wikiに記述する文書の引用スタイルをAPAスタイルに統一する方針を決定・参考資料を共有
+- Issue #3（画像のWikiへの直接アップロード）：Wiki内の画像挿入はWikiに直接アップロードし、サイズ調整が必要な場合はHTMLの `<img>` タグを使用するルールを策定（Markdown記法では画像サイズ調整不可と判明）
+
+## 使用技術・ツール
+- Transifex（QGIS翻訳作業用Webサービス）
+- GitHub Wiki（翻訳作業マニュアルの公開場所）
+- GitHub Issues（ルール・ナレッジの記録）
+- Markdown / HTML（Wiki記述形式）
+- APAスタイル（引用記法の統一規則）
+- CC BY 4.0 ライセンス
+
+## 得られた知見
+- GitHub Wikiを翻訳作業マニュアルの公開場所として活用する際、画像挿入はMarkdownでなくHTMLの `<img>` タグを使うことでサイズ調整が可能になる。翻訳プロジェクトの引き継ぎ性を高めるには、ツール操作手順・引用規則・画像取り扱い等の細かいルールをIssueで明文化・蓄積しておくことが有効である。
+
+## 未解決事項・課題
+- 全3件のIssueがオープンのまま（Wiki整備・引用スタイル適用・画像アップロードルール実装の完了確認が未クローズ）
+- Wiki上の翻訳作業マニュアルの最終完成状況は本リポジトリのIssueからは判断できない
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/foss4gi18nJP
+- Issues: https://github.com/furuhashilab/foss4gi18nJP/issues
+- Wiki（翻訳作業マニュアル）: https://github.com/furuhashilab/foss4gi18nJP/wiki
