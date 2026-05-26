@@ -3337,4 +3337,54 @@ sis2019ii
 - リポジトリ: https://github.com/furuhashilab/sis2019ii
 - Issues: https://github.com/furuhashilab/sis2019ii/issues
 
+---
+repo_name: "FOSS4GASIA2024_general-track-presentation"
+repo_url: "https://github.com/furuhashilab/FOSS4GASIA2024_general-track-presentation"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-08-05"
+repo_updated_at: "2024-12-16"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "foss4g"
+  - "qgis"
+  - "youthmappers"
+confidence: "high"
+---
 
+# FOSS4GASIA2024_general-track-presentation
+
+## 概要
+本リポジトリは、FOSS4G Asia 2024（2024年12月、バンコク開催）への一般トラック発表およびポスター発表の準備を管理するために古橋研究室・YouthMappers AGUが作成したものである。発表テーマは「2024年の古橋研究室・YouthMappersAGUの活動紹介」であり、QGIS・GDALの日本語翻訳プロジェクトとグラフィックレコーディングを用いた可視化教育の取り組みを中心に構成された。CC BY 4.0 ライセンスで公開されている。
+
+## 主な活動・成果
+- Issue #1（2024 Activities of YouthMappersAGU）：発表のAbstractを策定。キーワードは「Visualization」「Education」
+- Issue #2（QGISマニュアル・GDAL翻訳）：青山学院大学「応用空間情報学Ⅲ」の授業内プロジェクトとして、QGIS 3.34およびGDALの技術文書を日本語に翻訳する活動の概要・目的・工程を整理。Transifex・Sphinx・GitHubを組み合わせた翻訳ワークフローを確立
+- Issue #3（Visualization 先行研究・参考文献）：グラフィックディスプレイの学習効果に関する先行研究（Vekiri 2002）を調査・整理
+- Issue #4（しおりパート作成方針）：発表の軸として「翻訳とビジュアライゼーションによる言語・知識格差の解消」「GitHubを通じたオープンナレッジプラットフォームの構築」を設定
+- Issue #5（ポスター作成）：A0サイズのポスターを2024年12月15〜16日の登録デスクに提出。mapconcierge・shioue22・akidinosaurs の3名が担当
+- Issue #6（出典参考文献QRコードまとめ）：翻訳マニュアル・QGIS 3.34ドキュメント・授業シラバス・JOSM グラレコ等の参考リソースをQRコード用にまとめて管理
+
+## 使用技術・ツール
+- QGIS 3.34（GISソフトウェア・翻訳対象）
+- GDAL（地理空間データ変換ライブラリ・翻訳対象）
+- Transifex（翻訳作業用Webサービス）
+- Sphinx（技術文書公開フレームワーク）
+- GitHub / Markdown（文書管理・共同編集）
+- グラフィックレコーディング（JOSM操作説明等のビジュアライゼーション）
+- UN Maps Learning Hub（参照リソース）
+
+## 得られた知見
+- FOSS4Gツールの翻訳作業をTransifex・Sphinx・GitHubの組み合わせで行うことで、翻訳品質管理・国際化・公開を一貫したワークフローとして運用できる。授業活動と国際カンファレンス発表を連動させることで、学生のアウトプットに対する動機づけと対外的な発信力を同時に高めることができる。
+- グラフィックレコーディングを技術文書の補完として活用することで、非英語話者・初心者の認知負荷を下げる効果が先行研究（Vekiri 2002）でも裏付けられており、FOSS4G教育への応用が有効である。
+
+## 未解決事項・課題
+- 全6件のIssueがオープンのまま（発表後のクローズ作業が未実施）
+- QGIS・GDAL翻訳の継続的な品質向上・更新体制については言及なし
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/FOSS4GASIA2024_general-track-presentation
+- Issues: https://github.com/furuhashilab/FOSS4GASIA2024_general-track-presentation/issues
+- 翻訳プロジェクト: https://github.com/furuhashilab/foss4gi18nJP
