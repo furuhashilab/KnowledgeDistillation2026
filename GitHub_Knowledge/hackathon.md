@@ -1593,3 +1593,54 @@ confidence: "high"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/2025Mapathon
 - Issues: https://github.com/furuhashilab/2025Mapathon/issues
+
+---
+repo_name: "YouthMappersAGU_Mapathon"
+repo_url: "https://github.com/furuhashilab/YouthMappersAGU_Mapathon"
+genre: "hackathon"
+genre_label: "ハッカソン"
+repo_created_at: "2024-12-03"
+repo_updated_at: "2024-12-09"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "mapathon"
+  - "openstreetmap"
+  - "youthmappers"
+confidence: "high"
+---
+
+# YouthMappersAGU_Mapathon
+
+## 概要
+本リポジトリは、青山学院大学・古橋研究室のYouthMappers AGUが主催するマッパソン（Mapathon）の企画・調査・運営ナレッジを蓄積するために作成された。マッパソンとは、ボランティアが集まりOpenStreetMap等のオープンな地図プラットフォームを用いて協力して地図を作成するイベントであり、災害・人道支援地域を対象とした地図データの充実を目的としている。CC BY 4.0 ライセンスで公開されている。
+
+## 主な活動・成果
+- Issue #1（マッパソンとは）：マッパソンの定義・目的・作業手順を文献（Missing Maps）をもとに整理。麗澤大学主催の「6th Annual Humanitarian Mapathon」など国内事例も紹介
+- Issue #2（マッパソンを開催するのに必要なこと）：目的設定・開催形式・ツール準備・参加者募集・スケジュール・当日運営・事後フォローアップの9ステップを体系的にまとめた開催チェックリストを作成
+- Issue #3（古橋ゼミが過去開催・参加したマッパソン）：研究室の過去のマッパソン参加・開催履歴の収集（情報収集中・未完）
+- Issue #4（開催メンバーを集める方法）：国際会議での告知・SNS活用（Facebook・Twitter・Instagram）・パートナーシップ構築・初心者向けワークショップ設置の4手法を整理
+- Issue #5（他団体が企画しているマッパソンの例）：他団体の事例収集（担当変更あり・調査継続中）
+
+## 使用技術・ツール
+- OpenStreetMap（OSM）
+- JOSM / iD Editor（マッピング編集ツール）
+- Tasking Manager（HOT）
+- Zoom / Slack / Google Meet（オンライン開催用）
+- Google フォーム（参加登録）
+- GitHub Issues（企画・調査内容の管理）
+
+## 得られた知見
+- マッパソン開催には「目的設定→形式決定→ツール準備→参加者募集→当日運営→事後共有」の一連のワークフローが必要であり、これをGitHub Issuesで分担・文書化することで、次回開催時の引き継ぎコストを大幅に削減できる。
+- 初心者の参加障壁を下げるには、事前マニュアル・ワークショップ・フレンドリーな雰囲気づくりが有効であり、SNSと教員経由の告知を組み合わせることで参加者数を拡大できる。
+
+## 未解決事項・課題
+- 全5件のIssueがオープンのまま
+- 過去のマッパソン履歴（Issue #3）および他団体事例（Issue #5）の情報収集が未完了
+- 実際の開催日程・結果についての記録がリポジトリ内に見当たらない
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/YouthMappersAGU_Mapathon
+- Issues: https://github.com/furuhashilab/YouthMappersAGU_Mapathon/issues
+- 
