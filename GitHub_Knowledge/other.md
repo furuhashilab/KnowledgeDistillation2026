@@ -3388,3 +3388,55 @@ confidence: "high"
 - リポジトリ: https://github.com/furuhashilab/FOSS4GASIA2024_general-track-presentation
 - Issues: https://github.com/furuhashilab/FOSS4GASIA2024_general-track-presentation/issues
 - 翻訳プロジェクト: https://github.com/furuhashilab/foss4gi18nJP
+
+---
+repo_name: "PLATEAUconcierge"
+repo_url: "https://github.com/furuhashilab/PLATEAUconcierge"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-11-05"
+repo_updated_at: "2024-11-27"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "plateau"
+  - "chatgpt-gpts"
+  - "3d-city-model"
+confidence: "high"
+---
+
+# PLATEAUconcierge
+
+## 概要
+本リポジトリは、国土交通省のProject PLATEAUに関連するドキュメントを収集・整理し、ChatGPTのGPTs（カスタムAIアシスタント）に投入するためのドキュメント集約プロジェクトである。PLATEAUの技術仕様・活用事例・ライセンス情報・コミュニティ情報などを体系的にまとめ、PLATEAUに関する質問に答えられるAIコンシェルジュ「PLATEAU concierge」の構築を目指している。PLATEAU AWARD 2024への応募も兼ねた実践的なプロトタイプ開発として進められた。CC0-1.0 ライセンスで公開。
+
+## 主な活動・成果
+- Issue #1（YouthMappersAGU）：ゼミ生5名がPLATEAU conciergeに対して各自3件以上のコメント・情報提供を行い、2023年10月以降の最新情報をGPTsに補完するためのデータ収集を実施
+- Issue #2（Drone）：ドローン分野とPLATEAUの連携可能性について調査・議論
+- Issue #3（Design）：PLATEAUの3D都市モデルの特徴（CityGML形式・属性情報・オープンデータ等）を整理
+- Issue #4（V&F）：PLATEAUの環境シミュレーション機能の騒音可視化への応用可能性について議論（コメント9件）
+- Issue #5（GPTs初期設定プロンプト過去LOG）：GPTsの初期プロンプトのバージョン管理・履歴保存
+- Issue #6（GPTs初期プロンプト検討）：「PLATEAU concierge」の通常モードと「Mr.Uモード」（PLATEAU初代PMの内山裕弥氏の口調を再現するプロフェッショナルモード）のキャラクタ設定プロンプトを詳細設計
+- Issue #7（PLATEAUドキュメントデータセット全体像）：プロジェクト概要・技術仕様・活用事例・ライセンス・学習リソース・コミュニティの6カテゴリによる情報階層構造を設計。メタデータ付与・統合ダッシュボード・継続更新管理の方針も策定
+- Issue #8（PLATEAU AWARD 2024 応募タスク）：ドキュメント整理・プロトタイプ作成・プレ登録・本登録まで完了。一次審査プレゼンと最終ブラッシュアップが残課題
+
+## 使用技術・ツール
+- ChatGPT GPTs（カスタムAIアシスタント構築）
+- Project PLATEAU / CityGML（3D都市モデル）
+- GitHub Issues（ドキュメント収集・プロンプト管理）
+- Google Drive（プレゼン資料共有）
+- CC0-1.0 ライセンス
+
+## 得られた知見
+- GPTsへの知識注入においては、公式ドキュメントに加えて「知識カットオフ以降の情報」をコミュニティ参加者から収集・補完する仕組みが有効である。GitHub Issuesを部門別（Drone・Design・V&F・YouthMappers等）に分けて情報収集の窓口として活用することで、分野横断的なナレッジを効率的に集約できる。
+- AIコンシェルジュに「専門家キャラクタモード」（本事例ではMr.Uモード）を設けることで、通常の回答と専門家視点の厳格な評価を使い分けられるUXが実現できる。キャラクタの口調・一人称・禁止表現をプロンプトで詳細に定義することがペルソナの再現精度向上に寄与する。
+
+## 未解決事項・課題
+- 全8件のIssueがオープンのまま
+- PLATEAU AWARD 2024 一次審査プレゼンおよびPLATEAU conciergeのブラッシュアップが未完了（Issue #8）
+- GPTsの知識データセットの継続的な更新体制が未確立
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/PLATEAUconcierge
+- Issues: https://github.com/furuhashilab/PLATEAUconcierge/issues
