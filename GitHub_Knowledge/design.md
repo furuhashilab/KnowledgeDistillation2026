@@ -1620,3 +1620,50 @@ ango
 - Issues: https://github.com/furuhashilab/ango/issues
 - フォーク元リポジトリ（UN Vector Tile Toolkit）: https://github.com/un-vector-tile-toolkit/ango
 - 関連ハンズオン資料（HackMD）: https://hackmd.io/GX1QhVb9R4Ka--9zqPfVog
+
+- ---
+repo_name: "otasukegrareco"
+repo_url: "https://github.com/furuhashilab/otasukegrareco"
+genre: "design"
+genre_label: "デザイン"
+repo_created_at: "2024-11-27"
+repo_updated_at: "2024-11-27"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "graphic-recording"
+  - "smartphone-app"
+  - "design"
+confidence: "medium"
+---
+
+# otasukegrareco
+
+## 概要
+本リポジトリは、古橋研究室の歴代学生が開発・引き継いできたスマートフォンアプリ「おたすけグラレコ」の公式管理リポジトリである。グラフィックレコーディング（グラレコ）支援を目的としたアプリであり、デザイン部の学生が世代を超えてコンテンツを更新・継承する形で運営されている。フォーク元は2021年度ゼミ論リポジトリ（2021gsc_Kahoru-Sato）であり、当初の卒業論文成果物が独立した公式リポジトリに昇格した経緯をもつ。CC BY 4.0 ライセンスで公開。
+
+## 主な活動・成果
+- 2021年度ゼミ論リポジトリ（furuhashilab/2021gsc_Kahoru-Sato）をフォークし、公式管理リポジトリとして再整備（2024年11月）
+- Issues機能は無効化されており、管理は研究室内で完結
+- 関連リポジトリ（-V3-）にて次世代版（V3）の素材収集・コンテンツ更新が進行中
+- フォーク元リポジトリはスター2件・フォーク2件を獲得しており、一定の継承実績がある
+
+## 使用技術・ツール
+- スマートフォンアプリ（プラットフォーム・フレームワーク不明）
+- グラフィックレコーディング素材（イラスト・図解）
+- GitHub（バージョン管理・世代間引き継ぎ）
+- CC BY 4.0 ライセンス
+
+## 得られた知見
+- 卒業論文リポジトリをフォークして公式管理リポジトリに昇格させ、後継世代が継続的にコンテンツを更新していく「世代継承型OSS管理」のモデルは、研究室単位でのアプリ・ツール持続運用において有効な手法である。Issues機能を無効化し別リポジトリ（-V3-）で次世代開発を管理することで、本番リポジトリの安定性を保ちながら新機能開発を並行して進める構成が実現されている。
+
+## 未解決事項・課題
+- 特になし（Issuesなし・オープンな議題なし）
+- V3版への更新はフォーク元の-V3-リポジトリで進行中であり、本リポジトリへの反映時期は未確定
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/otasukegrareco
+- Issues: https://github.com/furuhashilab/otasukegrareco/issues
+- フォーク元: https://github.com/furuhashilab/2021gsc_Kahoru-Sato
+- 次世代版開発: https://github.com/furuhashilab/-V3-
