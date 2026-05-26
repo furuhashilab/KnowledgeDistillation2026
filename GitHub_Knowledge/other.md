@@ -3809,3 +3809,52 @@ confidence: "medium"
 ## 参考リンク
 - リポジトリ: https://github.com/furuhashilab/Youth_JOSM-Validation
 - Issues: https://github.com/furuhashilab/Youth_JOSM-Validation/issues
+
+---
+repo_name: "InformationSociety2024AGU"
+repo_url: "https://github.com/furuhashilab/InformationSociety2024AGU"
+genre: "other"
+genre_label: "その他"
+repo_created_at: "2024-06-11"
+repo_updated_at: "2024-06-11"
+distilled_at: "2026-05-26"
+language: null
+homepage: null
+tags:
+  - "education"
+  - "open-data"
+  - "license"
+confidence: "high"
+---
+
+# InformationSociety2024AGU
+
+## 概要
+本リポジトリは、青山学院大学（AGU）における2024年度の授業「情報社会論」の課題提出・議論管理用として古橋研究室が公開したものである。GitHub Issuesを課題提出プラットフォームとして活用し、学生がIssueコメントとして成果物を投稿しそのPermalinkをGoogle Classroomに提出するという、GitHubを教育基盤として利用する独自の授業設計が特徴的である。ライセンスはCC0-1.0（パブリックドメイン相当）が適用されており、学生の提出物を含むすべての内容がオープンに公開されている。
+
+## 主な活動・成果
+- Issue #1「ソフトウェアのライセンス概念図」：学生38名以上がソフトウェアライセンス体系を図解して投稿
+- Issue #4「正しい引用と剽窃の違い」：引用・剽窃・盗用・盗作・オマージュ・パロディの違いをMermaid等で図解（39コメント）
+- Issue #5「政府標準利用規約（第2.0版）のユースケース」：学生が該当ライセンスを採用するウェブサイト・データを各自調査し投稿（40コメント）
+- Issue #6「オススメの飲食店情報」：Markdown＋GeoJSON形式で店舗情報・緯度経度・CC BY 4.0ライセンスを構造化して投稿（39コメント）
+- Issue #2/#3：学生（Daniel17711）による自己紹介的な試験投稿も確認されており、GitHubの操作練習として機能していると推定される
+
+## 使用技術・ツール
+- GitHub Issues：課題提出・学生コメント管理の主要プラットフォーム
+- Markdown：課題記述・成果物フォーマットの共通記法
+- Mermaid：図表の構造化表現（概念図・フロー図）
+- GeoJSON：地点情報の構造化フォーマット（飲食店課題）
+- Google Classroom：PermalinkによるIssueコメントの提出管理
+- CC0-1.0 / CC BY 4.0：リポジトリ・提出物に適用されるオープンライセンス
+
+## 得られた知見
+- GitHub IssuesをLMS（学習管理システム）の代替として使用することで、学生がオープンソース文化・Markdown記法・ライセンス概念を実践的に習得できる授業設計が成立する。Permalinkを提出URLとして扱うことで、バージョン管理と提出記録を同時に実現できる点は、教育現場でのGitHub活用モデルとして再現性が高い。
+- 飲食店情報課題ではGeoJSON形式の緯度経度付き構造化データとCCライセンス明示を組み合わせることで、オープンデータの作り方を実務に近い形で体験させる設計になっており、情報リテラシー教育の実践例として参考になる。
+
+## 未解決事項・課題
+- 全6件のIssueがクローズされないままオープン状態であり、採点・フィードバックの完了状態が外部からは確認できない
+- Issue #2/#3（「素紺ダニエル邦仁」）は課題と無関係な形式で投稿されており、運用ルールの周知やIssue管理の整備が課題として残る
+
+## 参考リンク
+- リポジトリ: https://github.com/furuhashilab/InformationSociety2024AGU
+- Issues: https://github.com/furuhashilab/InformationSociety2024AGU/issues
