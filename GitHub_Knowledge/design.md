@@ -1581,3 +1581,42 @@ confidence: "high"
 - 全4件のIssueがオープンのまま（V3の内容未確定・素材収集中）
 - 公開リポジトリ（otasukegrareco）へのアップデートはV3内容確定後に実施予定であり、未着手
 - ファイルのコミットが行われておらず、実質的な素材管理はIssue添付画像に依存している状態
+
+
+ango
+
+概要
+
+本リポジトリは、国連ベクトルタイルツールキット（UN Vector Tile Toolkit / UNVT）が2019年9月に新潟で開催されたFOSS4G Niigata 2019向けに作成したハンズオン教材を、古橋研究室がフォークしたものである。descriptionに「Hands-on material for FOSS4G Niigata 2019 (September 2019)」と明記されており、ベクタータイル技術の実践的な学習・体験を目的としたワークショップ素材として位置づけられる。フォーク元は un-vector-tile-toolkit/ango（Dockerfile主体）であり、UNVTのハンズオン環境構築を容易にするためのコンテナ化された教材セットである。
+
+主な活動・成果
+
+- FOSS4G Niigata 2019（2019年9月）でのベクタータイルハンズオンワークショップ向け教材を古橋研究室が2020年2月にフォーク
+- Issuesは本フォークでは無効化されており、独自の議論・カスタマイズ記録はない
+- フォーク元（un-vector-tile-toolkit/ango）はDockerfileを主要言語とし、7件のオープンIssueを持つアクティブなリポジトリ
+- 関連ハンズオン内容として、furuhashilab/mapboxjphandson のIssue #3（2020-02-05）でangoが教科書として参照・紹介されている
+
+使用技術・ツール
+
+- UNVT（UN Vector Tile Toolkit）：国連が主導するベクタータイル配信・活用ツールキット
+- Docker / Dockerfile：フォーク元の主要実装言語。ハンズオン環境をコンテナで再現可能にする
+- Vector Tiles / MBTiles：地図データの高効率配信形式
+- FOSS4G：Free and Open Source Software for Geospatial、国際的な地理空間OSSカンファレンス
+- Mapbox GL JS / Leaflet：ベクタータイルのWebレンダリングライブラリ（ハンズオン内容より推定）
+- ライセンス：The Unlicense（パブリックドメイン相当）
+
+得られた知見
+
+- FOSS4G等の技術カンファレンスのハンズオン教材をDockerコンテナ化することで、参加者が環境構築の差異なく同一の学習環境を即座に再現できる。研究室でのベクタータイル学習にも同様の手法が応用可能である。
+- UNVTのangoはベクタータイルの入門ハンズオンとして体系的にまとめられており、mapboxjphandson との組み合わせで活用されていた実績から、既存のOSSハンズオン教材をフォークして授業・勉強会に転用する手法は有効である。
+
+未解決事項・課題
+
+- 本フォークではIssuesが無効化されており、研究室内での具体的な活用内容・カスタマイズが不明。フォーク元に7件のオープンIssueが存在するため、実運用上の課題はフォーク元で追跡する必要がある。
+
+参考リンク
+
+- リポジトリ: https://github.com/furuhashilab/ango
+- Issues: https://github.com/furuhashilab/ango/issues
+- フォーク元リポジトリ（UN Vector Tile Toolkit）: https://github.com/un-vector-tile-toolkit/ango
+- 関連ハンズオン資料（HackMD）: https://hackmd.io/GX1QhVb9R4Ka--9zqPfVog
