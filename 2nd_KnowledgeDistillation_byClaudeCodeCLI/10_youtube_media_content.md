@@ -84,7 +84,7 @@ sources:
 
 ---
 
-## V&F（Video & Film）部門の活動
+## V&F（Video & Film）部の活動
 
 ### 映像制作プロセス
 ```

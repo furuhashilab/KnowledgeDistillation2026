@@ -19,17 +19,17 @@ sources:
 
 ```
 古橋研究室
-├── YouthMappers AGU（ユースマッパーズ）
-├── V&F（Video & Film）
-├── Design Department（デザイン部門）
-├── Drone Department（ドローン部門）
+├── YouthMappers AGU部（ユースマッパーズ）
+├── V&F（Video & Film）部
+├── Design部
+├── Drone部
 ├── YOKOZE部（よこぜぶ）
 └── ヤマッ部（やまっぶ）
 ```
 
 ---
 
-## YouthMappers AGU
+## YouthMappers AGU部
 
 ### 概要
 - **国際所属**: YouthMappers国際ネットワーク（世界30校以上）の日本拠点
@@ -61,7 +61,7 @@ sources:
 
 ---
 
-## V&F（Video & Film）
+## V&F（Video & Film）部
 
 ### 概要
 - **役割**: 研究室の映像制作とSNS発信を担当
@@ -92,7 +92,7 @@ sources:
 
 ---
 
-## Design Department（デザイン部門）
+## Design部
 
 ### 概要
 - **役割**: 3Dモデリング、グラフィックレコーディング（グラレコ）、ブランドデザイン
@@ -121,7 +121,7 @@ sources:
 
 ---
 
-## Drone Department（ドローン部門）
+## Drone部
 
 ### 概要
 - **役割**: 災害研究、ドローン国家資格取得、空撮測量

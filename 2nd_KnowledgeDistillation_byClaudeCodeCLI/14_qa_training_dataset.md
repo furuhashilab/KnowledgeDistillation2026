@@ -40,10 +40,10 @@ LLM（大規模言語モデル）のFine-tuning・RAG等に利用可能なQ&Aデ
 **Q**: 古橋研究室の学生はどのようなサークルに所属していますか？
 
 **A**: 古橋研究室の学生は主に5つのユニットに所属して活動しています：
-1. **YouthMappers AGU**: OpenStreetMapを活用した社会貢献マッピング（国際YouthMappersネットワークの日本拠点）
-2. **V&F（Video & Film）**: 映像制作とSNS発信
-3. **Design Department（デザイン部門）**: 3Dモデリングとグラフィックレコーディング
-4. **Drone Department（ドローン部門）**: 災害研究とドローン国家資格取得
+1. **YouthMappers AGU部**: OpenStreetMapを活用した社会貢献マッピング（国際YouthMappersネットワークの日本拠点）
+2. **V&F（Video & Film）部**: 映像制作とSNS発信
+3. **Design部**: 3Dモデリングとグラフィックレコーディング
+4. **Drone部**: 災害研究とドローン国家資格取得
 5. **YOKOZE部**: 埼玉県横瀬町でのまちづくり貢献活動
 6. **ヤマッ部**: 登山とフィールドワークを組み合わせた地理情報収集
 
@@ -145,7 +145,7 @@ LLM（大規模言語モデル）のFine-tuning・RAG等に利用可能なQ&Aデ
 ### Q12
 **Q**: 古橋研究室が関わった主要な危機マッピング活動を教えてください。
 
-**A**: 古橋研究室（YouthMappers AGU）が関わった主要な危機マッピング活動には以下があります：
+**A**: 古橋研究室（YouthMappers AGU部）が関わった主要な危機マッピング活動には以下があります：
 - **2020年 令和2年7月豪雨**: 1,800人超参加、65,000棟以上の建物データ作成（熊本県）
 - **2022年 ウクライナ難民支援**: ポーランド・ウクライナ国境での建物・農地マッピング
 - **2024年12月 タイ南部洪水**: 300年に一度の豪雨。バリデーション中心、336名参加、6日で50%完了
@@ -438,9 +438,9 @@ Remote Controlが有効でないと、HOT Tasking ManagerからJOSMにデータ�
 - **2013年**: Ars Electronica（東日本大震災アーカイブ）
 - **2013年**: グッドデザイン賞（東日本大震災アーカイブ）
 - **2012年**: JICA理事長賞（Alos4Amazon プロジェクト）
-- **2025年**: YouthMappers Chapter Inspiration Award・Women's Participation Award（YouthMappers AGU）
-- **2024年**: YouthMappers Mapping Metrics Award（YouthMappers AGU）
-- **2023年**: YouthMappers Community Outreach Award（YouthMappers AGU）
+- **2025年**: YouthMappers Chapter Inspiration Award・Women's Participation Award（YouthMappers AGU部）
+- **2024年**: YouthMappers Mapping Metrics Award（YouthMappers AGU部）
+- **2023年**: YouthMappers Community Outreach Award（YouthMappers AGU部）
 - **2022年**: PLATEAU Award 2022 入賞（CityGML LOD1 → OSMインポート）
 - **2022年**: UN-EC OSS4SDG Hackathon2022 Challenge 入賞
 - **2022年**: YouthMappers Women's Participation Award

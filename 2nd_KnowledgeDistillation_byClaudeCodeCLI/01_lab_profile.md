@@ -92,16 +92,16 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 
 | 年 | 受賞 | 対象 |
 |---|---|---|
-| 2025 | **YouthMappers 2025 Chapter Inspiration Award, 2025 Women's Participation Award** | YouthMappers AGU 活動 |
-| 2024 | **YouthMappers 2024 Mapping Metrics Award** | YouthMappers AGU 活動 |
+| 2025 | **YouthMappers 2025 Chapter Inspiration Award, 2025 Women's Participation Award** | YouthMappers AGU部 活動 |
+| 2024 | **YouthMappers 2024 Mapping Metrics Award** | YouthMappers AGU部 活動 |
 | 2023 | **日本地理学会賞** | 危機マッピング（Crisis Mapping）研究 |
-| 2023 | **YouthMappers 2023 YouthMappers Community Outreach Award** | YouthMappers AGU 活動 |
+| 2023 | **YouthMappers 2023 YouthMappers Community Outreach Award** | YouthMappers AGU部 活動 |
 | 2022 | **日本地図学会賞** | ウクライナ GEOINT |
 | 2022 | **PLATEAU Award 2022 入賞** | PLATEAU CityGML LOD1 を OpenStreetMap にインポートしてみた！ |
 | 2022 | **UN-EC OSS4SDG Hachathon2022 Challenge 入賞** | CityGML Data Import project in Japan |
-| 2022 | **YouthMappers 2022 Women’s Participation Award** | YouthMappers AGU 活動 |
+| 2022 | **YouthMappers 2022 Women’s Participation Award** | YouthMappers AGU部 活動 |
 | 2021 | **日本地図学会賞** | ICC2019 |
-| 2021 | **YouthMappers 2021 Community Outreach and Partnership Award, Women’s Participation Award** | YouthMappers AGU 活動 |
+| 2021 | **YouthMappers 2021 Community Outreach and Partnership Award, Women’s Participation Award** | YouthMappers AGU部 活動 |
 | 2018 | **日本地図学会賞** | OpenStreetMap |
 | 2017 | **グッドデザイン賞** | G-SPASE |
 | 2014 | **グッドデザイン賞** | OpenStreetMap |
@@ -261,8 +261,8 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 
 | ユニット | 主要活動 | ツール |
 |---|---|---|
-| **YouthMappers AGU** | OSMによる社会貢献マッピング、HOT TM | JOSM, iD Editor |
-| **V&F（Video & Film）** | 映像制作・SNS発信 | RavinciResolve, CapCut |
+| **YouthMappers AGU部** | OSMによる社会貢献マッピング、HOT TM | JOSM, iD Editor |
+| **V&F（Video & Film）部** | 映像制作・SNS発信 | RavinciResolve, CapCut |
 | **Design部** | 3Dモデリング・グラフィックレコーディング | Blender, 3Dプリンター |
 | **Drone部** | ドローン防災訓練・ドローン国家資格 | Drone, OpenDroneMap |
 | **YOKOZE部** | 埼玉県横瀬町でのまちづくり貢献 | 横瀬町, よこらぼ |

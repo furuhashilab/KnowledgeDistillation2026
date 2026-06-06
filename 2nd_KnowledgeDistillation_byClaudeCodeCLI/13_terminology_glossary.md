@@ -351,7 +351,7 @@ HOT Tasking Managerにおいて、他のマッパーの作業を品質確認す�
 ## Y
 
 **YouthMappers**
-世界の大学生によるOSMマッピングの国際ネットワーク。30校以上が参加。古橋研究室はYouthMappers AGU章として参加。
+世界の大学生によるOSMマッピングの国際ネットワーク。30校以上が参加。古橋研究室はYouthMappers AGU部として参加。
 
 ---
 

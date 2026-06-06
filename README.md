@@ -67,9 +67,9 @@ KnowledgeDistillation2026/
 | 07 | `07_3d_modeling_and_plateau.md` | 3D modeling, Project PLATEAU, Blender, CityGML |
 | 08 | `08_research_themes_and_thesis.md` | 124 thesis analysis, research archetypes, lineages |
 | 09 | `09_events_hackathons_conferences.md` | SotM, FOSS4G, hackathons, annual lab schedule |
-| 10 | `10_youtube_media_content.md` | YouTube catalog, V&F production workflow |
+| 10 | `10_youtube_media_content.md` | YouTube catalog, V&F（Video & Film）部 production workflow |
 | 11 | `11_github_open_data_practices.md` | GitHub conventions, repository catalog, licensing |
-| 12 | `12_student_circles_activities.md` | Student circles: YouthMappers, V&F, Drone, YOKOZE, etc. |
+| 12 | `12_student_circles_activities.md` | Student circles: YouthMappers AGU部, V&F（Video & Film）部, Drone部, YOKOZE部, etc. |
 | 13 | `13_terminology_glossary.md` | Glossary of key terms and concepts |
 | 14 | `14_qa_training_dataset.md` | 39 Q&A pairs in instruction-response format (JSONL-ready) |
 
@@ -159,9 +159,9 @@ KnowledgeDistillation2026/
 | 07 | `07_3d_modeling_and_plateau.md` | 3Dモデリング・Project PLATEAU・Blender・CityGML |
 | 08 | `08_research_themes_and_thesis.md` | 卒業論文124件分析・研究アーキタイプ・研究系譜 |
 | 09 | `09_events_hackathons_conferences.md` | SotM・FOSS4G・ハッカソン・研究室年次スケジュール |
-| 10 | `10_youtube_media_content.md` | YouTubeカタログ・V&F映像制作ワークフロー |
+| 10 | `10_youtube_media_content.md` | YouTubeカタログ・V&F（Video & Film）部 映像制作ワークフロー |
 | 11 | `11_github_open_data_practices.md` | GitHub運用規則・リポジトリカタログ・ライセンス慣行 |
-| 12 | `12_student_circles_activities.md` | 学生サークル活動：YouthMappers・V&F・Drone・YOKOZE部等 |
+| 12 | `12_student_circles_activities.md` | 学生サークル活動：YouthMappers AGU部・V&F（Video & Film）部・Drone部・YOKOZE部等 |
 | 13 | `13_terminology_glossary.md` | 主要用語集・Glossary |
 | 14 | `14_qa_training_dataset.md` | Q&A形式39問（instruction-response形式・JSONL変換可） |
 

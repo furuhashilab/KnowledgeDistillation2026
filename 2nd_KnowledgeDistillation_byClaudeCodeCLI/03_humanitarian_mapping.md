@@ -39,7 +39,7 @@ HOT（Humanitarian OpenStreetMap Team）が中心となり、
 
 ### 2022年 ウクライナ難民支援マッピング
 - **期間**: 2022年2月〜3月（ロシア侵攻直後）
-- **担当組織**: OSM Poland、古橋研究室（YouthMappers AGU）
+- **担当組織**: OSM Poland、古橋研究室（YouthMappers AGU部）
 - **マッピング対象**:
   - 難民受け入れポイント（Reception Points）
   - 建物アウトライン
@@ -52,7 +52,7 @@ HOT（Humanitarian OpenStreetMap Team）が中心となり、
 - **発災**: 2024年11月28日（300年に一度の降水量）
 - **依頼**: タイFOSS4Gコミュニティからの支援要請
 - **活動内容**: バリデーション（検証）作業（初期マッピングではなく確認作業）
-- **担当**: YouthMappers AGU
+- **担当**: YouthMappers AGU部
 - **重点確認事項**:
   - 建物の直角化（90度コーナー）
   - 建物と非建物の正確な識別
@@ -61,7 +61,7 @@ HOT（Humanitarian OpenStreetMap Team）が中心となり、
 ### 2024年 セブ島地震支援マッピング（2025年10月活動）
 - **発災**: 2024年9月30日（マグニチュード6.9）
 - **プロジェクト**: HOT Tasking Manager プロジェクト #32511
-- **担当**: YouthMappers AGU
+- **担当**: YouthMappers AGU部
 - **ツール**: JOSM（このプロジェクトはiD Editorが使用不可）
 - **役割分担**:
   - 中級以上マッパー → バリデーション作業
