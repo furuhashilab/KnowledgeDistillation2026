@@ -1,4 +1,4 @@
-# KnowledgeDistillation2026
+# KnowledgeDistillation2026furuhashilab
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Institution](https://img.shields.io/badge/Institution-Aoyama_Gakuin_University-blue)](https://www.aoyama.ac.jp/)
