@@ -44,7 +44,8 @@ LLM（大規模言語モデル）のFine-tuning・RAG等に利用可能なQ&Aデ
 2. **V&F（Video & Film）**: 映像制作とSNS発信
 3. **Design Department（デザイン部門）**: 3Dモデリングとグラフィックレコーディング
 4. **Drone Department（ドローン部門）**: 災害研究とドローン国家資格取得
-5. **Pokémon GOサークル**: 位置情報ゲームを通じた地理空間情報学習
+5. **YOKOZE部**: 埼玉県横瀬町でのまちづくり貢献活動
+6. **ヤマッ部**: 登山とフィールドワークを組み合わせた地理情報収集
 
 ---
 
@@ -437,6 +438,13 @@ Remote Controlが有効でないと、HOT Tasking ManagerからJOSMにデータ�
 - **2013年**: Ars Electronica（東日本大震災アーカイブ）
 - **2013年**: グッドデザイン賞（東日本大震災アーカイブ）
 - **2012年**: JICA理事長賞（Alos4Amazon プロジェクト）
+- **2025年**: YouthMappers Chapter Inspiration Award・Women's Participation Award（YouthMappers AGU）
+- **2024年**: YouthMappers Mapping Metrics Award（YouthMappers AGU）
+- **2023年**: YouthMappers Community Outreach Award（YouthMappers AGU）
+- **2022年**: PLATEAU Award 2022 入賞（CityGML LOD1 → OSMインポート）
+- **2022年**: UN-EC OSS4SDG Hackathon2022 Challenge 入賞
+- **2022年**: YouthMappers Women's Participation Award
+- **2021年**: YouthMappers Community Outreach and Partnership Award・Women's Participation Award
 
 ---
 
@@ -445,7 +453,7 @@ Remote Controlが有効でないと、HOT Tasking ManagerからJOSMにデータ�
 
 **A**: 古橋大地教授の学歴と主な職歴は以下の通りです：
 **学歴**:
-- 東京都市大学（旧：武蔵工業大学）地理学科卒業（1994〜1999年）
+- 東京都立大学 理学部 地理学科卒業（1994〜1999年）
 - 東京大学大学院 環境学専攻 修士課程修了（1999〜2001年）
 
 **現職（主要）**:
@@ -457,7 +465,7 @@ Remote Controlが有効でないと、HOT Tasking ManagerからJOSMにデータ�
 **兼職・客員**:
 - 京都大学防災研究所 客員教授
 - 東京大学 空間情報科学研究センター（CSIS）研究員
-- 津田塾大学・お茶の水女子大学・東京都市大学 非常勤講師
+- 津田塾大学・お茶の水女子大学・東京都立大学 非常勤講師
 - GISNEXT Magazine 技術編集者
 
 ---
@@ -467,7 +475,7 @@ Remote Controlが有効でないと、HOT Tasking ManagerからJOSMにデータ�
 
 **A**: 古橋大地教授が関わる主要なプロジェクトは以下の通りです：
 - **UN OpenGIS Initiative**: Working Group 7 Smart Maps Team メンバー（国連の地理情報オープン化推進）
-- **Project PLATEAU**: アドバイザリーボード委員長（国土交通省の3D都市モデルプロジェクト）
+- **Project PLATEAU**: アドバイザリーボード座長（国土交通省/PLATEAUコンソーシアム）
 - **Tokyo Digital Twin**: 東京都デジタルツインプロジェクト メンバー
 - **4D時空間情報基盤**: デジタル庁・IPA の検討会メンバー
 - **DRONEBIRD**: CrisisMappers Japan として推進する災害対応ドローン展開プロジェクト

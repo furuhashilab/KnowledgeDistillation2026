@@ -54,7 +54,7 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 | 1982〜1988 | 調布市立国領小学校 |
 | 1988〜1991 | 調布市立第六中学校 |
 | 1991〜1994 | 東京都立府中西高等学校 |
-| 1994〜1999 | 東京都市大学（旧：武蔵工業大学） 地理学科 |
+| 1994〜1999 | 東京都立大学 理学部 地理学科 |
 | 1999〜2001 | 東京大学大学院 環境学専攻 修士課程修了（環境学修士）|
 
 ---
@@ -65,19 +65,26 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 | 肩書き | 機関・組織 |
 |---|---|
 | **教授** | 青山学院大学 地球社会共生学部（GSC） |
+| **教授** | 青山学院大学 革新技術と社会共創研究所・つくまなラボ |
 | **代表** | MAPconcierge Inc.（株式会社マップコンシェルジュ）|
 | **代表** | CrisisMappers Japan NPO（クライシスマッパーズ・ジャパン）|
+| **非常勤講師** | 津田塾大学 |
+| **協力研究員** | 東京大学 空間情報科学研究センター（CSIS）|
+| **マッパー** | UN Mappers |
+| **メンバー** | UN OpenGIS Initiative |
+| **テクニカルライター** | GISNEXT Magazine（日本）|
 | **アンバサダー** | Mapbox |
 
 ### 兼職・客員等
-| 肩書き | 機関 |
-|---|---|
-| 客員教授 | 京都大学防災研究所（DPRI）|
-| 研究員 | 東京大学 空間情報科学研究センター（CSIS）|
-| 非常勤講師 | 津田塾大学 |
-| 非常勤講師 | お茶の水女子大学 |
-| 非常勤講師 | 東京都市大学 |
-| 技術編集者 | GISNEXT Magazine（日本）|
+| 肩書き | 機関 | 任期 |
+|---|---|---|
+| 客員教授 | ミラノ工科大学（Politecnico di Milano）| 2024-2025 |
+| 客員教授 | 京都大学防災研究所（DPRI）| 2017-2020 |
+| 客員教授 | 和歌山大学教育研究アドバイザー| 2016-2019 |
+| 非常勤講師 | お茶の水女子大学 | |
+| 非常勤講師 | 東京都立大学 | |
+| 非常勤講師 | 東京大学 | |
+| 特任研究員 | 東京大学 空間情報科学研究センター | |
 
 ---
 
@@ -85,9 +92,16 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 
 | 年 | 受賞 | 対象 |
 |---|---|---|
+| 2025 | **YouthMappers 2025 Chapter Inspiration Award, 2025 Women's Participation Award** | YouthMappers AGU 活動 |
+| 2024 | **YouthMappers 2024 Mapping Metrics Award** | YouthMappers AGU 活動 |
 | 2023 | **日本地理学会賞** | 危機マッピング（Crisis Mapping）研究 |
+| 2023 | **YouthMappers 2023 YouthMappers Community Outreach Award** | YouthMappers AGU 活動 |
 | 2022 | **日本地図学会賞** | ウクライナ GEOINT |
+| 2022 | **PLATEAU Award 2022 入賞** | PLATEAU CityGML LOD1 を OpenStreetMap にインポートしてみた！ |
+| 2022 | **UN-EC OSS4SDG Hachathon2022 Challenge 入賞** | CityGML Data Import project in Japan |
+| 2022 | **YouthMappers 2022 Women’s Participation Award** | YouthMappers AGU 活動 |
 | 2021 | **日本地図学会賞** | ICC2019 |
+| 2021 | **YouthMappers 2021 Community Outreach and Partnership Award, Women’s Participation Award** | YouthMappers AGU 活動 |
 | 2018 | **日本地図学会賞** | OpenStreetMap |
 | 2017 | **グッドデザイン賞** | G-SPASE |
 | 2014 | **グッドデザイン賞** | OpenStreetMap |
@@ -102,7 +116,7 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 | プロジェクト | 役割 | URL |
 |---|---|---|
 | **UN OpenGIS Initiative** | Working Group 7 Smart Maps Team メンバー | https://unopengis.github.io/smartmaps/ |
-| **Project PLATEAU** | アドバイザリーボード委員長（国土交通省）| https://www.mlit.go.jp/plateau/ |
+| **Project PLATEAU** | アドバイザリーボード座長（国土交通省/PLATEAUコンソーシアム）| https://www.mlit.go.jp/plateau/ |
 | **Tokyo Digital Twin** | 東京都デジタルツインプロジェクト メンバー | https://info.tokyo-digitaltwin.metro.tokyo.lg.jp |
 | **4D時空間情報基盤** | 4D時空間情報基盤アーキテクチャ検討会 メンバー（デジタル庁・IPA）| https://www.ipa.go.jp/digital/ |
 | **DRONEBIRD** | CrisisMappers Japan 代表として推進 | https://readyfor.jp/projects/dronebird/ |
@@ -124,24 +138,26 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 | **理事** | OSGeo Japan |
 | **コントリビューター** | OpenRelief |
 | **メンター** | Mozilla Factory / MozBus Project |
-| **テクサポーター** | Code for Japan |
+| **テックサポーター** | Code for Japan |
 | **オーガナイザー** | International Space Apps Challenge, Tokyo |
 | **メンバー** | OpenConcierge, NPO |
-| **情報レンジャー** | TasukeaiJAPAN, NPO |
+| **助けあいジャパン・情報レンジャー** | TasukeaiJAPAN, NPO |
 
 ### State of the Map への貢献
-- SotM Tokyo 2013: ローカルチームリーダー（スポンサー企渉・PR・デザイン全般を担当）
-- SotM 国際会議委員会委員（2012年）
+- SotM Global 2012 Tokyo : 実行委員長
+- SotM Asia : 発起人
+- SotM Japan : 運営支援
+- SotM Global, Asia, NA, LatAm, Taiwan, Philippine 等 : 登壇
 
 ---
 
 ## スキルセット
 
 ### GIS・地理空間技術
-- **従来型GIS**: ArcGIS, ERDAS IMAGINE, TNTmips, PG-STEAMER
+- **伝統的GIS**: ArcGIS, ERDAS IMAGINE, TNTmips, PG-STEAMER
 - **オープンソースGIS**: FOSS4G全般, QGIS, Mapbox, MapLibre, その他
 - **Google Geo**: Google Earth / Earth Engine / Maps / KML
-- **危機マッピング**: OpenStreetMap, OpenAerialMap, Ushahidi
+- **クライシスマッピング**: OpenStreetMap, OpenAerialMap, OpenDroneMap, HOTOSM Tasking Manager, Drone Tasking Manager, Ushahidi
 
 ### ドローン・空撮
 - マルチコプター型ドローン
@@ -151,6 +167,8 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 ### 言語
 - 日本語（母語）
 - 英語（業務レベル）
+- イタリア語（日常会話レベル）
+- ポルトガル語（日常会話レベル）
 
 ---
 
@@ -244,10 +262,11 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 | ユニット | 主要活動 | ツール |
 |---|---|---|
 | **YouthMappers AGU** | OSMによる社会貢献マッピング、HOT TM | JOSM, iD Editor |
-| **V&F（Video & Film）** | 映像制作・SNS発信 | Adobe Premiere Pro, After Effects |
-| **Design Department** | 3Dモデリング・グラフィックレコーディング | Blender, 3Dプリンター |
-| **Drone Department** | 空撮調査・ドローン国家資格 | DJI, OpenDroneMap |
-| **Pokémon GO** | 位置情報ゲームと地理学習 | Pokémon GO, GeoGuessr |
+| **V&F（Video & Film）** | 映像制作・SNS発信 | RavinciResolve, CapCut |
+| **Design部** | 3Dモデリング・グラフィックレコーディング | Blender, 3Dプリンター |
+| **Drone部** | ドローン防災訓練・ドローン国家資格 | Drone, OpenDroneMap |
+| **YOKOZE部** | 埼玉県横瀬町でのまちづくり貢献 | 横瀬町, よこらぼ |
+| **ヤマッ部** | 登山とフィールドワーク | YAMAP, Trecking |
 
 ---
 
@@ -256,18 +275,22 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 ### 通年開催
 | イベント | 時期 | 内容 |
 |---|---|---|
-| マパソン | 随時 | HOT Tasking Managerを使った集団マッピング |
+| マッパソン | 随時 | HOT Tasking Managerを使った集団マッピング |
 | ハッカソン | 月次（年5〜8回） | テーマ別制作活動 |
 | Medium週報 | 毎週 | 活動記録のブログ公開（全メンバー必須）|
 
 ### 主要年次イベント
 | イベント | 時期 | 内容 |
 |---|---|---|
-| State of the Map（SotM） | 10月頃 | 国際OSM学会への参加・発表 |
-| FOSS4G | 11月頃 | オープンソース地理情報ソフトウェア学会 |
-| ジオ展（Geo Exhibition） | 7月頃 | 研究室成果展示会・ガチャ販売 |
+| ジオ展（Geo Exhibition） | 4月頃 | 研究室成果展示会・ガチャ販売 |
+| ツリーハウス合宿 | GW | 研究室全体でのドキュメンテーション大会 |
+| 卒論・ゼミ論構想発表 | 8月 | 研究室全員のテーマ決め |
+| State of the Map（SotM） | 夏から秋 | 国際OSM学会への参加・発表 |
+| FOSS4G | 夏から秋 | オープンソース地理情報ソフトウェア学会 |
 | BUILD with Mapbox | 9月頃 | Mapbox APIプロジェクト発表 |
-| 卒業論文最終発表 | 2月頃 | 研究室全体での卒論発表会 |
+| 卒論・ゼミ論中間発表 | 11月 | 研究室全員の卒論・ゼミ論進捗報告 |
+| アドベントカレンダー | 12月 | 研究室全体でのドキュメンテーション大会 |
+| 卒業論文最終発表 | 2月第1土曜日 | 研究室全体での卒論発表会 |
 
 ---
 
@@ -290,7 +313,7 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 - 相模原市・青根地区（神奈川）でのOSMマッピング
 - 伊豆大島（東京）、岩手町（岩手県）でのOSMマッピング
 - ミラノ（イタリア）でのOSMマッピング（サバティカル期間）
-- 与論島、熊本、フィリピン・セブ島などでの遠隔クライシスマッピング
+- 与論島、熊本、フィリピン・セブ島など世界各地での遠隔クライシスマッピング
 
 ### 国際性
 - SotM Global / Regional カンファレンスでの毎年発表
@@ -304,7 +327,7 @@ cv_source: "https://docs.google.com/document/d/1FqqREhSZUkvbTliTCKKp77EHspZItRoY
 ## 学術的貢献・研究成果サマリー
 
 ### 卒業論文
-- **総数**: 124本以上（2017〜2025年）
+- **総数**: 124本以上（2017〜2026年）
 - **研究テーマ**: GIS、OSM、PLATEAU、防災、教育、観光、交通、AI等
 
 ### 外部連携・受賞（研究室として）

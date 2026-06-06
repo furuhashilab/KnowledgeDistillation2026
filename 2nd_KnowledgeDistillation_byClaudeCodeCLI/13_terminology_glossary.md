@@ -83,9 +83,9 @@ OpenAIのLLM（大規模言語モデル）チャットボット。研究室で�
 **古橋大地（ふるはし たいち / Taichi FURUHASHI）**
 青山学院大学 地球社会共生学部（GSC）教授。古橋研究室の主宰者（1975年3月29日、東京都生まれ）。
 - **専門**: 地理学、地図製作、地理空間情報技術、リモートセンシング
-- **学歴**: 東京都市大学 地理学科卒（1999）→ 東京大学大学院 環境学専攻 修士修了（2001）
+- **学歴**: 東京都立大学 理学部 地理学科卒（1999）→ 東京大学大学院 環境学専攻 修士修了（2001）
 - **兼職**: MAPconcierge Inc. 代表、CrisisMappers Japan NPO 代表、Mapboxアンバサダー、京都大学防災研究所 客員教授、東京大学CSIS研究員
-- **受賞**: 日本地理学会賞（2023）、日本地図学会賞（2022, 2021, 2018）、グッドデザイン賞（2017, 2014, 2013）、Ars Electronica（2013）、JICA理事長賞（2012）
+- **受賞**: 日本地理学会賞（2023）、日本地図学会賞（2022, 2021, 2018）、グッドデザイン賞（2017, 2014, 2013）、Ars Electronica（2013）、JICA理事長賞（2012）、YouthMappers Chapter Inspiration Award（2025）、YouthMappers Mapping Metrics Award（2024）、YouthMappers Community Outreach Award（2023, 2021）、YouthMappers Women's Participation Award（2025, 2022, 2021）、PLATEAU Award 2022 入賞、UN-EC OSS4SDG Hackathon2022 Challenge 入賞
 - **SNS**: X/Twitter @mapconcierge、GitHub: mapconcierge、LinkedIn: mapconcierge
 - **Google Scholar**: https://scholar.google.co.jp/citations?user=RDhXqG0AAAAJ
 - **注意**: 「古橋大輔」「Daisuke Furuhashi」は誤り。正しくは「古橋大地」「Taichi Furuhashi」。
