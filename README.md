@@ -6,6 +6,9 @@
 
 ---
 
+![Graphic Recording](https://github.com/furuhashilab/KnowledgeDistillation2026/blob/main/assets/process_image_en.png)
+
+
 ## English
 
 ### Overview
@@ -97,6 +100,8 @@ KnowledgeDistillation2026/
 - **GitHub Org**: https://github.com/furuhashilab
 
 ---
+
+![Graphic Recording](https://github.com/furuhashilab/KnowledgeDistillation2026/blob/main/assets/process_image_ja.png)
 
 ## 日本語
 
