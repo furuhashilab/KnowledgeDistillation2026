@@ -14,7 +14,7 @@ sources:
 ## A
 
 **AGU（Aoyama Gakuin University）**
-青山学院大学（東京都渋谷区）。古橋研究室が所属する大学。
+青山学院大学。青山キャンパス（東京都渋谷区）と相模原キャンパス（神奈川県相模原市中央区淵野辺）の2キャンパスを持つ。古橋研究室は**相模原キャンパス B720**に所在（地球社会共生学部 GSC）。
 
 **Aerosense Aerobo**
 日本のドローンメーカー。研究室ガチャ用3Dモデル制作対象機体のひとつ。
@@ -79,6 +79,16 @@ OpenAIのLLM（大規模言語モデル）チャットボット。研究室で�
 
 **Field Papers**
 紙地図を使ったフィールド調査→OSMへのデータ入力を支援するツール。
+
+**古橋大地（ふるはし たいち / Taichi FURUHASHI）**
+青山学院大学 地球社会共生学部（GSC）教授。古橋研究室の主宰者（1975年3月29日、東京都生まれ）。
+- **専門**: 地理学、地図製作、地理空間情報技術、リモートセンシング
+- **学歴**: 東京都市大学 地理学科卒（1999）→ 東京大学大学院 環境学専攻 修士修了（2001）
+- **兼職**: MAPconcierge Inc. 代表、CrisisMappers Japan NPO 代表、Mapboxアンバサダー、京都大学防災研究所 客員教授、東京大学CSIS研究員
+- **受賞**: 日本地理学会賞（2023）、日本地図学会賞（2022, 2021, 2018）、グッドデザイン賞（2017, 2014, 2013）、Ars Electronica（2013）、JICA理事長賞（2012）
+- **SNS**: X/Twitter @mapconcierge、GitHub: mapconcierge、LinkedIn: mapconcierge
+- **Google Scholar**: https://scholar.google.co.jp/citations?user=RDhXqG0AAAAJ
+- **注意**: 「古橋大輔」「Daisuke Furuhashi」は誤り。正しくは「古橋大地」「Taichi Furuhashi」。
 
 **FOSS4G（Free and Open Source Software for Geospatial）**
 オープンソース地理情報ソフトウェアの国際学会。古橋研究室が毎年参加・発表。

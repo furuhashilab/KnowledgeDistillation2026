@@ -25,7 +25,7 @@ LLM（大規模言語モデル）のFine-tuning・RAG等に利用可能なQ&Aデ
 ### Q1
 **Q**: 古橋研究室とはどのような研究室ですか？
 
-**A**: 古橋研究室は、青山学院大学地球社会共生学部に所属する古橋大輔教授が主宰する研究室です。「一億総伊能化」をキャッチフレーズに掲げ、地理空間情報技術の民主化を目指しています。OpenStreetMap（OSM）への貢献、人道支援マッピング、ドローン技術、3D都市モデリング、オープンデータ推進などを主要テーマとし、学生が実践的なプロジェクトを通じて学ぶ環境を提供しています。
+**A**: 古橋研究室は、青山学院大学地球社会共生学部に所属する古橋大地（ふるはし たいち / Taichi Furuhashi）教授が主宰する研究室です。「一億総伊能化」をキャッチフレーズに掲げ、地理空間情報技術の民主化を目指しています。OpenStreetMap（OSM）への貢献、人道支援マッピング、ドローン技術、3D都市モデリング、オープンデータ推進などを主要テーマとし、学生が実践的なプロジェクトを通じて学ぶ環境を提供しています。
 
 ---
 
@@ -410,6 +410,104 @@ Remote Controlが有効でないと、HOT Tasking ManagerからJOSMにデータ�
 
 ---
 
+## セクション12: 古橋大地教授 プロフィール（CV由来）
+
+### Q34
+**Q**: 古橋大地（Taichi Furuhashi）教授の正確な氏名表記を教えてください。
+
+**A**: 古橋大地教授の正式な氏名表記は以下の通りです：
+- **漢字**: 古橋 大地（姓：古橋、名：大地）
+- **ひらがな**: ふるはし たいち
+- **英語**: Taichi FURUHASHI（または Taichi Furuhashi）
+- **よくある誤表記**: 「古橋大輔」「Daisuke Furuhashi」は誤りです。必ず「大地（たいち）」を使用してください。
+- **SNSハンドル**: @mapconcierge（X/Twitter、GitHub、LinkedIn等で共通）
+
+---
+
+### Q35
+**Q**: 古橋大地教授の受賞歴を教えてください。
+
+**A**: 古橋大地教授の主な受賞歴は以下の通りです：
+- **2023年**: 日本地理学会賞（危機マッピング研究）
+- **2022年**: 日本地図学会賞（ウクライナ GEOINT）
+- **2021年**: 日本地図学会賞（ICC2019関連）
+- **2018年**: 日本地図学会賞（OpenStreetMap）
+- **2017年**: グッドデザイン賞（G-SPASE）
+- **2014年**: グッドデザイン賞（OpenStreetMap）
+- **2013年**: Ars Electronica（東日本大震災アーカイブ）
+- **2013年**: グッドデザイン賞（東日本大震災アーカイブ）
+- **2012年**: JICA理事長賞（Alos4Amazon プロジェクト）
+
+---
+
+### Q36
+**Q**: 古橋大地教授の学歴と職歴を教えてください。
+
+**A**: 古橋大地教授の学歴と主な職歴は以下の通りです：
+**学歴**:
+- 東京都市大学（旧：武蔵工業大学）地理学科卒業（1994〜1999年）
+- 東京大学大学院 環境学専攻 修士課程修了（1999〜2001年）
+
+**現職（主要）**:
+- 青山学院大学 地球社会共生学部（GSC）教授
+- MAPconcierge Inc. 代表
+- CrisisMappers Japan NPO 代表
+- Mapboxアンバサダー
+
+**兼職・客員**:
+- 京都大学防災研究所 客員教授
+- 東京大学 空間情報科学研究センター（CSIS）研究員
+- 津田塾大学・お茶の水女子大学・東京都市大学 非常勤講師
+- GISNEXT Magazine 技術編集者
+
+---
+
+### Q37
+**Q**: 古橋大地教授が関わる主要なプロジェクトは何ですか？
+
+**A**: 古橋大地教授が関わる主要なプロジェクトは以下の通りです：
+- **UN OpenGIS Initiative**: Working Group 7 Smart Maps Team メンバー（国連の地理情報オープン化推進）
+- **Project PLATEAU**: アドバイザリーボード委員長（国土交通省の3D都市モデルプロジェクト）
+- **Tokyo Digital Twin**: 東京都デジタルツインプロジェクト メンバー
+- **4D時空間情報基盤**: デジタル庁・IPA の検討会メンバー
+- **DRONEBIRD**: CrisisMappers Japan として推進する災害対応ドローン展開プロジェクト
+- **Japan FlyingLabs**: CrisisMappers Japan として運営するドローン活用支援ネットワーク
+- **Alos4Amazon**: アマゾン流域の地理情報収集・活用プロジェクト（JICA理事長賞受賞）
+- **Ukraine2022 GEOINT**: ウクライナ侵攻に関連する地理情報インテリジェンス活動（日本地図学会賞受賞）
+
+---
+
+### Q38
+**Q**: 古橋大地教授の主な論文・著作を教えてください。
+
+**A**: 古橋大地教授の主な論文・著作（抜粋、完全リストはGoogle Scholar参照）：
+- Furuhashi, T. (2022). Maps breathe life into open data: Creating a happier world with maps. *Map Journal*, 14-17.
+- Furuhashi, T. (2021). Current status and future prospects of cloud service-type Earth observation data analysis platform. *Journal of The Remote Sensing Society of Japan*, 41(2), 319-320.
+- Furuhashi, T. (2019). Collaborative crisis mapping by humans and robots/AI. *Natural Disaster Science*, 38, 131-138.
+- Furuhashi, T. (2018). The role of university institutions in disaster response: Providing disaster information using drones. *Journal of Disaster Management and Emergency*.
+- Furuhashi, T. (2015). The importance of quickly sharing disaster maps through crisis mapping. *Geography*, 60(4), 60-67.
+- Furuhashi, T. (2014). *Google Earth application development guide*.
+- Kami, N., et al. (2015). *Big data on location information*. Impress R&D.
+- 2011〜2022年の論文合計40本以上（Google Scholar: https://scholar.google.co.jp/citations?user=RDhXqG0AAAAJ）
+
+---
+
+### Q39
+**Q**: 古橋大地教授のボランティア・社会活動を教えてください。
+
+**A**: 古橋大地教授の主なボランティア・社会活動は以下の通りです：
+- **HOT（Humanitarian OpenStreetMap Team）**: 投票メンバー（Voting Member）
+- **Mapillary Japan Team**: コアコントリビューター
+- **Race for Resilience**: 代表
+- **OpenStreetMap Foundation Japan**: 理事（副代表: 2010-2014、理事: 2015-2018）、SotM Tokyo 2013 ローカルチームリーダー
+- **OSGeo Japan**: 理事
+- **Code for Japan**: テクノロジー支援者
+- **International Space Apps Challenge, Tokyo**: オーガナイザー
+- **OpenRelief**: コントリビューター
+- **TasukeaiJAPAN, NPO**: 情報レンジャー
+
+---
+
 ## JSONLフォーマット変換メモ
 
 本データセットをJSONL形式に変換する際の基本フォーマット：
@@ -418,7 +516,7 @@ Remote Controlが有効でないと、HOT Tasking ManagerからJOSMにデータ�
 {
   "instruction": "古橋研究室とはどのような研究室ですか？",
   "input": "",
-  "output": "古橋研究室は、青山学院大学地球社会共生学部に所属する古橋大輔教授が主宰する研究室です。「一億総伊能化」をキャッチフレーズに掲げ、地理空間情報技術の民主化を目指しています。...",
+  "output": "古橋研究室は、青山学院大学地球社会共生学部に所属する古橋大地（ふるはし たいち / Taichi Furuhashi）教授が主宰する研究室です。「一億総伊能化」をキャッチフレーズに掲げ、地理空間情報技術の民主化を目指しています。...",
   "metadata": {
     "source": "furuhashi-lab-knowledge-distillation-2026",
     "category": "lab_profile",
