@@ -5,7 +5,7 @@ created_by: "Claude Code CLI (claude-sonnet-4-6)"
 created_date: "2026-06-06"
 source: "madebyStudents/ フォルダ内の全.mdファイル（学生制作）"
 language: "ja"
-license: "CC BY 4.0"
+license: "CC Zero"
 institution: "青山学院大学 地球社会共生学部 古橋研究室"
 tags: ["furuhashi-lab", "openstreetmap", "humanitarian-mapping", "GIS", "drone", "PLATEAU", "knowledge-distillation"]
 ---
@@ -52,16 +52,23 @@ LLM（大規模言語モデル）の学習データとして利用可能な形�
 
 - **正式名称**: 青山学院大学 地球社会共生学部 古橋研究室
 - **英語名称**: Furuhashi Lab, College of Global Studies, Aoyama Gakuin University (AGU)
-- **主宰**: 古橋大輔（ふるはし だいすけ）教授
-- **所在地**: 東京都渋谷区神宮前4-4-25 青山学院大学
-- **設立**: 1990年代後半〜2000年代
-- **ラボキャッチフレーズ**: 「一億総伊能化」「1億総伊能家」
+- **主宰者**: 古橋 大地 教授
+- **主宰者ひらがな**: ふるはし たいち きょうじゅ
+- **主宰者英語名称**: Prof. Taichi Furuhashi
+- **所在地**: 〒252-5258 神奈川県相模原市中央区淵野辺5-10-1 青山学院大学 相模原キャンパス B720
+- **所在地英語**: B720, B-building, Sagamihara Campus, Fuchinobe 5-10-1, Chūo ward,  Sagamihara city, Kanagawa Pref., Japan
+- **所在地緯度経度**: 35.566341487353974, 139.4027654884177
+- **研究室設立**: 2015年4月1日
+- **主宰者誕生日**: 1975年3月29日
+- **ラボキャッチフレーズ**: 一億総伊能化
+- **ラボキャッチフレーズひらかな**: いちおくそういのうか
+- **ラボキャッチフレーズ英語**: Billions Inō-zation,
 - **Medium公開URL**: https://medium.com/furuhashilab
 - **GitHub Organization**: https://github.com/furuhashilab
 
 ## 核心的ミッション
 
-> "一億総伊能化" — 江戸時代の測量家・伊能忠敬のように、日本の一億人すべてが地図を作れる社会を目指す。
+> "一億総伊能化" — 江戸時代の測量家・伊能忠敬のように、日本の一億人、そして世界中のすべて人々が最先端技術を用いることにより、自由に地図を作れ、活用できる社会を目指す。
 
 - 地理空間情報技術の民主化
 - オープンデータと市民科学の推進
@@ -74,7 +81,7 @@ LLM（大規模言語モデル）の学習データとして利用可能な形�
 
 | 項目 | 値 |
 |---|---|
-| カバー期間 | 1999年〜2026年（主に2018〜2026年） |
+| カバー期間 | 1975年〜2026年（主に2015〜2026年） |
 | 一次ソース数 | Mediumブログ記事、YouTubeコンテンツ、GitHubリポジトリ、卒業論文 |
 | 言語 | 日本語（一部英語混在） |
 | 推定ソース記事数 | 300件以上（Medium: 100件以上、YouTube: 50件以上、GitHub: 100件以上、論文: 124件） |

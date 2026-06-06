@@ -18,17 +18,18 @@ sources:
 |---|---|
 | **正式名称** | 青山学院大学 地球社会共生学部 古橋研究室 |
 | **英語名称** | Furuhashi Lab, College of Global Studies, Aoyama Gakuin University (AGU) |
-| **主宰** | 古橋大輔（ふるはし だいすけ）教授 |
-| **所在地** | 東京都渋谷区神宮前4-4-25 青山学院大学 |
+| **主宰** | 古橋 大地（ふるはし たいち）教授 |
+| **主宰英語名称** | Prof. Taichi Furuhashi |
+| **所在地** | 〒252-5258 神奈川県相模原市中央区淵野辺5-10-1 青山学院大学 相模原キャンパス B720 |
 | **Medium** | https://medium.com/furuhashilab |
 | **GitHub** | https://github.com/furuhashilab |
-| **YouTube** | 古橋研究室公式チャンネル |
+| **YouTube** | https://www.youtube.com/@furuhashilabs |
 
 ## ラボの理念・ミッション
 
-### キャッチフレーズ：「一億総伊能化」
+### キャッチフレーズ：「一億総伊能化」「Billions Inō-zation,」
 
-> 江戸時代の測量家・伊能忠敬のように、日本の一億人すべてが地図を作れる社会を目指す。
+> 江戸時代の測量家・伊能忠敬のように、日本の一億人、そして世界中のすべて人々が最先端技術を用いることにより、自由に地図を作れ、活用できる社会を目指す。
 
 - 地理空間情報技術の民主化
 - 「地図は受け取るもの」から「誰もが作れるもの」へのパラダイムシフト
@@ -40,7 +41,7 @@ sources:
 ```
 現場・地域・対象物を観察する
 → データ化する
-→ 地図・3D・WebアプリOSM・動画・アーカイブなどに変換
+→ 地図・3D・Webアプリ・OSM・動画・アーカイブなどに変換
 → 他者が使える形で公開
 → 限界・改善点を考察
 ```
@@ -49,9 +50,9 @@ sources:
 
 ---
 
-## 学生サークル・ユニット構成
+## ゼミ内サークル・ユニット構成
 
-古橋研究室の学生は以下の専門ユニットに所属し、それぞれ専門分野を担う：
+古橋研究室の学生は以下の専門ユニット（ゼミ内サークル）に所属し、それぞれ専門分野を担う：
 
 ### 1. YouthMappers AGU（ユースマッパーズ）
 - **役割**: OpenStreetMapを活用した社会貢献活動
@@ -111,18 +112,26 @@ sources:
 - 次世代学生が先輩の成果を引き継ぐ研究系譜（ラーメン二郎マッピング: 2018→2021→継続など）
 
 ### オープンデータの徹底
-- 全成果物: GitHub公開、MIT/CC BY ライセンス付与
+- 全成果物: GitHub公開、CC BY4.0 / ODbL 1.0 ライセンスがデフォルト。場合によっては CC0 も積極利用
 - OSMへの貢献: オープンデータとして世界中で再利用可能
 - ソースの透明性: 手法・データ形式・失敗記録まで公開
 
 ### フィールドワーク重視
 - 横瀬町（埼玉）でのハッカソン・調査
-- 与論島、熊本、フィリピン・セブ島など実地調査
-- 青山学院相模原キャンパス（Aone地区）でのフィールド演習
+- 大町市・千年の森（長野）でのツリーハウス合宿・フィールドワーク
+- 相模原市・青根地区（神奈川）でのOSMマッピングとフィールドワーク
+- 伊豆大島（東京）でのOSMマッピングとフィールドワーク
+- 岩手町（岩手県）でのOSMマッピングとフィールドワーク
+- ミラノ（イタリア）でのOSMマッピングとフィールドワーク
+- 全国各地でのドローン防災訓練活動とフィールドワーク
+- 与論島、熊本、フィリピン・セブ島など、自然災害や危機的状況下の遠隔クライシスマッピング調査
 
 ### 国際性
-- SotMマニラ2025での発表
-- タイ、フィリピン、コロンビアなどの国際連携
+- SotM Global / Regional カンファレンスでの発表
+- FOSS4G Global / Regional カンファレンスでの発表
+- HOT OSM や国境なき医師団、国際赤十字・赤新月社連盟、世界銀行などとの国際連携
+- FlyingLabNetwork や WeRobotics などとの国際連携
+- UN OpenGIS Initiative との国際連携
 - UN Mappers Ambassador・Chapters との連携
 
 ---
@@ -130,7 +139,7 @@ sources:
 ## 学術的貢献・研究成果
 
 ### 卒業論文（把握分）
-- **総数**: 124本以上（1999〜2025年）
+- **総数**: 124本以上（2017年〜2025年）
 - **研究テーマ**: GIS、OSM、PLATEAU、防災、教育、観光、交通、AI等
 - **研究形式**: フィールド実測、Webアプリ実装、3D再現、アーカイブ構築等
 
@@ -139,6 +148,7 @@ sources:
 - State of the Map 2025 Manila 複数発表
 - UN Mappers Ambassador Pilot Program 参加
 - FOSS4G SHINSHU 2025 PLATEAU×Minecraft デモ発表
+
 
 ---
 
@@ -149,5 +159,5 @@ sources:
 | Medium | https://medium.com/furuhashilab |
 | GitHub Organization | https://github.com/furuhashilab |
 | HOT Tasking Manager | https://tasks.hotosm.org |
-| YouthMappers AGU | AGU公式YouthMappers章 |
+| YouthMappers AGU | YouthMappers AGU |
 | OpenStreetMap | https://www.openstreetmap.org |
